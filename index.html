@@ -1,10 +1,10 @@
 <html lang="en" vid="0"><head vid="1">
     <meta charset="UTF-8" vid="2">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" vid="3">
-    <title>C0D3AI | AI Automation Agency | Custom AI Agents for Healthcare, Real Estate & Home Services</title>
+    <title>C0D3AI | AI Automation Agency for Healthcare, Real Estate & Service Businesses</title>
     <!-- SEO Meta -->
-    <meta name="description" content="C0D3AI builds and deploys custom AI agents, automation systems, and software for healthcare, real estate, and home service businesses. Book a free strategy call.">
-    <meta name="keywords" content="AI automation agency, custom AI agents, GoHighLevel automation, healthcare AI, real estate AI, home services AI, AI voice agents, business automation">
+    <meta name="description" content="C0D3AI builds AI agents, GoHighLevel automations, and custom software for scheduling, lead follow-up, document processing, CRM workflows, and reporting.">
+    <meta name="keywords" content="AI automation agency, custom AI agents, GoHighLevel AI automation, healthcare AI automation, real estate AI automation, home services AI, AI receptionist, lease abstraction AI">
     <meta name="author" content="C0D3AI Systems">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://cod3ai.com/">
@@ -12,16 +12,16 @@
     <!-- Open Graph -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://cod3ai.com/">
-    <meta property="og:title" content="C0D3AI | AI Automation Agency | Custom AI Agents for Healthcare, Real Estate & Home Services">
-    <meta property="og:description" content="C0D3AI builds and deploys custom AI agents, automation systems, and software for healthcare, real estate, and home service businesses. Book a free strategy call.">
+    <meta property="og:title" content="C0D3AI | AI Automation Agency for Healthcare, Real Estate & Service Businesses">
+    <meta property="og:description" content="AI agents, GoHighLevel automations, and custom software for scheduling, lead follow-up, document processing, CRM workflows, and reporting.">
     <meta property="og:image" content="https://cod3ai.com/COD3AI LOGO 7.png">
     <meta property="og:site_name" content="C0D3AI">
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://cod3ai.com/">
-    <meta name="twitter:title" content="C0D3AI | AI Automation Agency | Custom AI Agents for Healthcare, Real Estate & Home Services">
-    <meta name="twitter:description" content="C0D3AI builds and deploys custom AI agents, automation systems, and software for healthcare, real estate, and home service businesses. Book a free strategy call.">
+    <meta name="twitter:title" content="C0D3AI | AI Automation Agency for Healthcare, Real Estate & Service Businesses">
+    <meta name="twitter:description" content="AI agents, GoHighLevel automations, and custom software for scheduling, lead follow-up, document processing, CRM workflows, and reporting.">
     <meta name="twitter:image" content="https://cod3ai.com/COD3AI LOGO 7.png">
 
     <!-- Schema.org -->
@@ -32,7 +32,7 @@
       "name": "C0D3AI",
       "url": "https://cod3ai.com",
       "logo": "https://cod3ai.com/COD3AI LOGO 7.png",
-      "description": "Custom AI agents and automation systems for healthcare, real estate, and home service businesses.",
+      "description": "AI agents, GoHighLevel automations, and custom software for healthcare, real estate, home service businesses, and agencies.",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Gilbert",
@@ -60,22 +60,17 @@
         }
 
         body {
-            background: radial-gradient(circle at top center, #1a0b2e 0%, #000000 100%);
+            background:
+                linear-gradient(rgba(255,255,255,0.025) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255,255,255,0.025) 1px, transparent 1px),
+                radial-gradient(circle at 50% 0%, rgba(99,102,241,0.22) 0%, transparent 42%),
+                #050505;
+            background-size: 42px 42px, 42px 42px, auto, auto;
             color: white;
             font-family: 'Inter', sans-serif;
             overflow-x: hidden;
             margin: 0;
-            cursor: crosshair;
-        }
-
-        .orb-blur {
-            position: fixed;
-            width: 600px;
-            height: 600px;
-            background: radial-gradient(circle, rgba(76, 33, 142, 0.2) 0%, transparent 70%);
-            z-index: -1;
-            filter: blur(80px);
-            pointer-events: none;
+            cursor: default;
         }
 
         .dynamic-island {
@@ -91,6 +86,55 @@
             padding: 8px 40px;
             width: auto;
             border-color: var(--neon-green);
+        }
+
+        a, button {
+            cursor: pointer;
+        }
+
+        a:focus-visible,
+        button:focus-visible {
+            outline: 2px solid var(--neon-green);
+            outline-offset: 4px;
+        }
+
+        .cta-primary,
+        .cta-secondary {
+            display: inline-flex;
+            min-height: 44px;
+            align-items: center;
+            justify-content: center;
+            padding: 10px 24px;
+            border-radius: 100px;
+            font-size: 12px;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            text-decoration: none;
+            transition: background 200ms ease, border-color 200ms ease, color 200ms ease, transform 200ms ease;
+        }
+
+        .cta-primary {
+            background: white;
+            color: black;
+            border: 1px solid white;
+        }
+
+        .cta-primary:hover {
+            background: var(--neon-green);
+            border-color: var(--neon-green);
+        }
+
+        .cta-secondary {
+            background: rgba(255,255,255,0.03);
+            color: rgba(255,255,255,0.76);
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+
+        .cta-secondary:hover {
+            color: white;
+            border-color: rgba(255,255,255,0.48);
+            background: rgba(255,255,255,0.08);
         }
 
         .glass-card {
@@ -161,6 +205,14 @@
             font-weight: 900;
         }
 
+        .hero-stats {
+            align-items: stretch;
+        }
+
+        .metric-card {
+            min-width: 96px;
+        }
+
         .meta-label {
             font-size: 10px;
             text-transform: uppercase;
@@ -177,6 +229,17 @@
             display: inline-block;
             margin-right: 6px;
             box-shadow: 0 0 8px var(--neon-green);
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            *,
+            *::before,
+            *::after {
+                animation-duration: 0.001ms !important;
+                animation-iteration-count: 1 !important;
+                scroll-behavior: auto !important;
+                transition-duration: 0.001ms !important;
+            }
         }
 
         ::-webkit-scrollbar { width: 4px; }
@@ -235,9 +298,6 @@
         .gap-12 { gap: 24px !important; }
         .gap-8 { gap: 16px !important; }
 
-        /* Fix orb blurs on mobile */
-        .orb-blur { width: 300px !important; height: 300px !important; }
-
         /* Cards full width */
         .glass-card { width: 100% !important; }
 
@@ -249,7 +309,7 @@
         .h-40 { height: 100px !important; }
 
         /* Buttons */
-        button, .cta-button {
+        button, .cta-button, .cta-primary, .cta-secondary {
             width: 100% !important;
             text-align: center !important;
         }
@@ -262,9 +322,6 @@
             padding: 24px 20px !important;
         }
         footer .flex { flex-wrap: wrap !important; justify-content: center !important; }
-
-        /* Hide decorative elements */
-        .orb-blur { opacity: 0.5 !important; }
 
         /* Pricing cards */
         .plan-card { width: 100% !important; }
@@ -304,10 +361,6 @@
         .dynamic-island { width: 95vw !important; justify-content: space-between !important; }
     }
 
-    
-    
-        .dynamic-island { position: relative; }
-    }
     @media (min-width: 769px) {
         .hamburger { display: none !important; }
         .mobile-menu { display: none !important; }
@@ -323,6 +376,7 @@
 
         /* Typography */
         .text-huge { font-size: 2.4rem !important; line-height: 1 !important; }
+        .text-huge { letter-spacing: -0.025em !important; }
         h1 { font-size: 2rem !important; }
         h2 { font-size: 1.6rem !important; }
         h3 { font-size: 1.1rem !important; }
@@ -370,12 +424,36 @@
         /* Stats row */
         .stat-value { font-size: 1.6rem !important; }
 
+        .hero-stats {
+            display: grid !important;
+            grid-template-columns: 1fr !important;
+            gap: 12px !important;
+        }
+
+        .metric-card {
+            min-height: 92px;
+            flex-direction: row !important;
+            justify-content: flex-start;
+            padding: 14px 18px;
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 24px;
+            background: rgba(255,255,255,0.025);
+        }
+
+        .metric-card .green-ring,
+        .metric-card .w-20.h-20 {
+            width: 56px !important;
+            height: 56px !important;
+            flex-shrink: 0;
+        }
+
         /* Fix CTA buttons rendering as text */
         .mt-6.flex.gap-4 { 
             flex-direction: column !important; 
             width: 100% !important;
         }
-        .mt-6.flex.gap-4 button {
+        .mt-6.flex.gap-4 button,
+        .mt-6.flex.gap-4 a {
             width: 100% !important;
             text-align: center !important;
         }
@@ -542,13 +620,13 @@
         <a href='/roi-calculator'>ROI Calculator</a>
     </div>
     <a class="mob-nav-btn" href="mailto:kolbykolibas@gmail.com?subject=I'd%20like%20to%20connect%20with%20C0D3AI">Book a Call</a>
-    <button class="ham-btn" style="margin-left:auto;padding:4px 0 4px 16px;flex-shrink:0;" onclick="document.getElementById('mobOverlay').classList.add('open')">
+    <button class="ham-btn" aria-label="Open navigation menu" style="margin-left:auto;padding:4px 0 4px 16px;flex-shrink:0;" onclick="document.getElementById('mobOverlay').classList.add('open')">
         <span></span><span></span><span></span>
     </button>
 </nav>
 
 <div class="mob-overlay" id="mobOverlay">
-    <button class="close-btn" onclick="document.getElementById('mobOverlay').classList.remove('open')">✕</button>
+    <button class="close-btn" aria-label="Close navigation menu" onclick="document.getElementById('mobOverlay').classList.remove('open')">✕</button>
     <a href='/' onclick='document.getElementById(\'mobOverlay\').classList.remove(\'open\')'>Home</a>
     <a href='/solutions' onclick='document.getElementById(\'mobOverlay\').classList.remove(\'open\')'>Solutions</a>
     <a href='/case-studies' onclick='document.getElementById(\'mobOverlay\').classList.remove(\'open\')'>Case Studies</a>
@@ -559,11 +637,6 @@
 </div>
 
 
-    
-    <div class="orb-blur" style="top: -200px; left: -100px;" vid="11"></div>
-    <div class="orb-blur" style="bottom: -200px; right: -100px; background: radial-gradient(circle, rgba(0, 255, 65, 0.05) 0%, transparent 70%);" vid="12"></div>
-
-    
     
     <!-- Mobile hamburger -->
     <style>
@@ -589,26 +662,26 @@
                     <div class="h-[1px] flex-grow bg-white/10" vid="29"></div>
                 </div>
                 <h1 class="text-huge" vid="30">
-                    AI THAT WORKS.<br>
-                    <span class="text-white/30">SYSTEMS THAT SCALE.</span>
+                    AI AUTOMATION<br>
+                    <span class="text-white/30">FOR SERVICE TEAMS.</span>
                 </h1>
                 <p class="mt-8 text-xl text-white/60 max-w-xl leading-relaxed" vid="34">
-                    We design and deploy AI agents, custom software, and automation systems that eliminate manual work, capture more opportunities, and give your business leverage.
+                    We build AI agents, GoHighLevel automations, and custom software that handle scheduling, lead follow-up, document processing, CRM workflows, and operational reporting.
                 </p>
 
                 <div class="mt-6 flex items-center gap-2">
-                    <span class="meta-label tracking-[0.25em] text-white/30 text-[9px] font-semibold" style="font-variant: small-caps;">Built by engineers from IBM &bull; Microsoft &bull; Google</span>
+                    <span class="meta-label tracking-[0.25em] text-white/30 text-[9px] font-semibold" style="font-variant: small-caps;">Senior automation delivery for regulated, local, and growth-stage teams</span>
                 </div>
 
                 <div class="mt-6 flex gap-4 flex-wrap">
-                    <button style="background:white;color:black;padding:10px 24px;border-radius:100px;font-size:12px;font-weight:900;text-transform:uppercase;letter-spacing:0.05em;border:none;cursor:pointer;">Book a Strategy Call</button>
-                    <button style="background:transparent;color:rgba(255,255,255,0.7);padding:10px 24px;border-radius:100px;font-size:12px;font-weight:900;text-transform:uppercase;letter-spacing:0.05em;border:1px solid rgba(255,255,255,0.2);cursor:pointer;">See What We Build</button>
+                    <a class="cta-primary" href="mailto:kolbykolibas@gmail.com?subject=I'd%20like%20to%20connect%20with%20C0D3AI">Book a Strategy Call</a>
+                    <a class="cta-secondary" href="/roi-calculator">Estimate ROI</a>
                 </div>
             </div>
 
             
-            <div class="flex gap-12 items-center" vid="35">
-                <div class="flex flex-col items-center gap-4" vid="36">
+            <div class="hero-stats flex gap-12 items-center" vid="35">
+                <div class="metric-card flex flex-col items-center gap-4" vid="36">
                     <div class="green-ring" vid="37">
                         <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" vid="38">
                             <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" vid="39"></path>
@@ -616,10 +689,10 @@
                     </div>
                     <div class="text-center" vid="40">
                         <span class="block text-2xl font-black" vid="41">12.4x</span>
-                        <span class="meta-label text-[8px]" vid="42">Avg ROI</span>
+                        <span class="meta-label text-[8px]" vid="42">Modeled ROI</span>
                     </div>
                 </div>
-                <div class="flex flex-col items-center gap-4" vid="43">
+                <div class="metric-card flex flex-col items-center gap-4" vid="43">
                     <div class="w-20 h-20 border-2 border-white/10 rounded-full flex items-center justify-center relative" vid="44">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" vid="45">
                             <circle cx="12" cy="12" r="10" vid="46"></circle>
@@ -629,10 +702,10 @@
                     </div>
                     <div class="text-center" vid="49">
                         <span class="block text-2xl font-black" vid="50">40hr</span>
-                        <span class="meta-label text-[8px]" vid="51">Weekly Reclaimed</span>
+                        <span class="meta-label text-[8px]" vid="51">Client-Reported</span>
                     </div>
                 </div>
-                <div class="flex flex-col items-center gap-4" vid="52">
+                <div class="metric-card flex flex-col items-center gap-4" vid="52">
                     <div class="w-20 h-20 border-2 border-white/10 rounded-full flex items-center justify-center" vid="53">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" vid="54">
                             <path d="M22 12h-4l-3 9L9 3l-3 9H2" vid="55"></path>
@@ -640,7 +713,7 @@
                     </div>
                     <div class="text-center" vid="56">
                         <span class="block text-2xl font-black" vid="57">99.2%</span>
-                        <span class="meta-label text-[8px]" vid="58">Uptime Ops</span>
+                        <span class="meta-label text-[8px]" vid="58">Active Systems</span>
                     </div>
                 </div>
             </div>
@@ -650,7 +723,7 @@
         <div class="col-span-12 lg:col-span-5 flex flex-col gap-6" vid="59">
             <div class="meta-label flex justify-between items-center px-2" vid="60">
                 <span vid="61">Active Deployments</span>
-                <span class="text-white/30" vid="62">C0D3XAI.COM</span>
+                <span class="text-white/30" vid="62">COD3AI.COM</span>
             </div>
             
             <div class="notification-stack" vid="63">
@@ -723,6 +796,58 @@
         </div>
     </main>
 
+    <section class="w-full max-w-7xl px-8 pb-16">
+        <div class="meta-label mb-5">Built For</div>
+        <div class="grid md:grid-cols-4 gap-4">
+            <a class="glass-card p-6 block no-underline" href="/healthcare-ai-automation">
+                <span class="meta-label">Healthcare</span>
+                <h2 class="text-2xl font-black mt-4 mb-3">Clinics & medical groups</h2>
+                <p class="text-sm text-white/60 leading-relaxed">AI receptionists, intake flows, scheduling, reminders, and admin automation.</p>
+            </a>
+            <a class="glass-card p-6 block no-underline" href="/real-estate-ai-automation">
+                <span class="meta-label">Real Estate</span>
+                <h2 class="text-2xl font-black mt-4 mb-3">Brokers & property teams</h2>
+                <p class="text-sm text-white/60 leading-relaxed">Lead response, CRM updates, lease abstraction, and contract workflows.</p>
+            </a>
+            <a class="glass-card p-6 block no-underline" href="/gohighlevel-ai-automation">
+                <span class="meta-label">Agencies</span>
+                <h2 class="text-2xl font-black mt-4 mb-3">GoHighLevel operators</h2>
+                <p class="text-sm text-white/60 leading-relaxed">AI agents, native app builds, workflow design, and client automation systems.</p>
+            </a>
+            <a class="glass-card p-6 block no-underline" href="/ai-receptionist">
+                <span class="meta-label">Home Services</span>
+                <h2 class="text-2xl font-black mt-4 mb-3">Field service businesses</h2>
+                <p class="text-sm text-white/60 leading-relaxed">Missed-call capture, quote follow-up, dispatch routing, and review requests.</p>
+            </a>
+        </div>
+    </section>
+
+    <section id="systems" class="w-full max-w-7xl px-8 pb-24">
+        <div class="grid grid-cols-12 gap-6">
+            <div class="col-span-12 lg:col-span-4">
+                <span class="meta-label">System Catalog</span>
+                <h2 class="text-4xl md:text-5xl font-black mt-4 tracking-tight">Built to replace the manual middle.</h2>
+            </div>
+            <div class="col-span-12 lg:col-span-8 grid md:grid-cols-3 gap-4">
+                <article class="glass-card p-6">
+                    <span class="meta-label">01</span>
+                    <h3 class="text-xl font-black mt-4 mb-3">AI Front Desk</h3>
+                    <p class="text-sm text-white/60 leading-relaxed">Voice, chat, intake, routing, appointment capture, and follow-up for teams that cannot afford missed demand.</p>
+                </article>
+                <article class="glass-card p-6">
+                    <span class="meta-label">02</span>
+                    <h3 class="text-xl font-black mt-4 mb-3">Document Ops</h3>
+                    <p class="text-sm text-white/60 leading-relaxed">Extraction, review queues, summaries, and CRM updates for contracts, patient records, leases, and forms.</p>
+                </article>
+                <article class="glass-card p-6">
+                    <span class="meta-label">03</span>
+                    <h3 class="text-xl font-black mt-4 mb-3">Revenue Automation</h3>
+                    <p class="text-sm text-white/60 leading-relaxed">Lead qualification, lifecycle messaging, reporting, and integrations across GoHighLevel and custom software.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
     
     <footer class="w-full max-w-7xl px-8 border-t border-white/5 py-12 flex flex-col md:flex-row justify-between items-center gap-8" vid="109">
         <div class="flex gap-12" vid="110">
@@ -747,13 +872,13 @@
 
     <script vid="121">
         
-        document.addEventListener('mousemove', (e) => {
-            const orbs = document.querySelectorAll('.orb-blur');
-            const x = e.clientX / window.innerWidth;
-            const y = e.clientY / window.innerHeight;
-            
-            orbs[0].style.transform = `translate(${x * 50}px, ${y * 50}px)`;
-            orbs[1].style.transform = `translate(-${x * 30}px, -${y * 30}px)`;
+        document.querySelectorAll('a[href^="#"]').forEach((link) => {
+            link.addEventListener('click', (event) => {
+                const target = document.querySelector(link.getAttribute('href'));
+                if (!target) return;
+                event.preventDefault();
+                target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            });
         });
     </script>
 

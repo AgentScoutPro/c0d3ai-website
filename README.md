@@ -12,6 +12,13 @@ Static website for `cod3ai.com`, reconstructed from the current Netlify manual d
 - `case-studies.html`
 - `integrations.html`
 - `solutions.html`
+- `healthcare-ai-automation.html`
+- `real-estate-ai-automation.html`
+- `gohighlevel-ai-automation.html`
+- `ai-receptionist.html`
+- `lease-abstraction-ai.html`
+- `robots.txt`
+- `sitemap.xml`
 
 ## Local Preview
 

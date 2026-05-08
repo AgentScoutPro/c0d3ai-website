@@ -35,3 +35,28 @@
   from = "/solutions"
   to = "/solutions.html"
   status = 200
+
+[[redirects]]
+  from = "/healthcare-ai-automation"
+  to = "/healthcare-ai-automation.html"
+  status = 200
+
+[[redirects]]
+  from = "/real-estate-ai-automation"
+  to = "/real-estate-ai-automation.html"
+  status = 200
+
+[[redirects]]
+  from = "/gohighlevel-ai-automation"
+  to = "/gohighlevel-ai-automation.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-receptionist"
+  to = "/ai-receptionist.html"
+  status = 200
+
+[[redirects]]
+  from = "/lease-abstraction-ai"
+  to = "/lease-abstraction-ai.html"
+  status = 200
