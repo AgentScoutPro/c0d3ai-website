@@ -1,0 +1,726 @@
+<html vid="0"><head vid="1">
+    <meta charset="UTF-8" vid="2">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" vid="3">
+    <title>AI Solutions | Healthcare, Real Estate & Home Services Automation | C0D3AI</title>
+    <!-- SEO Meta -->
+    <meta name="description" content="Explore C0D3AI's industry-specific AI agent deployments. HIPAA-compliant healthcare automation, real estate lease abstraction, and home service AI systems.">
+    <meta name="keywords" content="AI solutions healthcare, real estate AI automation, home services AI agent, HIPAA compliant AI, lease abstraction AI, GoHighLevel AI agent">
+    <meta name="author" content="C0D3AI Systems">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://cod3ai.com/solutions">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://cod3ai.com/solutions">
+    <meta property="og:title" content="AI Solutions | Healthcare, Real Estate & Home Services Automation | C0D3AI">
+    <meta property="og:description" content="Explore C0D3AI's industry-specific AI agent deployments. HIPAA-compliant healthcare automation, real estate lease abstraction, and home service AI systems.">
+    <meta property="og:image" content="https://cod3ai.com/COD3AI LOGO 7.png">
+    <meta property="og:site_name" content="C0D3AI">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://cod3ai.com/solutions">
+    <meta name="twitter:title" content="AI Solutions | Healthcare, Real Estate & Home Services Automation | C0D3AI">
+    <meta name="twitter:description" content="Explore C0D3AI's industry-specific AI agent deployments. HIPAA-compliant healthcare automation, real estate lease abstraction, and home service AI systems.">
+    <meta name="twitter:image" content="https://cod3ai.com/COD3AI LOGO 7.png">
+
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "C0D3AI",
+      "url": "https://cod3ai.com",
+      "logo": "https://cod3ai.com/COD3AI LOGO 7.png",
+      "description": "Custom AI agents and automation systems for healthcare, real estate, and home service businesses.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Gilbert",
+        "addressRegion": "AZ",
+        "addressCountry": "US"
+      },
+      "founder": "Kolby Kolibas",
+      "foundingDate": "2023",
+      "sameAs": ["https://cod3ai.com"]
+    }
+    </script>
+
+    <script src="https://cdn.tailwindcss.com" vid="5"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" vid="6">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" vid="7">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&amp;display=swap" rel="stylesheet" vid="8">
+    <style vid="9">
+        :root {
+            --neon-green: #00FF41;
+            --deep-purple: #120524;
+            --glass: rgba(255, 255, 255, 0.05);
+            --stroke: rgba(255, 255, 255, 0.1);
+        }
+
+        body {
+            background: radial-gradient(circle at top center, #1a0b2e 0%, #000000 100%);
+            color: white;
+            font-family: 'Inter', sans-serif;
+            overflow-x: hidden;
+            margin: 0;
+            cursor: crosshair;
+        }
+
+        .orb-blur {
+            position: fixed;
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(76, 33, 142, 0.2) 0%, transparent 70%);
+            z-index: -1;
+            filter: blur(80px);
+            pointer-events: none;
+        }
+
+        .dynamic-island {
+            background: rgba(0, 0, 0, 0.8);
+            border: 1px solid var(--stroke);
+            backdrop-filter: blur(20px);
+            border-radius: 40px;
+            padding: 8px 24px;
+            transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+        }
+
+        .glass-card {
+            background: var(--glass);
+            border: 1px solid var(--stroke);
+            backdrop-filter: blur(20px);
+            border-radius: 24px;
+            transition: transform 0.3s ease, border-color 0.3s ease;
+        }
+
+        .glass-card:hover {
+            border-color: var(--neon-green);
+        }
+
+        .meta-label {
+            font-size: 10px;
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            color: rgba(255, 255, 255, 0.5);
+            font-weight: 600;
+        }
+
+        .status-dot {
+            width: 6px;
+            height: 6px;
+            background: var(--neon-green);
+            border-radius: 50%;
+            display: inline-block;
+            margin-right: 6px;
+            box-shadow: 0 0 8px var(--neon-green);
+        }
+
+        .deploy-btn {
+            background: transparent;
+            border: 1px solid var(--neon-green);
+            color: var(--neon-green);
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-size: 11px;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: all 0.3s ease;
+        }
+
+        .deploy-btn:hover {
+            background: var(--neon-green);
+            color: black;
+            box-shadow: 0 0 20px rgba(0, 255, 65, 0.3);
+        }
+
+        .feature-tag {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-size: 10px;
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        .text-huge {
+            font-size: 5rem;
+            line-height: 0.9;
+            letter-spacing: -0.05em;
+            font-weight: 900;
+        }
+
+        ::-webkit-scrollbar { width: 4px; }
+        ::-webkit-scrollbar-track { background: transparent; }
+        ::-webkit-scrollbar-thumb { background: var(--stroke); border-radius: 10px; }
+    
+    /* ── MOBILE RESPONSIVE ── */
+    @media (max-width: 768px) {
+
+        /* Typography scale down */
+        .text-huge {
+            font-size: 3.2rem !important;
+            line-height: 0.9 !important;
+        }
+        h1 { font-size: 2.4rem !important; }
+        h2 { font-size: 1.8rem !important; }
+        h3 { font-size: 1.2rem !important; }
+
+        /* Nav */
+        .dynamic-island {
+            padding: 8px 16px !important;
+            gap: 12px !important;
+            border-radius: 20px !important;
+        }
+        .dynamic-island .hidden { display: none !important; }
+
+        /* Grid collapses */
+        .grid-cols-12,
+        .lg\:col-span-8,
+        .lg\:col-span-7,
+        .lg\:col-span-5,
+        .lg\:col-span-4,
+        .lg\:col-span-3 {
+            grid-column: span 12 !important;
+        }
+        .grid { grid-template-columns: 1fr !important; }
+        .md\:grid-cols-2 { grid-template-columns: 1fr !important; }
+        .md\:grid-cols-3 { grid-template-columns: 1fr !important; }
+        .md\:grid-cols-4 { grid-template-columns: 1fr 1fr !important; }
+        .lg\:grid-cols-3 { grid-template-columns: 1fr !important; }
+        .lg\:col-span-12 { grid-column: span 1 !important; }
+
+        /* Flex stacking */
+        .md\:flex-row { flex-direction: column !important; }
+        .flex-row { flex-wrap: wrap !important; }
+
+        /* Padding */
+        main, .main {
+            padding-left: 20px !important;
+            padding-right: 20px !important;
+            padding-top: 100px !important;
+        }
+        .px-8 { padding-left: 20px !important; padding-right: 20px !important; }
+        .p-10 { padding: 20px !important; }
+        .p-8 { padding: 16px !important; }
+        .gap-12 { gap: 24px !important; }
+        .gap-8 { gap: 16px !important; }
+
+        /* Fix orb blurs on mobile */
+        .orb-blur { width: 300px !important; height: 300px !important; }
+
+        /* Cards full width */
+        .glass-card { width: 100% !important; }
+
+        /* Stats row */
+        .stat-value { font-size: 1.8rem !important; }
+
+        /* Chart height */
+        .h-48 { height: 140px !important; }
+        .h-40 { height: 100px !important; }
+
+        /* Buttons */
+        button, .cta-button {
+            width: 100% !important;
+            text-align: center !important;
+        }
+
+        /* Footer */
+        footer {
+            flex-direction: column !important;
+            text-align: center !important;
+            gap: 16px !important;
+            padding: 24px 20px !important;
+        }
+        footer .flex { flex-wrap: wrap !important; justify-content: center !important; }
+
+        /* Hide decorative elements */
+        .orb-blur { opacity: 0.5 !important; }
+
+        /* Pricing cards */
+        .plan-card { width: 100% !important; }
+
+        /* Integration cards 2 col on mobile */
+        .grid-cols-4 { grid-template-columns: 1fr 1fr !important; }
+
+        /* Nav top spacing */
+        nav { top: 12px !important; }
+        .pt-32 { padding-top: 90px !important; }
+        .pt-40 { padding-top: 90px !important; }
+
+        /* ROI calculator */
+        .col-span-12 { grid-column: span 1 !important; }
+
+        /* Before/after metrics */
+        .metric-split { padding-left: 12px !important; }
+        .flex.items-baseline { flex-wrap: wrap !important; gap: 8px !important; }
+
+        /* Timeline */
+        .timeline-line { left: 10px !important; }
+
+        /* Hero CTA buttons */
+        .mt-6.flex.gap-4 { flex-direction: column !important; }
+
+        /* Table overflow */
+        table { display: block !important; overflow-x: auto !important; }
+
+        /* Hide non-essential decorative SVGs */
+        .pointer-events-none svg { display: none !important; }
+    }
+
+    @media (max-width: 480px) {
+        .text-huge { font-size: 2.6rem !important; }
+        .md\:grid-cols-4 { grid-template-columns: 1fr !important; }
+        .grid-cols-4 { grid-template-columns: 1fr !important; }
+        .dynamic-island { width: 95vw !important; justify-content: space-between !important; }
+    }
+
+    
+    
+        .dynamic-island { position: relative; }
+    }
+    @media (min-width: 769px) {
+        .hamburger { display: none !important; }
+        .mobile-menu { display: none !important; }
+    }
+
+    </style>
+
+    <style id="mobile-final-fix">
+    @media (max-width: 768px) {
+        /* Prevent horizontal overflow */
+        html, body { overflow-x: hidden !important; max-width: 100vw !important; }
+        * { box-sizing: border-box !important; }
+
+        /* Typography */
+        .text-huge { font-size: 2.4rem !important; line-height: 1 !important; }
+        h1 { font-size: 2rem !important; }
+        h2 { font-size: 1.6rem !important; }
+        h3 { font-size: 1.1rem !important; }
+        p { font-size: 0.95rem !important; line-height: 1.6 !important; }
+
+        /* Main content padding */
+        main { 
+            padding-left: 16px !important; 
+            padding-right: 16px !important;
+            padding-top: 100px !important;
+            max-width: 100vw !important;
+            overflow-x: hidden !important;
+        }
+
+        /* All sections full width */
+        section, .glass-card, .flex, .grid {
+            max-width: 100% !important;
+            width: 100% !important;
+        }
+
+        /* Grids to single column */
+        .grid { grid-template-columns: 1fr !important; gap: 16px !important; }
+        [class*="col-span"] { grid-column: span 1 !important; }
+        [class*="grid-cols"] { grid-template-columns: 1fr !important; }
+        .grid-cols-3 { grid-template-columns: 1fr !important; }
+        .grid-cols-2 { grid-template-columns: 1fr 1fr !important; }
+
+        /* Flex stacking */
+        .flex { flex-wrap: wrap !important; }
+        [class*="gap-12"] { gap: 20px !important; }
+        [class*="gap-8"] { gap: 16px !important; }
+
+        /* Padding reduction */
+        [class*="px-8"] { padding-left: 16px !important; padding-right: 16px !important; }
+        [class*="p-10"] { padding: 16px !important; }
+        [class*="p-8"] { padding: 14px !important; }
+        [class*="pt-32"] { padding-top: 100px !important; }
+
+        /* Nav */
+        .mob-nav { width: calc(100% - 24px) !important; padding: 8px 16px !important; }
+
+        /* Buttons full width */
+        .w-full { width: 100% !important; }
+
+        /* Stats row */
+        .stat-value { font-size: 1.6rem !important; }
+
+        /* Fix CTA buttons rendering as text */
+        .mt-6.flex.gap-4 { 
+            flex-direction: column !important; 
+            width: 100% !important;
+        }
+        .mt-6.flex.gap-4 button {
+            width: 100% !important;
+            text-align: center !important;
+        }
+
+        /* Footer */
+        footer { 
+            flex-direction: column !important; 
+            padding: 20px 16px !important;
+            text-align: center !important;
+        }
+        footer .flex { justify-content: center !important; flex-wrap: wrap !important; }
+    }
+    </style>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-W4GC6JNEDK"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-W4GC6JNEDK');
+    </script>
+</head>
+<body class="min-h-screen flex flex-col items-center" vid="10">
+
+<style id="mobile-nav-css">
+.mob-nav {
+    position: fixed;
+    top: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+    width: calc(100% - 32px);
+    max-width: 1200px;
+    background: rgba(0,0,0,0.9);
+    border: 1px solid rgba(255,255,255,0.1);
+    backdrop-filter: blur(20px);
+    border-radius: 40px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; align-items: center;
+}
+.mob-nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+}
+.mob-nav-logo img { height: 24px; width: auto; }
+.mob-nav-links {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+.mob-nav-links a {
+    color: rgba(255,255,255,0.6);
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    text-decoration: none;
+}
+.mob-nav-links a:hover { color: white; }
+.mob-nav-btn {
+    background: white;
+    color: black;
+    padding: 6px 16px;
+    border-radius: 100px;
+    font-size: 11px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+.mob-nav-btn:hover { background: #00FF41; }
+.ham-btn {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+    padding: 4px;
+    background: none;
+    border: none;
+}
+.ham-btn span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    background: white;
+    border-radius: 2px;
+}
+.mob-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.97);
+    z-index: 998;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 36px;
+}
+.mob-overlay.open { display: flex; }
+.mob-overlay a {
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    text-decoration: none;
+}
+.mob-overlay a:hover { color: #00FF41; }
+.mob-overlay .close-btn {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    background: none;
+    border: none;
+    line-height: 1;
+}
+.mob-overlay .book-link {
+    color: #00FF41 !important;
+    border: 1px solid #00FF41;
+    padding: 12px 32px;
+    border-radius: 100px;
+    margin-top: 16px;
+}
+.status-dot-mob {
+    width: 8px;
+    height: 8px;
+    background: #00FF41;
+    border-radius: 50%;
+    box-shadow: 0 0 8px #00FF41;
+    flex-shrink: 0;
+}
+@media (max-width: 768px) {
+    .mob-nav-links { display: none !important; }
+    .mob-nav-btn { display: none !important; }
+    .ham-btn { display: flex !important; }
+}
+@media (min-width: 769px) {
+    .ham-btn { display: none !important; }
+    .mob-overlay { display: none !important; }
+}
+</style>
+
+<nav class="mob-nav">
+    <div class="mob-nav-logo">
+        <div class="status-dot-mob"></div>
+        <img src="COD3AI LOGO 8.png" alt="C0D3AI">
+    </div>
+    <div class="mob-nav-links">
+        <a href='/'>Home</a>
+        <a href='/solutions'>Solutions</a>
+        <a href='/case-studies'>Case Studies</a>
+        <a href='/pricing'>Pricing</a>
+        <a href='/roi-calculator'>ROI Calculator</a>
+    </div>
+    <a class="mob-nav-btn" href="mailto:kolbykolibas@gmail.com?subject=I'd%20like%20to%20connect%20with%20C0D3AI">Book a Call</a>
+    <button class="ham-btn" style="margin-left:auto;padding:4px 0 4px 16px;flex-shrink:0;" onclick="document.getElementById('mobOverlay').classList.add('open')">
+        <span></span><span></span><span></span>
+    </button>
+</nav>
+
+<div class="mob-overlay" id="mobOverlay">
+    <button class="close-btn" onclick="document.getElementById('mobOverlay').classList.remove('open')">✕</button>
+    <a href='/' onclick='document.getElementById(\'mobOverlay\').classList.remove(\'open\')'>Home</a>
+    <a href='/solutions' onclick='document.getElementById(\'mobOverlay\').classList.remove(\'open\')'>Solutions</a>
+    <a href='/case-studies' onclick='document.getElementById(\'mobOverlay\').classList.remove(\'open\')'>Case Studies</a>
+    <a href='/pricing' onclick='document.getElementById(\'mobOverlay\').classList.remove(\'open\')'>Pricing</a>
+    <a href='/roi-calculator' onclick='document.getElementById(\'mobOverlay\').classList.remove(\'open\')'>ROI Calculator</a>
+    <a href='/integrations' onclick='document.getElementById(\'mobOverlay\').classList.remove(\'open\')'>Integrations</a>
+    <a class="book-link" href="mailto:kolbykolibas@gmail.com?subject=I'd%20like%20to%20connect%20with%20C0D3AI">Book a Call</a>
+</div>
+
+
+    <div class="orb-blur" style="top: -100px; left: 100px;" vid="11"></div>
+    <div class="orb-blur" style="bottom: -100px; right: 100px; background: radial-gradient(circle, rgba(0, 255, 65, 0.05) 0%, transparent 70%);" vid="12"></div>
+
+    
+    <!-- Mobile hamburger -->
+    <style>
+    .mobile-menu { display: none; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(0,0,0,0.95); z-index: 100; flex-direction: column; align-items: center; justify-content: center; gap: 32px; }
+    .mobile-menu.open { display: flex; }
+    .mobile-menu a { color: white; font-size: 1.4rem; font-weight: 900; text-transform: uppercase; letter-spacing: 0.1em; text-decoration: none; }
+    .mobile-menu a:hover { color: #00FF41; }
+    .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; z-index: 101; }
+    .hamburger span { width: 22px; height: 2px; background: white; border-radius: 2px; transition: all 0.3s; }
+    @media (max-width: 768px) { .hamburger { display: flex !important; } }
+    </style>
+
+    
+
+    <main class="w-full max-w-7xl px-8 pt-40 pb-24" vid="24">
+        <header class="mb-20" vid="25">
+            <div class="meta-label mb-4 flex items-center" vid="26">
+                <span class="mr-4" vid="27">CORE VERTICALS // AGENT DEPLOYMENT</span>
+                <div class="h-[1px] flex-grow bg-white/10" vid="28"></div>
+            </div>
+            <h1 class="text-huge mb-6" vid="29">ENGINEERED<br vid="30"><span class="text-white/20" vid="31">SOLUTIONS</span></h1>
+            <p class="text-xl text-white/60 max-w-2xl leading-relaxed" vid="32">
+                Custom-built AI systems engineered for the industries where speed, accuracy, and reliability are non-negotiable.
+            </p>
+        </header>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8" vid="33">
+            
+            <div class="glass-card p-8 flex flex-col h-full" vid="34">
+                <div class="w-14 h-14 rounded-2xl bg-purple-900/30 flex items-center justify-center border border-purple-500/30 text-purple-400 mb-8" vid="35">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" vid="36"><path d="M22 12h-4l-3 9L9 3l-3 9H2" vid="37"></path></svg>
+                </div>
+                <div class="meta-label text-purple-400 mb-2" vid="38">Protocol LVL_01</div>
+                <h3 class="text-3xl font-black mb-4" vid="39">Healthcare & Medical</h3>
+                <p class="text-sm text-white/50 mb-8 leading-relaxed" vid="40">
+                    HIPAA-compliant AI agents that handle patient intake, appointment scheduling, billing reconciliation, and 24/7 front desk coverage.
+                </p>
+
+                <div class="flex flex-wrap gap-2 mb-10" vid="41">
+                    <span class="feature-tag" vid="42">Patient Intake</span>
+                    <span class="feature-tag" vid="43">Appointment AI</span>
+                    <span class="feature-tag" vid="44">Billing Automation</span>
+                    <span class="feature-tag" vid="45">HIPAA Compliant</span>
+                </div>
+
+                <div class="mt-auto pt-8 border-t border-white/5" vid="46">
+                    <div class="flex justify-between items-center mb-6" vid="47">
+                        <div class="flex flex-col" vid="48">
+                            <span class="meta-label" vid="49">Efficiency Gain</span>
+                            <span class="text-xl font-black text-white" vid="50">82%</span>
+                        </div>
+                        <div class="flex flex-col text-right" vid="51">
+                            <span class="meta-label" vid="52">Deploy Time</span>
+                            <span class="text-xl font-black text-white" vid="53">14 Days</span>
+                        </div>
+                    </div>
+                     class="deploy-btn w-full" vid="54">Deploy This Agent</button>
+                </div>
+            </div>
+
+            
+            <div class="glass-card p-8 flex flex-col h-full" vid="55">
+                <div class="w-14 h-14 rounded-2xl bg-green-900/20 flex items-center justify-center border border-green-500/30 text-green-400 mb-8" vid="56">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" vid="57"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" vid="58"></path><polyline points="9 22 9 12 15 12 15 22" vid="59"></polyline></svg>
+                </div>
+                <div class="meta-label text-green-400 mb-2" vid="60">Protocol LVL_02</div>
+                <h3 class="text-3xl font-black mb-4" vid="61">Real Estate</h3>
+                <p class="text-sm text-white/50 mb-8 leading-relaxed" vid="62">
+                    AI-powered lead qualification, lease abstraction, contract automation, and CRM syncing for brokers and property managers.
+                </p>
+
+                <div class="flex flex-wrap gap-2 mb-10" vid="63">
+                    <span class="feature-tag" vid="64">Lead Qualification</span>
+                    <span class="feature-tag" vid="65">Lease Abstraction</span>
+                    <span class="feature-tag" vid="66">CRM Syncing</span>
+                    <span class="feature-tag" vid="67">Contract AI</span>
+                </div>
+
+                <div class="mt-auto pt-8 border-t border-white/5" vid="68">
+                    <div class="flex justify-between items-center mb-6" vid="69">
+                        <div class="flex flex-col" vid="70">
+                            <span class="meta-label" vid="71">Response Time</span>
+                            <span class="text-xl font-black text-white" vid="72">&lt; 30s</span>
+                        </div>
+                        <div class="flex flex-col text-right" vid="73">
+                            <span class="meta-label" vid="74">Deploy Time</span>
+                            <span class="text-xl font-black text-white" vid="75">7 Days</span>
+                        </div>
+                    </div>
+                     class="deploy-btn w-full" vid="76">Deploy This Agent</button>
+                </div>
+            </div>
+
+            
+            <div class="glass-card p-8 flex flex-col h-full" vid="77">
+                <div class="w-14 h-14 rounded-2xl bg-blue-900/20 flex items-center justify-center border border-blue-500/30 text-blue-400 mb-8" vid="78">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" vid="79"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" vid="80"></path></svg>
+                </div>
+                <div class="meta-label text-blue-400 mb-2" vid="81">Protocol LVL_03</div>
+                <h3 class="text-3xl font-black mb-4" vid="82">Home Services</h3>
+                <p class="text-sm text-white/50 mb-8 leading-relaxed" vid="83">
+                    Intelligent dispatch, voice-to-invoice, automated review generation, and missed call recovery for field service businesses.
+                </p>
+
+                <div class="flex flex-wrap gap-2 mb-10" vid="84">
+                    <span class="feature-tag" vid="85">Smart Dispatch</span>
+                    <span class="feature-tag" vid="86">Voice Estimator</span>
+                    <span class="feature-tag" vid="87">Review Engine</span>
+                    <span class="feature-tag" vid="88">Missed Call AI</span>
+                </div>
+
+                <div class="mt-auto pt-8 border-t border-white/5" vid="89">
+                    <div class="flex justify-between items-center mb-6" vid="90">
+                        <div class="flex flex-col" vid="91">
+                            <span class="meta-label" vid="92">Rev Increase</span>
+                            <span class="text-xl font-black text-white" vid="93">45%</span>
+                        </div>
+                        <div class="flex flex-col text-right" vid="94">
+                            <span class="meta-label" vid="95">Deploy Time</span>
+                            <span class="text-xl font-black text-white" vid="96">10 Days</span>
+                        </div>
+                    </div>
+                     class="deploy-btn w-full" vid="97">Deploy This Agent</button>
+                </div>
+            </div>
+        </div>
+
+        <section class="mt-24 py-16 border-t border-white/5 grid grid-cols-12 gap-12 items-center" vid="98">
+            <div class="col-span-12 lg:col-span-6" vid="99">
+                <div class="meta-label mb-4" vid="100">Integration Layer</div>
+                <h2 class="text-4xl font-black mb-6" vid="101">Seamless Infrastructure</h2>
+                <p class="text-white/60 leading-relaxed mb-8" vid="102">
+                    Our agents don't just exist; they integrate. Built on top of your existing software stack via custom API endpoints and secure neural hooks. No migration required.
+                </p>
+                <div class="flex gap-4" vid="103">
+                    <div class="p-3 bg-white/5 rounded border border-white/10" vid="104"><img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Salesforce.com_logo.svg" class="h-6 opacity-40 grayscale brightness-200" alt="SF" vid="105"></div>
+                    <div class="p-3 bg-white/5 rounded border border-white/10" vid="106"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Slack_icon_2019.svg" class="h-6 opacity-40 grayscale brightness-200" alt="Slack" vid="107"></div>
+                    <div class="p-3 bg-white/5 rounded border border-white/10" vid="108"><img src="https://upload.wikimedia.org/wikipedia/commons/3/39/Google_Drive_logo.svg" class="h-6 opacity-40 grayscale brightness-200" alt="Drive" vid="109"></div>
+                    <div class="p-3 bg-white/5 rounded border border-white/10" vid="110"><img src="https://upload.wikimedia.org/wikipedia/commons/0/01/HubSpot_Logo.svg" class="h-6 opacity-40 grayscale brightness-200" alt="HS" vid="111"></div>
+                </div>
+            </div>
+            <div class="col-span-12 lg:col-span-6" vid="112">
+                <div class="glass-card p-8 bg-gradient-to-br from-white/5 to-transparent" vid="113">
+                    <div class="flex items-center gap-4 mb-6" vid="114">
+                        <div class="w-2 h-2 rounded-full bg-green-400 animate-pulse" vid="115"></div>
+                        <span class="text-xs font-mono text-white/40" vid="116">API_CONNECTION_ACTIVE [99.9% UPTIME]</span>
+                    </div>
+                    <div class="space-y-4 font-mono text-[10px] text-green-400/70" vid="117">
+                        <p vid="118">&gt; initializing_secure_handshake...</p>
+                        <p vid="119">&gt; authentication_protocol: verified</p>
+                        <p vid="120">&gt; data_stream: encrypted_aes_256</p>
+                        <p vid="121">&gt; mapping_neural_nodes: 1,424 active</p>
+                        <p vid="122">&gt; status: optimization_in_progress</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="w-full max-w-7xl px-8 border-t border-white/5 py-12 flex flex-col md:flex-row justify-between items-center gap-8" vid="123">
+        <div class="flex gap-12" vid="124">
+            <div class="flex flex-col" vid="125">
+                <span class="meta-label mb-2" vid="126">Protocol</span>
+                <span class="text-[11px] font-bold" vid="127">SECURE_AES_256</span>
+            </div>
+            <div class="flex flex-col" vid="128">
+                <span class="meta-label mb-2" vid="129">Core</span>
+                <span class="text-[11px] font-bold" vid="130">C0D3_X_09</span>
+            </div>
+            <div class="flex flex-col" vid="131">
+                <span class="meta-label mb-2" vid="132">Availability</span>
+                <span class="text-[11px] font-bold text-green-400" vid="133">READY</span>
+            </div>
+        </div>
+        <div class="text-[11px] font-mono text-white/20" vid="134">
+            © 2024 C0D3AI_CONSULTING_SYSTEMS // ALL_RIGHTS_RESERVED
+        </div>
+    </footer>
+
+    <script vid="135">
+        document.addEventListener('mousemove', (e) => {
+            const orbs = document.querySelectorAll('.orb-blur');
+            const x = e.clientX / window.innerWidth;
+            const y = e.clientY / window.innerHeight;
+            
+            orbs[0].style.transform = `translate(${x * 50}px, ${y * 50}px)`;
+            orbs[1].style.transform = `translate(-${x * 30}px, -${y * 30}px)`;
+        });
+    </script>
+
+</body></html>

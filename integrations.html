@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Integrations | GoHighLevel, Salesforce, GPT-4, Gemini & More | C0D3AI</title>
+    <!-- SEO Meta -->
+    <meta name="description" content="C0D3AI integrates with GoHighLevel, Salesforce, GPT-4.1, Google Gemini, ChiroTouch, Yardi, Supabase, and 20+ platforms. We connect to anything with an API.">
+    <meta name="keywords" content="GoHighLevel integrations, Salesforce AI automation, GPT-4 business automation, Google Gemini integration, ChiroTouch AI, Yardi integration, AI stack">
+    <meta name="author" content="C0D3AI Systems">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://cod3ai.com/integrations">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://cod3ai.com/integrations">
+    <meta property="og:title" content="Integrations | GoHighLevel, Salesforce, GPT-4, Gemini & More | C0D3AI">
+    <meta property="og:description" content="C0D3AI integrates with GoHighLevel, Salesforce, GPT-4.1, Google Gemini, ChiroTouch, Yardi, Supabase, and 20+ platforms. We connect to anything with an API.">
+    <meta property="og:image" content="https://cod3ai.com/COD3AI LOGO 7.png">
+    <meta property="og:site_name" content="C0D3AI">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://cod3ai.com/integrations">
+    <meta name="twitter:title" content="Integrations | GoHighLevel, Salesforce, GPT-4, Gemini & More | C0D3AI">
+    <meta name="twitter:description" content="C0D3AI integrates with GoHighLevel, Salesforce, GPT-4.1, Google Gemini, ChiroTouch, Yardi, Supabase, and 20+ platforms. We connect to anything with an API.">
+    <meta name="twitter:image" content="https://cod3ai.com/COD3AI LOGO 7.png">
+
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "C0D3AI",
+      "url": "https://cod3ai.com",
+      "logo": "https://cod3ai.com/COD3AI LOGO 7.png",
+      "description": "Custom AI agents and automation systems for healthcare, real estate, and home service businesses.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Gilbert",
+        "addressRegion": "AZ",
+        "addressCountry": "US"
+      },
+      "founder": "Kolby Kolibas",
+      "foundingDate": "2023",
+      "sameAs": ["https://cod3ai.com"]
+    }
+    </script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+        :root { --neon-green: #00FF41; --glass: rgba(255,255,255,0.05); --stroke: rgba(255,255,255,0.1); }
+        body { background:#0a0010; color:white; font-family:"Inter",sans-serif; overflow-x:hidden; margin:0; cursor:crosshair; }
+        .orb-blur { position:fixed; width:600px; height:600px; background:radial-gradient(circle,rgba(76,33,142,0.2) 0%,transparent 70%); z-index:-1; filter:blur(80px); pointer-events:none; }
+        .dynamic-island { background:rgba(0,0,0,0.8); border:1px solid var(--stroke); backdrop-filter:blur(20px); border-radius:40px; padding:8px 24px; }
+        .glass-card { background:var(--glass); border:1px solid var(--stroke); backdrop-filter:blur(20px); border-radius:24px; transition:all 0.3s ease; }
+        .meta-label { font-size:10px; text-transform:uppercase; letter-spacing:0.2em; color:rgba(255,255,255,0.5); font-weight:600; }
+        .status-dot { width:6px; height:6px; background:var(--neon-green); border-radius:50%; display:inline-block; margin-right:6px; box-shadow:0 0 8px var(--neon-green); animation:pulse 2s infinite; }
+        .text-huge { font-size:6rem; line-height:0.85; letter-spacing:-0.05em; font-weight:900; }
+        .grid-bg { background-image:radial-gradient(circle at 1px 1px,rgba(255,255,255,0.03) 1px,transparent 0); background-size:40px 40px; }
+        .icard { background:var(--glass); border:1px solid var(--stroke); border-radius:16px; padding:20px; display:flex; flex-direction:column; gap:12px; transition:all 0.25s ease; }
+        .icard:hover { border-color:var(--neon-green); background:rgba(0,255,65,0.03); transform:translateY(-3px); }
+        .tag { font-size:9px; padding:3px 8px; border-radius:20px; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; white-space:nowrap; }
+        .tag-live { background:rgba(0,255,65,0.1); color:#00FF41; border:1px solid rgba(0,255,65,0.2); }
+        .tag-ok { background:rgba(255,255,255,0.05); color:rgba(255,255,255,0.4); border:1px solid rgba(255,255,255,0.1); }
+        @keyframes pulse { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:0.6;transform:scale(1.2)} }
+    
+    /* ── MOBILE RESPONSIVE ── */
+    @media (max-width: 768px) {
+
+        /* Typography scale down */
+        .text-huge {
+            font-size: 3.2rem !important;
+            line-height: 0.9 !important;
+        }
+        h1 { font-size: 2.4rem !important; }
+        h2 { font-size: 1.8rem !important; }
+        h3 { font-size: 1.2rem !important; }
+
+        /* Nav */
+        .dynamic-island {
+            padding: 8px 16px !important;
+            gap: 12px !important;
+            border-radius: 20px !important;
+        }
+        .dynamic-island .hidden { display: none !important; }
+
+        /* Grid collapses */
+        .grid-cols-12,
+        .lg\:col-span-8,
+        .lg\:col-span-7,
+        .lg\:col-span-5,
+        .lg\:col-span-4,
+        .lg\:col-span-3 {
+            grid-column: span 12 !important;
+        }
+        .grid { grid-template-columns: 1fr !important; }
+        .md\:grid-cols-2 { grid-template-columns: 1fr !important; }
+        .md\:grid-cols-3 { grid-template-columns: 1fr !important; }
+        .md\:grid-cols-4 { grid-template-columns: 1fr 1fr !important; }
+        .lg\:grid-cols-3 { grid-template-columns: 1fr !important; }
+        .lg\:col-span-12 { grid-column: span 1 !important; }
+
+        /* Flex stacking */
+        .md\:flex-row { flex-direction: column !important; }
+        .flex-row { flex-wrap: wrap !important; }
+
+        /* Padding */
+        main, .main {
+            padding-left: 20px !important;
+            padding-right: 20px !important;
+            padding-top: 100px !important;
+        }
+        .px-8 { padding-left: 20px !important; padding-right: 20px !important; }
+        .p-10 { padding: 20px !important; }
+        .p-8 { padding: 16px !important; }
+        .gap-12 { gap: 24px !important; }
+        .gap-8 { gap: 16px !important; }
+
+        /* Fix orb blurs on mobile */
+        .orb-blur { width: 300px !important; height: 300px !important; }
+
+        /* Cards full width */
+        .glass-card { width: 100% !important; }
+
+        /* Stats row */
+        .stat-value { font-size: 1.8rem !important; }
+
+        /* Chart height */
+        .h-48 { height: 140px !important; }
+        .h-40 { height: 100px !important; }
+
+        /* Buttons */
+        button, .cta-button {
+            width: 100% !important;
+            text-align: center !important;
+        }
+
+        /* Footer */
+        footer {
+            flex-direction: column !important;
+            text-align: center !important;
+            gap: 16px !important;
+            padding: 24px 20px !important;
+        }
+        footer .flex { flex-wrap: wrap !important; justify-content: center !important; }
+
+        /* Hide decorative elements */
+        .orb-blur { opacity: 0.5 !important; }
+
+        /* Pricing cards */
+        .plan-card { width: 100% !important; }
+
+        /* Integration cards 2 col on mobile */
+        .grid-cols-4 { grid-template-columns: 1fr 1fr !important; }
+
+        /* Nav top spacing */
+        nav { top: 12px !important; }
+        .pt-32 { padding-top: 90px !important; }
+        .pt-40 { padding-top: 90px !important; }
+
+        /* ROI calculator */
+        .col-span-12 { grid-column: span 1 !important; }
+
+        /* Before/after metrics */
+        .metric-split { padding-left: 12px !important; }
+        .flex.items-baseline { flex-wrap: wrap !important; gap: 8px !important; }
+
+        /* Timeline */
+        .timeline-line { left: 10px !important; }
+
+        /* Hero CTA buttons */
+        .mt-6.flex.gap-4 { flex-direction: column !important; }
+
+        /* Table overflow */
+        table { display: block !important; overflow-x: auto !important; }
+
+        /* Hide non-essential decorative SVGs */
+        .pointer-events-none svg { display: none !important; }
+    }
+
+    @media (max-width: 480px) {
+        .text-huge { font-size: 2.6rem !important; }
+        .md\:grid-cols-4 { grid-template-columns: 1fr !important; }
+        .grid-cols-4 { grid-template-columns: 1fr !important; }
+        .dynamic-island { width: 95vw !important; justify-content: space-between !important; }
+    }
+
+    
+    
+        .dynamic-island { position: relative; }
+    }
+    @media (min-width: 769px) {
+        .hamburger { display: none !important; }
+        .mobile-menu { display: none !important; }
+    }
+
+    </style>
+
+    <style id="mobile-final-fix">
+    @media (max-width: 768px) {
+        /* Prevent horizontal overflow */
+        html, body { overflow-x: hidden !important; max-width: 100vw !important; }
+        * { box-sizing: border-box !important; }
+
+        /* Typography */
+        .text-huge { font-size: 2.4rem !important; line-height: 1 !important; }
+        h1 { font-size: 2rem !important; }
+        h2 { font-size: 1.6rem !important; }
+        h3 { font-size: 1.1rem !important; }
+        p { font-size: 0.95rem !important; line-height: 1.6 !important; }
+
+        /* Main content padding */
+        main { 
+            padding-left: 16px !important; 
+            padding-right: 16px !important;
+            padding-top: 100px !important;
+            max-width: 100vw !important;
+            overflow-x: hidden !important;
+        }
+
+        /* All sections full width */
+        section, .glass-card, .flex, .grid {
+            max-width: 100% !important;
+            width: 100% !important;
+        }
+
+        /* Grids to single column */
+        .grid { grid-template-columns: 1fr !important; gap: 16px !important; }
+        [class*="col-span"] { grid-column: span 1 !important; }
+        [class*="grid-cols"] { grid-template-columns: 1fr !important; }
+        .grid-cols-3 { grid-template-columns: 1fr !important; }
+        .grid-cols-2 { grid-template-columns: 1fr 1fr !important; }
+
+        /* Flex stacking */
+        .flex { flex-wrap: wrap !important; }
+        [class*="gap-12"] { gap: 20px !important; }
+        [class*="gap-8"] { gap: 16px !important; }
+
+        /* Padding reduction */
+        [class*="px-8"] { padding-left: 16px !important; padding-right: 16px !important; }
+        [class*="p-10"] { padding: 16px !important; }
+        [class*="p-8"] { padding: 14px !important; }
+        [class*="pt-32"] { padding-top: 100px !important; }
+
+        /* Nav */
+        .mob-nav { width: calc(100% - 24px) !important; padding: 8px 16px !important; }
+
+        /* Buttons full width */
+        .w-full { width: 100% !important; }
+
+        /* Stats row */
+        .stat-value { font-size: 1.6rem !important; }
+
+        /* Fix CTA buttons rendering as text */
+        .mt-6.flex.gap-4 { 
+            flex-direction: column !important; 
+            width: 100% !important;
+        }
+        .mt-6.flex.gap-4 button {
+            width: 100% !important;
+            text-align: center !important;
+        }
+
+        /* Footer */
+        footer { 
+            flex-direction: column !important; 
+            padding: 20px 16px !important;
+            text-align: center !important;
+        }
+        footer .flex { justify-content: center !important; flex-wrap: wrap !important; }
+    }
+    </style>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-W4GC6JNEDK"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-W4GC6JNEDK');
+    </script>
+</head>
+<body class="min-h-screen flex flex-col items-center grid-bg">
+
+<style id="mobile-nav-css">
+.mob-nav {
+    position: fixed;
+    top: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+    width: calc(100% - 32px);
+    max-width: 1200px;
+    background: rgba(0,0,0,0.9);
+    border: 1px solid rgba(255,255,255,0.1);
+    backdrop-filter: blur(20px);
+    border-radius: 40px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; align-items: center;
+}
+.mob-nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+}
+.mob-nav-logo img { height: 24px; width: auto; }
+.mob-nav-links {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+.mob-nav-links a {
+    color: rgba(255,255,255,0.6);
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    text-decoration: none;
+}
+.mob-nav-links a:hover { color: white; }
+.mob-nav-btn {
+    background: white;
+    color: black;
+    padding: 6px 16px;
+    border-radius: 100px;
+    font-size: 11px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+.mob-nav-btn:hover { background: #00FF41; }
+.ham-btn {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+    padding: 4px;
+    background: none;
+    border: none;
+}
+.ham-btn span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    background: white;
+    border-radius: 2px;
+}
+.mob-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.97);
+    z-index: 998;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 36px;
+}
+.mob-overlay.open { display: flex; }
+.mob-overlay a {
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    text-decoration: none;
+}
+.mob-overlay a:hover { color: #00FF41; }
+.mob-overlay .close-btn {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    background: none;
+    border: none;
+    line-height: 1;
+}
+.mob-overlay .book-link {
+    color: #00FF41 !important;
+    border: 1px solid #00FF41;
+    padding: 12px 32px;
+    border-radius: 100px;
+    margin-top: 16px;
+}
+.status-dot-mob {
+    width: 8px;
+    height: 8px;
+    background: #00FF41;
+    border-radius: 50%;
+    box-shadow: 0 0 8px #00FF41;
+    flex-shrink: 0;
+}
+@media (max-width: 768px) {
+    .mob-nav-links { display: none !important; }
+    .mob-nav-btn { display: none !important; }
+    .ham-btn { display: flex !important; }
+}
+@media (min-width: 769px) {
+    .ham-btn { display: none !important; }
+    .mob-overlay { display: none !important; }
+}
+</style>
+
+<nav class="mob-nav">
+    <div class="mob-nav-logo">
+        <div class="status-dot-mob"></div>
+        <img src="COD3AI LOGO 8.png" alt="C0D3AI">
+    </div>
+    <div class="mob-nav-links">
+        <a href='/'>Home</a>
+        <a href='/solutions'>Solutions</a>
+        <a href='/case-studies'>Case Studies</a>
+        <a href='/pricing'>Pricing</a>
+        <a href='/roi-calculator'>ROI Calculator</a>
+    </div>
+    <a class="mob-nav-btn" href="mailto:kolbykolibas@gmail.com?subject=I'd%20like%20to%20connect%20with%20C0D3AI">Book a Call</a>
+    <button class="ham-btn" style="margin-left:auto;padding:4px 0 4px 16px;flex-shrink:0;" onclick="document.getElementById('mobOverlay').classList.add('open')">
+        <span></span><span></span><span></span>
+    </button>
+</nav>
+
+<div class="mob-overlay" id="mobOverlay">
+    <button class="close-btn" onclick="document.getElementById('mobOverlay').classList.remove('open')">✕</button>
+    <a href='/' onclick='document.getElementById(\'mobOverlay\').classList.remove(\'open\')'>Home</a>
+    <a href='/solutions' onclick='document.getElementById(\'mobOverlay\').classList.remove(\'open\')'>Solutions</a>
+    <a href='/case-studies' onclick='document.getElementById(\'mobOverlay\').classList.remove(\'open\')'>Case Studies</a>
+    <a href='/pricing' onclick='document.getElementById(\'mobOverlay\').classList.remove(\'open\')'>Pricing</a>
+    <a href='/roi-calculator' onclick='document.getElementById(\'mobOverlay\').classList.remove(\'open\')'>ROI Calculator</a>
+    <a href='/integrations' onclick='document.getElementById(\'mobOverlay\').classList.remove(\'open\')'>Integrations</a>
+    <a class="book-link" href="mailto:kolbykolibas@gmail.com?subject=I'd%20like%20to%20connect%20with%20C0D3AI">Book a Call</a>
+</div>
+
+<div class="orb-blur" style="top:-200px;left:-100px;"></div>
+<div class="orb-blur" style="bottom:-200px;right:-100px;background:radial-gradient(circle,rgba(0,255,65,0.05) 0%,transparent 70%);"></div>
+
+
+    <!-- Mobile hamburger -->
+    <style>
+    .mobile-menu { display: none; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(0,0,0,0.95); z-index: 100; flex-direction: column; align-items: center; justify-content: center; gap: 32px; }
+    .mobile-menu.open { display: flex; }
+    .mobile-menu a { color: white; font-size: 1.4rem; font-weight: 900; text-transform: uppercase; letter-spacing: 0.1em; text-decoration: none; }
+    .mobile-menu a:hover { color: #00FF41; }
+    .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; z-index: 101; }
+    .hamburger span { width: 22px; height: 2px; background: white; border-radius: 2px; transition: all 0.3s; }
+    @media (max-width: 768px) { .hamburger { display: flex !important; } }
+    </style>
+
+    
+
+<main class="w-full max-w-7xl px-8 pt-32 pb-24">
+    <header class="mb-16">
+        <div class="meta-label mb-4 flex items-center">
+            <span class="mr-4">TECH STACK // VERIFIED INTEGRATIONS</span>
+            <div class="h-px flex-grow bg-white/10"></div>
+        </div>
+        <h1 class="text-huge">BUILT TO<br><span class="text-white/20">CONNECT</span></h1>
+        <p class="mt-6 text-white/50 text-lg max-w-2xl">We integrate with the tools your business already runs on. No rip-and-replace, no disruption. Just AI layered on top of what works.</p>
+    </header>
+
+    <section class="mb-14">
+        <div class="meta-label mb-5 flex items-center gap-3"><span>CRM & Automation Platforms</span><div class="h-px flex-grow bg-white/5"></div></div>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div class="icard"><div class="flex justify-between items-start"><span class="text-2xl">⚡</span><span class="tag tag-live">Live Deployed</span></div><p class="font-black text-sm">GoHighLevel</p><p class="text-xs text-white/40">Full sub-account builds, pipelines, AI agents, workflows, A2P SMS, marketplace apps</p></div>
+            <div class="icard"><div class="flex justify-between items-start"><span class="text-2xl">☁️</span><span class="tag tag-live">Live Deployed</span></div><p class="font-black text-sm">Salesforce</p><p class="text-xs text-white/40">CRM sync, lead routing, opportunity automation, newsletter integration</p></div>
+            <div class="icard"><div class="flex justify-between items-start"><span class="text-2xl">📋</span><span class="tag tag-ok">Supported</span></div><p class="font-black text-sm">HubSpot</p><p class="text-xs text-white/40">Contact sync, deal automation, AI follow-up sequences</p></div>
+            <div class="icard"><div class="flex justify-between items-start"><span class="text-2xl">🏠</span><span class="tag tag-live">Live Deployed</span></div><p class="font-black text-sm">Rethink CRM</p><p class="text-xs text-white/40">Commercial real estate CRM with AI lease data sync</p></div>
+        </div>
+    </section>
+
+    <section class="mb-14">
+        <div class="meta-label mb-5 flex items-center gap-3"><span>AI Models & Voice Infrastructure</span><div class="h-px flex-grow bg-white/5"></div></div>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div class="icard"><div class="flex justify-between items-start"><span class="text-2xl">🤖</span><span class="tag tag-live">Live Deployed</span></div><p class="font-black text-sm">GPT-4.1 Mini</p><p class="text-xs text-white/40">AI voice agents for inbound calls, scheduling, patient intake, missed call recovery</p></div>
+            <div class="icard"><div class="flex justify-between items-start"><span class="text-2xl">💎</span><span class="tag tag-live">Live Deployed</span></div><p class="font-black text-sm">Google Gemini</p><p class="text-xs text-white/40">Lease abstraction, document intelligence, multi-modal PDF processing</p></div>
+            <div class="icard"><div class="flex justify-between items-start"><span class="text-2xl">🧠</span><span class="tag tag-ok">Supported</span></div><p class="font-black text-sm">Claude (Anthropic)</p><p class="text-xs text-white/40">Complex reasoning, long-context document analysis, agent orchestration</p></div>
+            <div class="icard"><div class="flex justify-between items-start"><span class="text-2xl">📞</span><span class="tag tag-live">Live Deployed</span></div><p class="font-black text-sm">Simplii / SIP Trunk</p><p class="text-xs text-white/40">VoIP config for AI voice agents across multi-location healthcare</p></div>
+        </div>
+    </section>
+
+    <section class="mb-14">
+        <div class="meta-label mb-5 flex items-center gap-3"><span>Healthcare, Payments & Compliance</span><div class="h-px flex-grow bg-white/5"></div></div>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div class="icard"><div class="flex justify-between items-start"><span class="text-2xl">🏥</span><span class="tag tag-live">Live Deployed</span></div><p class="font-black text-sm">ChiroTouch</p><p class="text-xs text-white/40">SQL bridge API for chiropractic EHR patient data syncing</p></div>
+            <div class="icard"><div class="flex justify-between items-start"><span class="text-2xl">💳</span><span class="tag tag-live">Live Deployed</span></div><p class="font-black text-sm">Accept Blue</p><p class="text-xs text-white/40">Payment gateway via Authorize.net emulator for BookingKoala</p></div>
+            <div class="icard"><div class="flex justify-between items-start"><span class="text-2xl">🔐</span><span class="tag tag-live">Live Deployed</span></div><p class="font-black text-sm">HIPAA Compliance</p><p class="text-xs text-white/40">BAA generation, HIPAA-compliant AI workflows, A2P SMS registration</p></div>
+            <div class="icard"><div class="flex justify-between items-start"><span class="text-2xl">📅</span><span class="tag tag-ok">Supported</span></div><p class="font-black text-sm">BookingKoala</p><p class="text-xs text-white/40">Scheduling platform with AI agent and payment gateway integration</p></div>
+        </div>
+    </section>
+
+    <section class="mb-14">
+        <div class="meta-label mb-5 flex items-center gap-3"><span>Development & Infrastructure</span><div class="h-px flex-grow bg-white/5"></div></div>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div class="icard"><div class="flex justify-between items-start"><span class="text-2xl">🟩</span><span class="tag tag-live">Live Deployed</span></div><p class="font-black text-sm">Node.js / Render</p><p class="text-xs text-white/40">OAuth backends, webhook servers, GHL marketplace app infrastructure</p></div>
+            <div class="icard"><div class="flex justify-between items-start"><span class="text-2xl">⚛️</span><span class="tag tag-live">Live Deployed</span></div><p class="font-black text-sm">React / TypeScript</p><p class="text-xs text-white/40">Custom SaaS apps, dashboards, and internal tools</p></div>
+            <div class="icard"><div class="flex justify-between items-start"><span class="text-2xl">🗄️</span><span class="tag tag-live">Live Deployed</span></div><p class="font-black text-sm">Supabase</p><p class="text-xs text-white/40">Postgres backend for directory platforms and SaaS products</p></div>
+            <div class="icard"><div class="flex justify-between items-start"><span class="text-2xl">🏢</span><span class="tag tag-live">Live Deployed</span></div><p class="font-black text-sm">Yardi</p><p class="text-xs text-white/40">Commercial real estate data export and CRM pipeline sync</p></div>
+        </div>
+    </section>
+
+    <section class="mb-14">
+        <div class="meta-label mb-5 flex items-center gap-3"><span>SEO, Web & Marketing</span><div class="h-px flex-grow bg-white/5"></div></div>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div class="icard"><div class="flex justify-between items-start"><span class="text-2xl">🔍</span><span class="tag tag-live">Live Deployed</span></div><p class="font-black text-sm">Google Search Console</p><p class="text-xs text-white/40">Mass indexing, 454-page submissions, technical SEO audits</p></div>
+            <div class="icard"><div class="flex justify-between items-start"><span class="text-2xl">📍</span><span class="tag tag-live">Live Deployed</span></div><p class="font-black text-sm">Google Business Profile</p><p class="text-xs text-white/40">Profile optimization, review strategy, local citation management</p></div>
+            <div class="icard"><div class="flex justify-between items-start"><span class="text-2xl">📘</span><span class="tag tag-live">Live Deployed</span></div><p class="font-black text-sm">Facebook Pixel</p><p class="text-xs text-white/40">Pixel installation, event tracking, retargeting setup</p></div>
+            <div class="icard"><div class="flex justify-between items-start"><span class="text-2xl">🌐</span><span class="tag tag-live">Live Deployed</span></div><p class="font-black text-sm">WordPress / Lovable</p><p class="text-xs text-white/40">Custom website builds with AI agents, local SEO, and booking integration</p></div>
+        </div>
+    </section>
+
+    <div class="glass-card p-10 flex flex-col md:flex-row items-center justify-between gap-8" style="border-color:rgba(0,255,65,0.1);background:rgba(0,255,65,0.02);">
+        <div>
+            <p class="meta-label mb-2">Don't see your tool?</p>
+            <h3 class="text-2xl font-black">We integrate with anything that has an API.</h3>
+            <p class="text-white/40 text-sm mt-2 max-w-lg">If your stack is not listed, we will scope it on the strategy call. If it has a webhook or API, we can automate it.</p>
+        </div class="bg-[#00FF41] text-black px-8 py-4 rounded-xl text-[11px] font-black uppercase tracking-widest hover:brightness-110 transition-all shadow-[0_0_20px_rgba(0,255,65,0.2)] whitespace-nowrap">Book a Strategy Call</button>
+    </div>
+</main>
+
+<footer class="w-full max-w-7xl px-8 border-t border-white/5 py-12 flex flex-col md:flex-row justify-between items-center gap-8">
+    <div class="flex gap-12">
+        <div class="flex flex-col"><span class="meta-label mb-2">Protocol</span><span class="text-[11px] font-bold">SECURE_AES_256</span></div>
+        <div class="flex flex-col"><span class="meta-label mb-2">Core</span><span class="text-[11px] font-bold">C0D3_X_09</span></div>
+        <div class="flex flex-col"><span class="meta-label mb-2">Availability</span><span class="text-[11px] font-bold text-green-400">READY</span></div>
+    </div>
+    <div class="text-[11px] font-mono text-white/20">2024 C0D3AI CONSULTING SYSTEMS. ALL RIGHTS RESERVED.</div>
+</footer>
+
+<script>
+document.addEventListener("mousemove", (e) => {
+    const orbs = document.querySelectorAll(".orb-blur");
+    const x = e.clientX / window.innerWidth;
+    const y = e.clientY / window.innerHeight;
+    orbs[0].style.transform = "translate(" + (x*40) + "px," + (y*40) + "px)";
+    orbs[1].style.transform = "translate(-" + (x*20) + "px,-" + (y*20) + "px)";
+});
+</script>
+</body></html>

@@ -1,0 +1,759 @@
+<html><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROI Calculator | Calculate Your AI Automation Savings | C0D3AI</title>
+    <!-- SEO Meta -->
+    <meta name="description" content="Use C0D3AI's free ROI calculator to see exactly how much time and money AI automation can save your business. Enter your metrics and get instant projections.">
+    <meta name="keywords" content="AI ROI calculator, automation savings calculator, AI cost savings, business automation ROI, how much can AI save my business">
+    <meta name="author" content="C0D3AI Systems">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://cod3ai.com/roi-calculator">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://cod3ai.com/roi-calculator">
+    <meta property="og:title" content="ROI Calculator | Calculate Your AI Automation Savings | C0D3AI">
+    <meta property="og:description" content="Use C0D3AI's free ROI calculator to see exactly how much time and money AI automation can save your business. Enter your metrics and get instant projections.">
+    <meta property="og:image" content="https://cod3ai.com/COD3AI LOGO 7.png">
+    <meta property="og:site_name" content="C0D3AI">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://cod3ai.com/roi-calculator">
+    <meta name="twitter:title" content="ROI Calculator | Calculate Your AI Automation Savings | C0D3AI">
+    <meta name="twitter:description" content="Use C0D3AI's free ROI calculator to see exactly how much time and money AI automation can save your business. Enter your metrics and get instant projections.">
+    <meta name="twitter:image" content="https://cod3ai.com/COD3AI LOGO 7.png">
+
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "C0D3AI",
+      "url": "https://cod3ai.com",
+      "logo": "https://cod3ai.com/COD3AI LOGO 7.png",
+      "description": "Custom AI agents and automation systems for healthcare, real estate, and home service businesses.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Gilbert",
+        "addressRegion": "AZ",
+        "addressCountry": "US"
+      },
+      "founder": "Kolby Kolibas",
+      "foundingDate": "2023",
+      "sameAs": ["https://cod3ai.com"]
+    }
+    </script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --neon-green: #00FF41;
+            --deep-purple: #120524;
+            --glass: rgba(255, 255, 255, 0.05);
+            --stroke: rgba(255, 255, 255, 0.1);
+        }
+        body {
+            background: radial-gradient(circle at top center, #1a0b2e 0%, #000000 100%);
+            color: white;
+            font-family: 'Inter', sans-serif;
+            overflow-x: hidden;
+            margin: 0;
+            cursor: crosshair;
+        }
+        .orb-blur {
+            position: fixed;
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(76, 33, 142, 0.2) 0%, transparent 70%);
+            z-index: -1;
+            filter: blur(80px);
+            pointer-events: none;
+        }
+        .dynamic-island {
+            background: rgba(0, 0, 0, 0.8);
+            border: 1px solid var(--stroke);
+            backdrop-filter: blur(20px);
+            border-radius: 40px;
+            padding: 8px 24px;
+            transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+        }
+        .glass-card {
+            background: var(--glass);
+            border: 1px solid var(--stroke);
+            backdrop-filter: blur(20px);
+            border-radius: 24px;
+            transition: all 0.3s ease;
+        }
+        .input-field {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid var(--stroke);
+            border-radius: 12px;
+            padding: 12px 16px;
+            color: white;
+            width: 100%;
+            transition: border-color 0.3s ease;
+            outline: none;
+        }
+        .input-field:focus { border-color: var(--neon-green); }
+        .meta-label {
+            font-size: 10px;
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            color: rgba(255, 255, 255, 0.5);
+            font-weight: 600;
+        }
+        .text-huge {
+            font-size: 5rem;
+            line-height: 0.85;
+            letter-spacing: -0.05em;
+            font-weight: 900;
+        }
+        .status-dot {
+            width: 6px;
+            height: 6px;
+            background: var(--neon-green);
+            border-radius: 50%;
+            display: inline-block;
+            margin-right: 6px;
+            box-shadow: 0 0 8px var(--neon-green);
+        }
+        .roi-gradient-text {
+            background: linear-gradient(180deg, #FFFFFF 0%, #00FF41 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .data-bar { transition: height 1s cubic-bezier(0.17, 0.67, 0.83, 0.67); }
+        @keyframes countUp {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .animate-count { animation: countUp 0.8s ease-out forwards; }
+        @keyframes pulse-green {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+        .pulse-green { animation: pulse-green 2s ease-in-out infinite; }
+    
+    /* ── MOBILE RESPONSIVE ── */
+    @media (max-width: 768px) {
+
+        /* Typography scale down */
+        .text-huge {
+            font-size: 3.2rem !important;
+            line-height: 0.9 !important;
+        }
+        h1 { font-size: 2.4rem !important; }
+        h2 { font-size: 1.8rem !important; }
+        h3 { font-size: 1.2rem !important; }
+
+        /* Nav */
+        .dynamic-island {
+            padding: 8px 16px !important;
+            gap: 12px !important;
+            border-radius: 20px !important;
+        }
+        .dynamic-island .hidden { display: none !important; }
+
+        /* Grid collapses */
+        .grid-cols-12,
+        .lg\:col-span-8,
+        .lg\:col-span-7,
+        .lg\:col-span-5,
+        .lg\:col-span-4,
+        .lg\:col-span-3 {
+            grid-column: span 12 !important;
+        }
+        .grid { grid-template-columns: 1fr !important; }
+        .md\:grid-cols-2 { grid-template-columns: 1fr !important; }
+        .md\:grid-cols-3 { grid-template-columns: 1fr !important; }
+        .md\:grid-cols-4 { grid-template-columns: 1fr 1fr !important; }
+        .lg\:grid-cols-3 { grid-template-columns: 1fr !important; }
+        .lg\:col-span-12 { grid-column: span 1 !important; }
+
+        /* Flex stacking */
+        .md\:flex-row { flex-direction: column !important; }
+        .flex-row { flex-wrap: wrap !important; }
+
+        /* Padding */
+        main, .main {
+            padding-left: 20px !important;
+            padding-right: 20px !important;
+            padding-top: 100px !important;
+        }
+        .px-8 { padding-left: 20px !important; padding-right: 20px !important; }
+        .p-10 { padding: 20px !important; }
+        .p-8 { padding: 16px !important; }
+        .gap-12 { gap: 24px !important; }
+        .gap-8 { gap: 16px !important; }
+
+        /* Fix orb blurs on mobile */
+        .orb-blur { width: 300px !important; height: 300px !important; }
+
+        /* Cards full width */
+        .glass-card { width: 100% !important; }
+
+        /* Stats row */
+        .stat-value { font-size: 1.8rem !important; }
+
+        /* Chart height */
+        .h-48 { height: 140px !important; }
+        .h-40 { height: 100px !important; }
+
+        /* Buttons */
+        button, .cta-button {
+            width: 100% !important;
+            text-align: center !important;
+        }
+
+        /* Footer */
+        footer {
+            flex-direction: column !important;
+            text-align: center !important;
+            gap: 16px !important;
+            padding: 24px 20px !important;
+        }
+        footer .flex { flex-wrap: wrap !important; justify-content: center !important; }
+
+        /* Hide decorative elements */
+        .orb-blur { opacity: 0.5 !important; }
+
+        /* Pricing cards */
+        .plan-card { width: 100% !important; }
+
+        /* Integration cards 2 col on mobile */
+        .grid-cols-4 { grid-template-columns: 1fr 1fr !important; }
+
+        /* Nav top spacing */
+        nav { top: 12px !important; }
+        .pt-32 { padding-top: 90px !important; }
+        .pt-40 { padding-top: 90px !important; }
+
+        /* ROI calculator */
+        .col-span-12 { grid-column: span 1 !important; }
+
+        /* Before/after metrics */
+        .metric-split { padding-left: 12px !important; }
+        .flex.items-baseline { flex-wrap: wrap !important; gap: 8px !important; }
+
+        /* Timeline */
+        .timeline-line { left: 10px !important; }
+
+        /* Hero CTA buttons */
+        .mt-6.flex.gap-4 { flex-direction: column !important; }
+
+        /* Table overflow */
+        table { display: block !important; overflow-x: auto !important; }
+
+        /* Hide non-essential decorative SVGs */
+        .pointer-events-none svg { display: none !important; }
+    }
+
+    @media (max-width: 480px) {
+        .text-huge { font-size: 2.6rem !important; }
+        .md\:grid-cols-4 { grid-template-columns: 1fr !important; }
+        .grid-cols-4 { grid-template-columns: 1fr !important; }
+        .dynamic-island { width: 95vw !important; justify-content: space-between !important; }
+    }
+
+    
+    
+        .dynamic-island { position: relative; }
+    }
+    @media (min-width: 769px) {
+        .hamburger { display: none !important; }
+        .mobile-menu { display: none !important; }
+    }
+
+    </style>
+
+    <style id="mobile-final-fix">
+    @media (max-width: 768px) {
+        /* Prevent horizontal overflow */
+        html, body { overflow-x: hidden !important; max-width: 100vw !important; }
+        * { box-sizing: border-box !important; }
+
+        /* Typography */
+        .text-huge { font-size: 2.4rem !important; line-height: 1 !important; }
+        h1 { font-size: 2rem !important; }
+        h2 { font-size: 1.6rem !important; }
+        h3 { font-size: 1.1rem !important; }
+        p { font-size: 0.95rem !important; line-height: 1.6 !important; }
+
+        /* Main content padding */
+        main { 
+            padding-left: 16px !important; 
+            padding-right: 16px !important;
+            padding-top: 100px !important;
+            max-width: 100vw !important;
+            overflow-x: hidden !important;
+        }
+
+        /* All sections full width */
+        section, .glass-card, .flex, .grid {
+            max-width: 100% !important;
+            width: 100% !important;
+        }
+
+        /* Grids to single column */
+        .grid { grid-template-columns: 1fr !important; gap: 16px !important; }
+        [class*="col-span"] { grid-column: span 1 !important; }
+        [class*="grid-cols"] { grid-template-columns: 1fr !important; }
+        .grid-cols-3 { grid-template-columns: 1fr !important; }
+        .grid-cols-2 { grid-template-columns: 1fr 1fr !important; }
+
+        /* Flex stacking */
+        .flex { flex-wrap: wrap !important; }
+        [class*="gap-12"] { gap: 20px !important; }
+        [class*="gap-8"] { gap: 16px !important; }
+
+        /* Padding reduction */
+        [class*="px-8"] { padding-left: 16px !important; padding-right: 16px !important; }
+        [class*="p-10"] { padding: 16px !important; }
+        [class*="p-8"] { padding: 14px !important; }
+        [class*="pt-32"] { padding-top: 100px !important; }
+
+        /* Nav */
+        .mob-nav { width: calc(100% - 24px) !important; padding: 8px 16px !important; }
+
+        /* Buttons full width */
+        .w-full { width: 100% !important; }
+
+        /* Stats row */
+        .stat-value { font-size: 1.6rem !important; }
+
+        /* Fix CTA buttons rendering as text */
+        .mt-6.flex.gap-4 { 
+            flex-direction: column !important; 
+            width: 100% !important;
+        }
+        .mt-6.flex.gap-4 button {
+            width: 100% !important;
+            text-align: center !important;
+        }
+
+        /* Footer */
+        footer { 
+            flex-direction: column !important; 
+            padding: 20px 16px !important;
+            text-align: center !important;
+        }
+        footer .flex { justify-content: center !important; flex-wrap: wrap !important; }
+    }
+    </style>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-W4GC6JNEDK"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-W4GC6JNEDK');
+    </script>
+</head>
+<body class="min-h-screen flex flex-col items-center">
+
+<style id="mobile-nav-css">
+.mob-nav {
+    position: fixed;
+    top: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+    width: calc(100% - 32px);
+    max-width: 1200px;
+    background: rgba(0,0,0,0.9);
+    border: 1px solid rgba(255,255,255,0.1);
+    backdrop-filter: blur(20px);
+    border-radius: 40px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; align-items: center;
+}
+.mob-nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+}
+.mob-nav-logo img { height: 24px; width: auto; }
+.mob-nav-links {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+.mob-nav-links a {
+    color: rgba(255,255,255,0.6);
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    text-decoration: none;
+}
+.mob-nav-links a:hover { color: white; }
+.mob-nav-btn {
+    background: white;
+    color: black;
+    padding: 6px 16px;
+    border-radius: 100px;
+    font-size: 11px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+.mob-nav-btn:hover { background: #00FF41; }
+.ham-btn {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+    padding: 4px;
+    background: none;
+    border: none;
+}
+.ham-btn span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    background: white;
+    border-radius: 2px;
+}
+.mob-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.97);
+    z-index: 998;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 36px;
+}
+.mob-overlay.open { display: flex; }
+.mob-overlay a {
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    text-decoration: none;
+}
+.mob-overlay a:hover { color: #00FF41; }
+.mob-overlay .close-btn {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    background: none;
+    border: none;
+    line-height: 1;
+}
+.mob-overlay .book-link {
+    color: #00FF41 !important;
+    border: 1px solid #00FF41;
+    padding: 12px 32px;
+    border-radius: 100px;
+    margin-top: 16px;
+}
+.status-dot-mob {
+    width: 8px;
+    height: 8px;
+    background: #00FF41;
+    border-radius: 50%;
+    box-shadow: 0 0 8px #00FF41;
+    flex-shrink: 0;
+}
+@media (max-width: 768px) {
+    .mob-nav-links { display: none !important; }
+    .mob-nav-btn { display: none !important; }
+    .ham-btn { display: flex !important; }
+}
+@media (min-width: 769px) {
+    .ham-btn { display: none !important; }
+    .mob-overlay { display: none !important; }
+}
+</style>
+
+<nav class="mob-nav">
+    <div class="mob-nav-logo">
+        <div class="status-dot-mob"></div>
+        <img src="COD3AI LOGO 8.png" alt="C0D3AI">
+    </div>
+    <div class="mob-nav-links">
+        <a href='/'>Home</a>
+        <a href='/solutions'>Solutions</a>
+        <a href='/case-studies'>Case Studies</a>
+        <a href='/pricing'>Pricing</a>
+        <a href='/roi-calculator'>ROI Calculator</a>
+    </div>
+    <a class="mob-nav-btn" href="mailto:kolbykolibas@gmail.com?subject=I'd%20like%20to%20connect%20with%20C0D3AI">Book a Call</a>
+    <button class="ham-btn" style="margin-left:auto;padding:4px 0 4px 16px;flex-shrink:0;" onclick="document.getElementById('mobOverlay').classList.add('open')">
+        <span></span><span></span><span></span>
+    </button>
+</nav>
+
+<div class="mob-overlay" id="mobOverlay">
+    <button class="close-btn" onclick="document.getElementById('mobOverlay').classList.remove('open')">✕</button>
+    <a href='/' onclick='document.getElementById(\'mobOverlay\').classList.remove(\'open\')'>Home</a>
+    <a href='/solutions' onclick='document.getElementById(\'mobOverlay\').classList.remove(\'open\')'>Solutions</a>
+    <a href='/case-studies' onclick='document.getElementById(\'mobOverlay\').classList.remove(\'open\')'>Case Studies</a>
+    <a href='/pricing' onclick='document.getElementById(\'mobOverlay\').classList.remove(\'open\')'>Pricing</a>
+    <a href='/roi-calculator' onclick='document.getElementById(\'mobOverlay\').classList.remove(\'open\')'>ROI Calculator</a>
+    <a href='/integrations' onclick='document.getElementById(\'mobOverlay\').classList.remove(\'open\')'>Integrations</a>
+    <a class="book-link" href="mailto:kolbykolibas@gmail.com?subject=I'd%20like%20to%20connect%20with%20C0D3AI">Book a Call</a>
+</div>
+
+
+    <div class="orb-blur" style="top: -200px; left: -100px;"></div>
+    <div class="orb-blur" style="bottom: -200px; right: -100px; background: radial-gradient(circle, rgba(0, 255, 65, 0.05) 0%, transparent 70%);"></div>
+
+    
+    <!-- Mobile hamburger -->
+    <style>
+    .mobile-menu { display: none; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(0,0,0,0.95); z-index: 100; flex-direction: column; align-items: center; justify-content: center; gap: 32px; }
+    .mobile-menu.open { display: flex; }
+    .mobile-menu a { color: white; font-size: 1.4rem; font-weight: 900; text-transform: uppercase; letter-spacing: 0.1em; text-decoration: none; }
+    .mobile-menu a:hover { color: #00FF41; }
+    .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; z-index: 101; }
+    .hamburger span { width: 22px; height: 2px; background: white; border-radius: 2px; transition: all 0.3s; }
+    @media (max-width: 768px) { .hamburger { display: flex !important; } }
+    </style>
+
+    
+
+    <main class="w-full max-w-7xl px-8 pt-32 pb-24 grid grid-cols-12 gap-12 items-start">
+        
+        <div class="col-span-12 lg:col-span-5 flex flex-col gap-8">
+            <div class="flex flex-col">
+                <div class="meta-label mb-4 flex items-center">
+                    <span class="mr-4">C0D3AI // ROI PROJECTION ENGINE</span>
+                    <div class="h-[1px] flex-grow bg-white/10"></div>
+                </div>
+                <h1 class="text-6xl font-black leading-tight">
+                    ENGINEERED<br>
+                    <span class="text-white/20">PROFITABILITY</span>
+                </h1>
+                <p class="mt-4 text-sm text-white/50 leading-relaxed max-w-sm">
+                    Enter your business metrics to calculate the real cost of manual work — and what AI automation puts back on your bottom line.
+                </p>
+            </div>
+
+            <div class="glass-card p-8 flex flex-col gap-6">
+                <div>
+                    <label class="meta-label mb-2 block">Industry Vertical</label>
+                    <select id="industry" class="input-field appearance-none bg-[#1a0b2e]">
+                        <option value="healthcare">Healthcare &amp; Medical</option>
+                        <option value="realestate">Real Estate</option>
+                        <option value="homeservices">Home Services</option>
+                        <option value="legal">Legal &amp; Compliance</option>
+                        <option value="other">Custom / Other</option>
+                    </select>
+                </div>
+                
+                <div>
+                    <label class="meta-label mb-2 block">Total Employees</label>
+                    <input type="number" id="employees" value="20" min="1" class="input-field">
+                </div>
+
+                <div>
+                    <label class="meta-label mb-2 block">Manual Hours Per Employee / Week</label>
+                    <input type="number" id="manualHours" value="110" min="1" class="input-field">
+                </div>
+
+                 id="calcBtn" class="w-full bg-[#00FF41] text-black py-4 rounded-xl font-black uppercase text-xs tracking-widest hover:brightness-110 transition-all shadow-[0_0_20px_rgba(0,255,65,0.2)]">
+                    Calculate My ROI
+                </button>
+            </div>
+        </div>
+
+        <div class="col-span-12 lg:col-span-7">
+            <div class="glass-card p-10 min-h-[500px] flex flex-col justify-between relative overflow-hidden">
+                <div class="flex justify-between items-start mb-12">
+                    <div>
+                        <span class="meta-label">Est. Annual Savings</span>
+                        <div class="flex items-baseline gap-2">
+                            <h2 id="annualSavings" class="text-huge roi-gradient-text animate-count">$0</h2>
+                            <span id="roiMultiplier" class="text-neon-green font-bold text-xl">+0x</span>
+                        </div>
+                    </div>
+                    <div class="text-right">
+                        <span class="meta-label">Efficiency Gain</span>
+                        <div id="efficiencyGain" class="text-3xl font-black text-white/90 animate-count" style="animation-delay: 0.2s;">0%</div>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-2 gap-8 mb-12">
+                    <div class="border-l-2 border-white/10 pl-6">
+                        <span class="meta-label block mb-1">Time Reclaimed</span>
+                        <div class="text-2xl font-bold text-white/40"><span id="timeReclaimed" class="text-white">0</span> hr/yr</div>
+                    </div>
+                    <div class="border-l-2 border-neon-green/30 pl-6">
+                        <span class="meta-label block mb-1">Cost Per Manual Task</span>
+                        <div class="text-2xl font-bold text-white/40">-$<span id="costPerTask" class="text-white">0.00</span></div>
+                    </div>
+                </div>
+
+                <div class="relative h-48 flex items-end justify-between gap-2">
+                    <div class="absolute inset-0 flex flex-col justify-between opacity-10 pointer-events-none">
+                        <div class="border-t border-white h-0 w-full"></div>
+                        <div class="border-t border-white h-0 w-full"></div>
+                        <div class="border-t border-white h-0 w-full"></div>
+                    </div>
+                    
+                    <!-- Baseline bars (dim) -->
+                    <div id="bar1" class="flex-1 bg-white/5 data-bar" style="height: 0%"></div>
+                    <div id="bar2" class="flex-1 bg-white/5 data-bar" style="height: 0%"></div>
+                    <div id="bar3" class="flex-1 bg-white/10 data-bar" style="height: 0%"></div>
+                    <div id="bar4" class="flex-1 bg-white/5 data-bar" style="height: 0%"></div>
+                    <!-- Phase 4 bar (highlight) -->
+                    <div id="bar5" class="flex-1 bg-white/10 data-bar" style="height: 0%"></div>
+                    <div id="bar6" class="flex-1 bg-neon-green/40 data-bar border-t-2 border-neon-green" style="height: 0%"></div>
+                    <!-- System Maturity bar (peak) -->
+                    <div id="bar7" class="flex-1 bg-neon-green data-bar shadow-[0_0_30px_rgba(0,255,65,0.5)]" style="height: 0%"></div>
+                    <div id="bar8" class="flex-1 bg-white/5 data-bar" style="height: 0%"></div>
+                    <div id="bar9" class="flex-1 bg-white/5 data-bar" style="height: 0%"></div>
+                    <div id="bar10" class="flex-1 bg-white/5 data-bar" style="height: 0%"></div>
+                    
+                    <div class="absolute -right-12 -bottom-12 opacity-10 pointer-events-none">
+                        <svg width="240" height="240" viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="45" stroke="white" stroke-width="0.5" fill="none"></circle>
+                            <circle cx="50" cy="50" r="35" stroke="white" stroke-width="0.5" fill="none" stroke-dasharray="2 2"></circle>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="mt-6 flex justify-between meta-label text-[8px]">
+                    <span>Current Baseline</span>
+                    <span class="text-neon-green">Phase 4 Deployment</span>
+                    <span>System Maturity</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="w-full max-w-7xl px-8 border-t border-white/5 py-12 flex flex-col md:flex-row justify-between items-center gap-8">
+        <div class="flex gap-12">
+            <div class="flex flex-col">
+                <span class="meta-label mb-2">Simulation Mode</span>
+                <span class="text-[11px] font-bold">MONTE_CARLO_V3</span>
+            </div>
+            <div class="flex flex-col">
+                <span class="meta-label mb-2">Data Integrity</span>
+                <span class="text-[11px] font-bold text-green-400">VERIFIED</span>
+            </div>
+        </div>
+        <div class="text-[11px] font-mono text-white/20">
+            © 2024 C0D3AI_CONSULTING_SYSTEMS // PROJECTION_MODEL: AUTONOMOUS_V1
+        </div>
+    </footer>
+
+    <script>
+        // Orb mouse tracking
+        document.addEventListener('mousemove', (e) => {
+            const orbs = document.querySelectorAll('.orb-blur');
+            const x = e.clientX / window.innerWidth;
+            const y = e.clientY / window.innerHeight;
+            orbs[0].style.transform = `translate(${x * 50}px, ${y * 50}px)`;
+            orbs[1].style.transform = `translate(-${x * 30}px, -${y * 30}px)`;
+        });
+
+        // Industry config
+        const industryConfig = {
+            healthcare:   { rate: 48, efficiency: 82 },
+            realestate:   { rate: 55, efficiency: 79 },
+            homeservices: { rate: 28, efficiency: 74 },
+            legal:        { rate: 75, efficiency: 85 },
+            other:        { rate: 40, efficiency: 78 }
+        };
+
+        function formatSavings(n) {
+            if (n >= 1000000) return '$' + (n / 1000000).toFixed(2) + 'M';
+            if (n >= 1000) return '$' + (n / 1000).toFixed(1) + 'K';
+            return '$' + Math.round(n);
+        }
+
+        function formatNumber(n) {
+            return Math.round(n).toLocaleString();
+        }
+
+        function animateValue(el, newText) {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(8px)';
+            setTimeout(() => {
+                el.textContent = newText;
+                el.style.transition = 'opacity 0.4s ease, transform 0.4s ease';
+                el.style.opacity = '1';
+                el.style.transform = 'translateY(0)';
+            }, 150);
+        }
+
+        function calculate() {
+            const industry = document.getElementById('industry').value;
+            const employees = parseFloat(document.getElementById('employees').value) || 0;
+            const hoursPerWeek = parseFloat(document.getElementById('manualHours').value) || 0;
+
+            const config = industryConfig[industry];
+            const rate = config.rate;
+            const efficiency = config.efficiency;
+
+            const totalManualHours = employees * hoursPerWeek * 52;
+            const automatedHours = totalManualHours * (efficiency / 100);
+            const annualSavings = automatedHours * rate;
+            const multiplier = annualSavings / 2500;
+            const costPerTask = (rate / 60) * 12;
+
+            // Update displays
+            animateValue(document.getElementById('annualSavings'), formatSavings(annualSavings));
+            animateValue(document.getElementById('roiMultiplier'), '+' + multiplier.toFixed(1) + 'x');
+            animateValue(document.getElementById('efficiencyGain'), efficiency + '%');
+            animateValue(document.getElementById('timeReclaimed'), formatNumber(automatedHours));
+            animateValue(document.getElementById('costPerTask'), costPerTask.toFixed(2));
+
+            // Animate bars — scale to inputs
+            const baselinePct = 20 + Math.min(employees, 50);
+            const phase4Pct = baselinePct + (efficiency * 0.5);
+            const maturityPct = 100;
+
+            const barHeights = [
+                baselinePct * 0.6,
+                baselinePct * 0.75,
+                baselinePct * 0.85,
+                baselinePct,
+                phase4Pct * 0.7,
+                phase4Pct * 0.9,
+                maturityPct,
+                maturityPct * 0.78,
+                maturityPct * 0.70,
+                maturityPct * 0.82
+            ];
+
+            for (let i = 1; i <= 10; i++) {
+                const bar = document.getElementById('bar' + i);
+                bar.style.height = '0%';
+                setTimeout(() => {
+                    bar.style.height = barHeights[i - 1] + '%';
+                }, i * 60);
+            }
+        }
+
+        // Wire up button and live inputs
+        document.getElementById('calcBtn').addEventListener('click', calculate);
+        document.getElementById('industry').addEventListener('change', calculate);
+        document.getElementById('employees').addEventListener('input', calculate);
+        document.getElementById('manualHours').addEventListener('input', calculate);
+
+        // Run on load
+        window.addEventListener('load', calculate);
+    </script>
+
+</body></html>

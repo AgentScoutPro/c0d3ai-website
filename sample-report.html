@@ -1,0 +1,737 @@
+<html lang="en" vid="0"><head vid="1">
+    <meta charset="UTF-8" vid="2">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" vid="3">
+    <title>Sample AI Automation Report | See What You Get | C0D3AI</title>
+    <!-- SEO Meta -->
+    <meta name="description" content="See a real C0D3AI automation report. Detailed ROI analysis, workflow mapping, and deployment summary for a live client engagement.">
+    <meta name="keywords" content="AI automation report, ROI report, automation audit, AI deployment summary, C0D3AI report">
+    <meta name="author" content="C0D3AI Systems">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://cod3ai.com/sample-report">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://cod3ai.com/sample-report">
+    <meta property="og:title" content="Sample AI Automation Report | See What You Get | C0D3AI">
+    <meta property="og:description" content="See a real C0D3AI automation report. Detailed ROI analysis, workflow mapping, and deployment summary for a live client engagement.">
+    <meta property="og:image" content="https://cod3ai.com/COD3AI LOGO 7.png">
+    <meta property="og:site_name" content="C0D3AI">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://cod3ai.com/sample-report">
+    <meta name="twitter:title" content="Sample AI Automation Report | See What You Get | C0D3AI">
+    <meta name="twitter:description" content="See a real C0D3AI automation report. Detailed ROI analysis, workflow mapping, and deployment summary for a live client engagement.">
+    <meta name="twitter:image" content="https://cod3ai.com/COD3AI LOGO 7.png">
+
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "C0D3AI",
+      "url": "https://cod3ai.com",
+      "logo": "https://cod3ai.com/COD3AI LOGO 7.png",
+      "description": "Custom AI agents and automation systems for healthcare, real estate, and home service businesses.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Gilbert",
+        "addressRegion": "AZ",
+        "addressCountry": "US"
+      },
+      "founder": "Kolby Kolibas",
+      "foundingDate": "2023",
+      "sameAs": ["https://cod3ai.com"]
+    }
+    </script>
+
+    <script src="https://cdn.tailwindcss.com" vid="5"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" vid="6">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" vid="7">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&amp;display=swap" rel="stylesheet" vid="8">
+    <style vid="9">
+        :root {
+            --neon-green: #00E5FF;
+            --deep-navy: #000814;
+            --glass: rgba(255, 255, 255, 0.05);
+            --stroke: rgba(255, 255, 255, 0.1);
+        }
+
+        body {
+            background: radial-gradient(circle at top center, #050D1A 0%, #000814 100%);
+            color: white;
+            font-family: 'Inter', sans-serif;
+            overflow-x: hidden;
+            margin: 0;
+            cursor: crosshair;
+        }
+
+        .orb-blur {
+            position: fixed;
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(0, 229, 255, 0.1) 0%, transparent 70%);
+            z-index: -1;
+            filter: blur(80px);
+            pointer-events: none;
+        }
+
+        .dynamic-island {
+            background: rgba(0, 8, 20, 0.85);
+            border: 1px solid var(--stroke);
+            backdrop-filter: blur(20px);
+            border-radius: 40px;
+            padding: 8px 24px;
+            transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+        }
+
+        .glass-card {
+            background: var(--glass);
+            border: 1px solid var(--stroke);
+            backdrop-filter: blur(20px);
+            border-radius: 24px;
+            transition: transform 0.3s ease, border-color 0.3s ease;
+        }
+
+        .glass-card:hover {
+            border-color: rgba(0, 229, 255, 0.2);
+        }
+
+        .status-dot {
+            width: 8px;
+            height: 8px;
+            background: var(--neon-green);
+            border-radius: 50%;
+            display: inline-block;
+            box-shadow: 0 0 12px var(--neon-green);
+            animation: pulse-dot 2s infinite ease-in-out;
+        }
+
+        @keyframes pulse-dot {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.6; transform: scale(1.2); }
+        }
+
+        .meta-label {
+            font-size: 10px;
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            color: rgba(255, 255, 255, 0.5);
+            font-weight: 600;
+        }
+
+        .stat-value {
+            font-size: 2.5rem;
+            font-weight: 900;
+            letter-spacing: -0.02em;
+            line-height: 1;
+        }
+
+        .grid-bg {
+            background-image: linear-gradient(rgba(0, 229, 255, 0.03) 1px, transparent 1px), 
+                              linear-gradient(90deg, rgba(0, 229, 255, 0.03) 1px, transparent 1px);
+            background-size: 40px 40px;
+        }
+
+        .health-bar {
+            height: 4px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 2px;
+            overflow: hidden;
+        }
+
+        .health-fill {
+            height: 100%;
+            background: var(--neon-green);
+            box-shadow: 0 0 10px var(--neon-green);
+        }
+
+        .ticker-text {
+            animation: ticker 15s linear infinite;
+        }
+
+        @keyframes ticker {
+            0% { transform: translateY(0); }
+            100% { transform: translateY(-50%); }
+        }
+
+        .active-ring {
+            border: 1px solid var(--neon-green);
+            box-shadow: 0 0 15px rgba(0, 229, 255, 0.15);
+        }
+    
+    /* ── MOBILE RESPONSIVE ── */
+    @media (max-width: 768px) {
+
+        /* Typography scale down */
+        .text-huge {
+            font-size: 3.2rem !important;
+            line-height: 0.9 !important;
+        }
+        h1 { font-size: 2.4rem !important; }
+        h2 { font-size: 1.8rem !important; }
+        h3 { font-size: 1.2rem !important; }
+
+        /* Nav */
+        .dynamic-island {
+            padding: 8px 16px !important;
+            gap: 12px !important;
+            border-radius: 20px !important;
+        }
+        .dynamic-island .hidden { display: none !important; }
+
+        /* Grid collapses */
+        .grid-cols-12,
+        .lg\:col-span-8,
+        .lg\:col-span-7,
+        .lg\:col-span-5,
+        .lg\:col-span-4,
+        .lg\:col-span-3 {
+            grid-column: span 12 !important;
+        }
+        .grid { grid-template-columns: 1fr !important; }
+        .md\:grid-cols-2 { grid-template-columns: 1fr !important; }
+        .md\:grid-cols-3 { grid-template-columns: 1fr !important; }
+        .md\:grid-cols-4 { grid-template-columns: 1fr 1fr !important; }
+        .lg\:grid-cols-3 { grid-template-columns: 1fr !important; }
+        .lg\:col-span-12 { grid-column: span 1 !important; }
+
+        /* Flex stacking */
+        .md\:flex-row { flex-direction: column !important; }
+        .flex-row { flex-wrap: wrap !important; }
+
+        /* Padding */
+        main, .main {
+            padding-left: 20px !important;
+            padding-right: 20px !important;
+            padding-top: 100px !important;
+        }
+        .px-8 { padding-left: 20px !important; padding-right: 20px !important; }
+        .p-10 { padding: 20px !important; }
+        .p-8 { padding: 16px !important; }
+        .gap-12 { gap: 24px !important; }
+        .gap-8 { gap: 16px !important; }
+
+        /* Fix orb blurs on mobile */
+        .orb-blur { width: 300px !important; height: 300px !important; }
+
+        /* Cards full width */
+        .glass-card { width: 100% !important; }
+
+        /* Stats row */
+        .stat-value { font-size: 1.8rem !important; }
+
+        /* Chart height */
+        .h-48 { height: 140px !important; }
+        .h-40 { height: 100px !important; }
+
+        /* Buttons */
+        button, .cta-button {
+            width: 100% !important;
+            text-align: center !important;
+        }
+
+        /* Footer */
+        footer {
+            flex-direction: column !important;
+            text-align: center !important;
+            gap: 16px !important;
+            padding: 24px 20px !important;
+        }
+        footer .flex { flex-wrap: wrap !important; justify-content: center !important; }
+
+        /* Hide decorative elements */
+        .orb-blur { opacity: 0.5 !important; }
+
+        /* Pricing cards */
+        .plan-card { width: 100% !important; }
+
+        /* Integration cards 2 col on mobile */
+        .grid-cols-4 { grid-template-columns: 1fr 1fr !important; }
+
+        /* Nav top spacing */
+        nav { top: 12px !important; }
+        .pt-32 { padding-top: 90px !important; }
+        .pt-40 { padding-top: 90px !important; }
+
+        /* ROI calculator */
+        .col-span-12 { grid-column: span 1 !important; }
+
+        /* Before/after metrics */
+        .metric-split { padding-left: 12px !important; }
+        .flex.items-baseline { flex-wrap: wrap !important; gap: 8px !important; }
+
+        /* Timeline */
+        .timeline-line { left: 10px !important; }
+
+        /* Hero CTA buttons */
+        .mt-6.flex.gap-4 { flex-direction: column !important; }
+
+        /* Table overflow */
+        table { display: block !important; overflow-x: auto !important; }
+
+        /* Hide non-essential decorative SVGs */
+        .pointer-events-none svg { display: none !important; }
+    }
+
+    @media (max-width: 480px) {
+        .text-huge { font-size: 2.6rem !important; }
+        .md\:grid-cols-4 { grid-template-columns: 1fr !important; }
+        .grid-cols-4 { grid-template-columns: 1fr !important; }
+        .dynamic-island { width: 95vw !important; justify-content: space-between !important; }
+    }
+
+    
+    
+        .dynamic-island { position: relative; }
+    }
+    @media (min-width: 769px) {
+        .hamburger { display: none !important; }
+        .mobile-menu { display: none !important; }
+    }
+
+    </style>
+
+    <style id="mobile-final-fix">
+    @media (max-width: 768px) {
+        /* Prevent horizontal overflow */
+        html, body { overflow-x: hidden !important; max-width: 100vw !important; }
+        * { box-sizing: border-box !important; }
+
+        /* Typography */
+        .text-huge { font-size: 2.4rem !important; line-height: 1 !important; }
+        h1 { font-size: 2rem !important; }
+        h2 { font-size: 1.6rem !important; }
+        h3 { font-size: 1.1rem !important; }
+        p { font-size: 0.95rem !important; line-height: 1.6 !important; }
+
+        /* Main content padding */
+        main { 
+            padding-left: 16px !important; 
+            padding-right: 16px !important;
+            padding-top: 100px !important;
+            max-width: 100vw !important;
+            overflow-x: hidden !important;
+        }
+
+        /* All sections full width */
+        section, .glass-card, .flex, .grid {
+            max-width: 100% !important;
+            width: 100% !important;
+        }
+
+        /* Grids to single column */
+        .grid { grid-template-columns: 1fr !important; gap: 16px !important; }
+        [class*="col-span"] { grid-column: span 1 !important; }
+        [class*="grid-cols"] { grid-template-columns: 1fr !important; }
+        .grid-cols-3 { grid-template-columns: 1fr !important; }
+        .grid-cols-2 { grid-template-columns: 1fr 1fr !important; }
+
+        /* Flex stacking */
+        .flex { flex-wrap: wrap !important; }
+        [class*="gap-12"] { gap: 20px !important; }
+        [class*="gap-8"] { gap: 16px !important; }
+
+        /* Padding reduction */
+        [class*="px-8"] { padding-left: 16px !important; padding-right: 16px !important; }
+        [class*="p-10"] { padding: 16px !important; }
+        [class*="p-8"] { padding: 14px !important; }
+        [class*="pt-32"] { padding-top: 100px !important; }
+
+        /* Nav */
+        .mob-nav { width: calc(100% - 24px) !important; padding: 8px 16px !important; }
+
+        /* Buttons full width */
+        .w-full { width: 100% !important; }
+
+        /* Stats row */
+        .stat-value { font-size: 1.6rem !important; }
+
+        /* Fix CTA buttons rendering as text */
+        .mt-6.flex.gap-4 { 
+            flex-direction: column !important; 
+            width: 100% !important;
+        }
+        .mt-6.flex.gap-4 button {
+            width: 100% !important;
+            text-align: center !important;
+        }
+
+        /* Footer */
+        footer { 
+            flex-direction: column !important; 
+            padding: 20px 16px !important;
+            text-align: center !important;
+        }
+        footer .flex { justify-content: center !important; flex-wrap: wrap !important; }
+    }
+    </style>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-W4GC6JNEDK"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-W4GC6JNEDK');
+    </script>
+</head>
+<body class="min-h-screen flex flex-col items-center grid-bg" vid="10">
+
+<style id="mobile-nav-css">
+.mob-nav {
+    position: fixed;
+    top: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+    width: calc(100% - 32px);
+    max-width: 1200px;
+    background: rgba(0,0,0,0.9);
+    border: 1px solid rgba(255,255,255,0.1);
+    backdrop-filter: blur(20px);
+    border-radius: 40px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; align-items: center;
+}
+.mob-nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+}
+.mob-nav-logo img { height: 24px; width: auto; }
+.mob-nav-links {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+.mob-nav-links a {
+    color: rgba(255,255,255,0.6);
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    text-decoration: none;
+}
+.mob-nav-links a:hover { color: white; }
+.mob-nav-btn {
+    background: white;
+    color: black;
+    padding: 6px 16px;
+    border-radius: 100px;
+    font-size: 11px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+.mob-nav-btn:hover { background: #00FF41; }
+.ham-btn {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+    padding: 4px;
+    background: none;
+    border: none;
+}
+.ham-btn span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    background: white;
+    border-radius: 2px;
+}
+.mob-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.97);
+    z-index: 998;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 36px;
+}
+.mob-overlay.open { display: flex; }
+.mob-overlay a {
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    text-decoration: none;
+}
+.mob-overlay a:hover { color: #00FF41; }
+.mob-overlay .close-btn {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    background: none;
+    border: none;
+    line-height: 1;
+}
+.mob-overlay .book-link {
+    color: #00FF41 !important;
+    border: 1px solid #00FF41;
+    padding: 12px 32px;
+    border-radius: 100px;
+    margin-top: 16px;
+}
+.status-dot-mob {
+    width: 8px;
+    height: 8px;
+    background: #00FF41;
+    border-radius: 50%;
+    box-shadow: 0 0 8px #00FF41;
+    flex-shrink: 0;
+}
+@media (max-width: 768px) {
+    .mob-nav-links { display: none !important; }
+    .mob-nav-btn { display: none !important; }
+    .ham-btn { display: flex !important; }
+}
+@media (min-width: 769px) {
+    .ham-btn { display: none !important; }
+    .mob-overlay { display: none !important; }
+}
+</style>
+
+<nav class="mob-nav">
+    <div class="mob-nav-logo">
+        <div class="status-dot-mob"></div>
+        <img src="COD3AI LOGO 8.png" alt="C0D3AI">
+    </div>
+    <div class="mob-nav-links">
+        <a href='/'>Home</a>
+        <a href='/solutions'>Solutions</a>
+        <a href='/case-studies'>Case Studies</a>
+        <a href='/pricing'>Pricing</a>
+        <a href='/roi-calculator'>ROI Calculator</a>
+    </div>
+    <a class="mob-nav-btn" href="mailto:kolbykolibas@gmail.com?subject=I'd%20like%20to%20connect%20with%20C0D3AI">Book a Call</a>
+    <button class="ham-btn" style="margin-left:auto;padding:4px 0 4px 16px;flex-shrink:0;" onclick="document.getElementById('mobOverlay').classList.add('open')">
+        <span></span><span></span><span></span>
+    </button>
+</nav>
+
+<div class="mob-overlay" id="mobOverlay">
+    <button class="close-btn" onclick="document.getElementById('mobOverlay').classList.remove('open')">✕</button>
+    <a href='/' onclick='document.getElementById(\'mobOverlay\').classList.remove(\'open\')'>Home</a>
+    <a href='/solutions' onclick='document.getElementById(\'mobOverlay\').classList.remove(\'open\')'>Solutions</a>
+    <a href='/case-studies' onclick='document.getElementById(\'mobOverlay\').classList.remove(\'open\')'>Case Studies</a>
+    <a href='/pricing' onclick='document.getElementById(\'mobOverlay\').classList.remove(\'open\')'>Pricing</a>
+    <a href='/roi-calculator' onclick='document.getElementById(\'mobOverlay\').classList.remove(\'open\')'>ROI Calculator</a>
+    <a href='/integrations' onclick='document.getElementById(\'mobOverlay\').classList.remove(\'open\')'>Integrations</a>
+    <a class="book-link" href="mailto:kolbykolibas@gmail.com?subject=I'd%20like%20to%20connect%20with%20C0D3AI">Book a Call</a>
+</div>
+
+
+    <div class="orb-blur" style="top: -100px; right: -100px; background: radial-gradient(circle, rgba(0, 229, 255, 0.08) 0%, transparent 70%);" vid="11"></div>
+    <div class="orb-blur" style="bottom: -100px; left: -100px; background: radial-gradient(circle, rgba(0, 100, 255, 0.08) 0%, transparent 70%);" vid="12"></div>
+
+    
+    
+    <!-- Mobile hamburger -->
+    <style>
+    .mobile-menu { display: none; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(0,0,0,0.95); z-index: 100; flex-direction: column; align-items: center; justify-content: center; gap: 32px; }
+    .mobile-menu.open { display: flex; }
+    .mobile-menu a { color: white; font-size: 1.4rem; font-weight: 900; text-transform: uppercase; letter-spacing: 0.1em; text-decoration: none; }
+    .mobile-menu a:hover { color: #00FF41; }
+    .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; z-index: 101; }
+    .hamburger span { width: 22px; height: 2px; background: white; border-radius: 2px; transition: all 0.3s; }
+    @media (max-width: 768px) { .hamburger { display: flex !important; } }
+    </style>
+
+    
+
+    
+    <main class="w-full max-w-7xl px-8 pt-32 pb-16 flex flex-col gap-8" vid="25">
+        
+        
+        <div class="flex justify-between items-end" vid="26">
+            <div vid="27">
+                <div class="meta-label mb-2 flex items-center gap-2" vid="28">
+                    <span vid="29">Active Deployment</span>
+                    <span class="text-white/20" vid="30">//</span>
+                    <span class="text-[#00E5FF]" vid="31">Stable Build 2.4.1</span>
+                </div>
+                <h1 class="text-5xl font-black tracking-tighter" vid="32">HEALTHCARE_OPS_V2</h1>
+            </div>
+            <div class="flex gap-4" vid="33">
+                <button class="glass-card px-6 py-3 text-[11px] font-black uppercase tracking-widest border-white/20 hover:bg-white hover:text-black transition-all" vid="34">Emergency Halt</button>
+                <button class="bg-[#00E5FF] text-[#000814] px-6 py-3 rounded-xl text-[11px] font-black uppercase tracking-widest shadow-[0_0_20px_rgba(0,229,255,0.3)] hover:scale-105 transition-all" vid="35">Scale Instance</button>
+            </div>
+        </div>
+
+        
+        <div class="grid grid-cols-12 gap-6" vid="36">
+            
+            
+            <div class="col-span-12 lg:col-span-8 grid grid-cols-3 gap-6" vid="37">
+                <div class="glass-card p-8 flex flex-col justify-between h-48" vid="38">
+                    <span class="meta-label" vid="39">Tasks Today</span>
+                    <div class="flex items-baseline gap-2" vid="40">
+                        <span class="stat-value" vid="41">1,284</span>
+                        <span class="text-[#00E5FF] text-xs font-bold" vid="42">+12%</span>
+                    </div>
+                    <div class="flex gap-1 h-2" vid="43">
+                        <div class="flex-grow bg-white/20 rounded-full" vid="44"></div>
+                        <div class="flex-grow bg-white/20 rounded-full" vid="45"></div>
+                        <div class="flex-grow bg-[#00E5FF] rounded-full shadow-[0_0_8px_#00E5FF]" vid="46"></div>
+                    </div>
+                </div>
+                <div class="glass-card p-8 flex flex-col justify-between h-48" vid="47">
+                    <span class="meta-label" vid="48">Uptime</span>
+                    <div class="flex items-baseline gap-2" vid="49">
+                        <span class="stat-value" vid="50">99.98</span>
+                        <span class="text-xs text-white/40" vid="51">%</span>
+                    </div>
+                    <div class="text-[10px] text-white/40 font-mono" vid="52">CONTINUOUS_SINCE_34D_12H</div>
+                </div>
+                <div class="glass-card p-8 flex flex-col justify-between h-48 overflow-hidden relative" vid="53">
+                    <span class="meta-label" vid="54">Cost Saved (USD)</span>
+                    <div class="h-10 overflow-hidden mt-2" vid="55">
+                        <div class="ticker-text flex flex-col" vid="56">
+                            <span class="stat-value text-[#00E5FF]" vid="57">$14,204</span>
+                            <span class="stat-value text-[#00E5FF]" vid="58">$14,208</span>
+                            <span class="stat-value text-[#00E5FF]" vid="59">$14,212</span>
+                            <span class="stat-value text-[#00E5FF]" vid="60">$14,215</span>
+                        </div>
+                    </div>
+                    <div class="text-[10px] text-white/40 font-mono mt-2" vid="61">REAL-TIME_TICKER_FEED</div>
+                </div>
+            </div>
+
+            
+            <div class="col-span-12 lg:col-span-4 glass-card p-8 flex flex-col gap-6" vid="62">
+                <span class="meta-label" vid="63">Agent Health Matrix</span>
+                <div class="space-y-6" vid="64">
+                    <div vid="65">
+                        <div class="flex justify-between mb-2" vid="66">
+                            <span class="text-[11px] font-bold" vid="67">NEURAL_LOAD</span>
+                            <span class="text-[11px] text-[#00E5FF]" vid="68">NOMINAL (42%)</span>
+                        </div>
+                        <div class="health-bar" vid="69"><div class="health-fill w-[42%]" vid="70"></div></div>
+                    </div>
+                    <div vid="71">
+                        <div class="flex justify-between mb-2" vid="72">
+                            <span class="text-[11px] font-bold" vid="73">LATENCY_MS</span>
+                            <span class="text-[11px] text-[#00E5FF]" vid="74">12ms</span>
+                        </div>
+                        <div class="health-bar" vid="75"><div class="health-fill w-[15%]" vid="76"></div></div>
+                    </div>
+                    <div vid="77">
+                        <div class="flex justify-between mb-2" vid="78">
+                            <span class="text-[11px] font-bold" vid="79">MEMORY_USAGE</span>
+                            <span class="text-[11px] text-white/60" vid="80">6.2GB</span>
+                        </div>
+                        <div class="health-bar" vid="81"><div class="health-fill w-[68%] bg-white/40 shadow-none" vid="82"></div></div>
+                    </div>
+                </div>
+                <div class="mt-auto pt-6 border-t border-white/10 flex items-center gap-4" vid="83">
+                    <div class="w-10 h-10 rounded-full border border-[#00E5FF]/30 flex items-center justify-center" vid="84">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#00E5FF" stroke-width="2" vid="85"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" vid="86"></path></svg>
+                    </div>
+                    <div vid="87">
+                        <div class="text-[10px] font-black uppercase text-white" vid="88">Security Protocol</div>
+                        <div class="text-[10px] text-white/40" vid="89">AES-256 ENCRYPTED_TUNNEL</div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="col-span-12 lg:col-span-12 glass-card p-8 relative overflow-hidden" vid="90">
+                <div class="flex justify-between items-center mb-12" vid="91">
+                    <div class="meta-label" vid="92">Output Performance (Requests / Sec)</div>
+                    <div class="flex gap-4" vid="93">
+                        <span class="text-[10px] font-mono text-[#00E5FF] flex items-center gap-1" vid="94">
+                            <span class="w-2 h-2 rounded-full bg-[#00E5FF]" vid="95"></span> LIVE_OUTPUT
+                        </span>
+                        <span class="text-[10px] font-mono text-white/20 flex items-center gap-1" vid="96">
+                            <span class="w-2 h-2 rounded-full bg-white/20" vid="97"></span> HISTORIC_AVG
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="flex items-end gap-2 h-40" vid="98">
+                    
+                    <div class="bg-white/5 w-full rounded-t-sm" style="height: 60%" vid="99"></div>
+                    <div class="bg-white/5 w-full rounded-t-sm" style="height: 40%" vid="100"></div>
+                    <div class="bg-white/5 w-full rounded-t-sm" style="height: 80%" vid="101"></div>
+                    <div class="bg-white/5 w-full rounded-t-sm" style="height: 55%" vid="102"></div>
+                    <div class="bg-white/5 w-full rounded-t-sm" style="height: 90%" vid="103"></div>
+                    <div class="bg-white/5 w-full rounded-t-sm" style="height: 70%" vid="104"></div>
+                    <div class="bg-[#00E5FF] w-full rounded-t-sm shadow-[0_0_20px_rgba(0,229,255,0.4)]" style="height: 85%" vid="105"></div>
+                    <div class="bg-[#00E5FF] w-full rounded-t-sm shadow-[0_0_20px_rgba(0,229,255,0.4)]" style="height: 95%" vid="106"></div>
+                    <div class="bg-[#00E5FF] w-full rounded-t-sm shadow-[0_0_20px_rgba(0,229,255,0.4)]" style="height: 80%" vid="107"></div>
+                    <div class="bg-[#00E5FF] w-full rounded-t-sm shadow-[0_0_20px_rgba(0,229,255,0.4)]" style="height: 75%" vid="108"></div>
+                    <div class="bg-white/5 w-full rounded-t-sm" style="height: 40%" vid="109"></div>
+                    <div class="bg-white/5 w-full rounded-t-sm" style="height: 30%" vid="110"></div>
+                    <div class="bg-white/5 w-full rounded-t-sm" style="height: 50%" vid="111"></div>
+                    <div class="bg-white/5 w-full rounded-t-sm" style="height: 65%" vid="112"></div>
+                    <div class="bg-white/5 w-full rounded-t-sm" style="height: 45%" vid="113"></div>
+                    <div class="bg-white/5 w-full rounded-t-sm" style="height: 95%" vid="114"></div>
+                    <div class="bg-[#00E5FF] w-full rounded-t-sm shadow-[0_0_20px_rgba(0,229,255,0.4)]" style="height: 100%" vid="115"></div>
+                    <div class="bg-[#00E5FF] w-full rounded-t-sm shadow-[0_0_20px_rgba(0,229,255,0.4)]" style="height: 90%" vid="116"></div>
+                </div>
+                
+                <div class="flex justify-between mt-4 border-t border-white/5 pt-4" vid="117">
+                    <span class="text-[9px] font-mono text-white/20" vid="118">00:00:00</span>
+                    <span class="text-[9px] font-mono text-white/20" vid="119">06:00:00</span>
+                    <span class="text-[9px] font-mono text-white/20" vid="120">12:00:00</span>
+                    <span class="text-[9px] font-mono text-white/20" vid="121">18:00:00</span>
+                    <span class="text-[9px] font-mono text-white/20" vid="122">CURRENT</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    
+    <footer class="w-full mt-auto bg-[#000814]/80 backdrop-blur-xl border-t border-white/5 px-8 py-4 flex justify-between items-center" vid="123">
+        <div class="flex gap-12" vid="124">
+            <div class="flex items-center gap-2" vid="125">
+                <span class="meta-label" vid="126">SYSTEM_LOAD</span>
+                <span class="text-[11px] font-bold text-[#00E5FF]" vid="127">12.4%</span>
+            </div>
+            <div class="flex items-center gap-2" vid="128">
+                <span class="meta-label" vid="129">LATENCY</span>
+                <span class="text-[11px] font-bold" vid="130">14.0 MS</span>
+            </div>
+            <div class="flex items-center gap-2" vid="131">
+                <span class="meta-label" vid="132">NODE</span>
+                <span class="text-[11px] font-bold" vid="133">AWS_USE1_44</span>
+            </div>
+        </div>
+        <div class="flex gap-6 items-center" vid="134">
+            <span class="text-[10px] font-mono text-white/20" vid="135">ENCRYPTED_STREAM_0x000FF1</span>
+            <div class="flex gap-1" vid="136">
+                <div class="w-1 h-3 bg-[#00E5FF]" vid="137"></div>
+                <div class="w-1 h-3 bg-[#00E5FF]" vid="138"></div>
+                <div class="w-1 h-3 bg-[#00E5FF]" vid="139"></div>
+                <div class="w-1 h-3 bg-white/20" vid="140"></div>
+            </div>
+        </div>
+    </footer>
+
+    <script vid="141">
+        document.addEventListener('mousemove', (e) => {
+            const orbs = document.querySelectorAll('.orb-blur');
+            const x = e.clientX / window.innerWidth;
+            const y = e.clientY / window.innerHeight;
+            
+            orbs[0].style.transform = `translate(${x * 40}px, ${y * 40}px)`;
+            orbs[1].style.transform = `translate(-${x * 40}px, -${y * 40}px)`;
+        });
+    </script>
+
+</body></html>
