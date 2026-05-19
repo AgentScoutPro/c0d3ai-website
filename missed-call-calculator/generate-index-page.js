@@ -1,4 +1,107 @@
-<!DOCTYPE html>
+const fs = require("fs");
+const path = require("path");
+const { getAllCalculatorPages } = require("./page-data");
+
+const OUT_FILE = path.join(__dirname, "index.html");
+const BASE_URL = "/missed-call-calculator/";
+const SITE_URL = "https://cod3ai.com";
+
+const HUBS = {
+  home_services: {
+    label: "Home Services",
+    route: "home-services",
+    icon: "🏠",
+    description: "Contractors, repair teams, restoration companies, cleaning crews, and home service operators."
+  },
+  real_estate: {
+    label: "Real Estate",
+    route: "real-estate",
+    icon: "🏢",
+    description: "Agents, brokers, investors, lenders, property managers, title teams, and real estate operators."
+  },
+  legal: {
+    label: "Legal",
+    route: "legal",
+    icon: "⚖",
+    description: "Law firms and intake teams that cannot afford to miss high-intent case calls."
+  }
+};
+
+function escapeHTML(value) {
+  return String(value)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#39;");
+}
+
+function compactMoney(value) {
+  if (value >= 1000000) return "$" + (value / 1000000).toFixed(1) + "M";
+  if (value >= 1000) return "$" + Math.round(value / 1000) + "K";
+  return "$" + Math.round(value).toLocaleString("en-US");
+}
+
+function annualLoss(page) {
+  return page.avg_job_value * page.missed_calls_per_day * 260;
+}
+
+function getStats(pages) {
+  const totalAnnual = pages.reduce((sum, page) => sum + annualLoss(page), 0);
+  const verticalCounts = pages.reduce((counts, page) => {
+    counts[page.vertical] = (counts[page.vertical] || 0) + 1;
+    return counts;
+  }, {});
+  const mostVisitedIndustry = Object.keys(verticalCounts).sort((a, b) => verticalCounts[b] - verticalCounts[a])[0];
+  const highestValuePage = pages.slice().sort((a, b) => b.avg_job_value - a.avg_job_value || a.service.localeCompare(b.service))[0];
+
+  return {
+    averageAnnualLoss: pages.length ? totalAnnual / pages.length : 0,
+    mostVisitedIndustry,
+    highestValuePage
+  };
+}
+
+function renderHubCards(pages) {
+  const counts = pages.reduce((acc, page) => {
+    acc[page.vertical] = (acc[page.vertical] || 0) + 1;
+    return acc;
+  }, {});
+
+  return Object.keys(HUBS).map((vertical) => {
+    const hub = HUBS[vertical];
+    return `<a class="panel industry-card" href="${BASE_URL}${hub.route}">
+      <span class="industry-icon" aria-hidden="true">${hub.icon}</span>
+      <span class="meta">${counts[vertical] || 0} calculators</span>
+      <h3>${escapeHTML(hub.label)}</h3>
+      <p>${escapeHTML(hub.description)}</p>
+      <strong>Browse ${escapeHTML(hub.label)}</strong>
+    </a>`;
+  }).join("\n");
+}
+
+function renderPopularCalculators(pages) {
+  return pages
+    .slice()
+    .sort((a, b) => annualLoss(b) - annualLoss(a) || b.avg_job_value - a.avg_job_value || a.service.localeCompare(b.service))
+    .slice(0, 8)
+    .map((page) => `<a class="panel calculator-card" href="${BASE_URL}${escapeHTML(page.slug)}">
+      <span class="meta">${escapeHTML(HUBS[page.vertical].label)}</span>
+      <h3>${escapeHTML(page.service)}</h3>
+      <p>${escapeHTML(page.copy.problem)}</p>
+      <div class="card-metric">${compactMoney(annualLoss(page))}<span> estimated annual loss</span></div>
+    </a>`)
+    .join("\n");
+}
+
+function renderIndexPage() {
+  const pages = getAllCalculatorPages();
+  const stats = getStats(pages);
+  const firstCalculator = pages.find((page) => page.slug === "plumbers-missed-calls") || pages[0];
+  const highest = stats.highestValuePage;
+  const mostVisited = HUBS[stats.mostVisitedIndustry] || HUBS.home_services;
+
+  return `<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -6,12 +109,12 @@
   <title>Free Missed Call Calculator | See How Much Revenue Missed Calls Cost Your Business</title>
   <meta name="description" content="Use our free Missed Call Calculator to estimate how much revenue your business could be losing from unanswered calls. Home Services, Real Estate, Legal, and more.">
   <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://cod3ai.com/missed-call-calculator">
+  <link rel="canonical" href="${SITE_URL}/missed-call-calculator">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://cod3ai.com/missed-call-calculator">
+  <meta property="og:url" content="${SITE_URL}/missed-call-calculator">
   <meta property="og:title" content="Free Missed Call Calculator | See How Much Revenue Missed Calls Cost Your Business">
   <meta property="og:description" content="Use our free Missed Call Calculator to estimate how much revenue your business could be losing from unanswered calls. Home Services, Real Estate, Legal, and more.">
-  <meta property="og:image" content="https://cod3ai.com/COD3AI%20LOGO%207.png">
+  <meta property="og:image" content="${SITE_URL}/COD3AI%20LOGO%207.png">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,7 +134,7 @@
   <nav class="nav" aria-label="Main navigation">
     <a class="brand" href="https://cod3ai.com"><span class="dot" aria-hidden="true"></span><img src="../COD3AI LOGO 8.png" alt="C0D3AI"><strong>C0D3AI</strong></a>
     <div class="navlinks"><a href="#how">How It Works</a><a href="#industries">Industries</a><a href="#popular">Popular</a></div>
-    <a class="btn" href="/missed-call-calculator/plumbers-missed-calls">Try the Calculator</a>
+    <a class="btn" href="${BASE_URL}${escapeHTML(firstCalculator.slug)}">Try the Calculator</a>
   </nav>
   <main>
     <section class="hero">
@@ -39,7 +142,7 @@
       <h1>How Much Are Missed Calls Costing Your Business?</h1>
       <p class="lead">Discover how missed calls may be quietly costing you thousands in lost revenue.</p>
       <div class="hero-actions">
-        <a class="btn" href="/missed-call-calculator/plumbers-missed-calls">Try the Calculator</a>
+        <a class="btn" href="${BASE_URL}${escapeHTML(firstCalculator.slug)}">Try the Calculator</a>
         <a class="btn secondary" href="#industries">Browse Industries</a>
       </div>
     </section>
@@ -56,90 +159,23 @@
     <section class="section" id="industries">
       <div class="section-head"><div><span class="eyebrow">Browse by Industry</span><h2>Pick the calculator closest to your business.</h2></div></div>
       <div class="three-grid">
-        <a class="panel industry-card" href="/missed-call-calculator/home-services">
-      <span class="industry-icon" aria-hidden="true">🏠</span>
-      <span class="meta">61 calculators</span>
-      <h3>Home Services</h3>
-      <p>Contractors, repair teams, restoration companies, cleaning crews, and home service operators.</p>
-      <strong>Browse Home Services</strong>
-    </a>
-<a class="panel industry-card" href="/missed-call-calculator/real-estate">
-      <span class="industry-icon" aria-hidden="true">🏢</span>
-      <span class="meta">49 calculators</span>
-      <h3>Real Estate</h3>
-      <p>Agents, brokers, investors, lenders, property managers, title teams, and real estate operators.</p>
-      <strong>Browse Real Estate</strong>
-    </a>
-<a class="panel industry-card" href="/missed-call-calculator/legal">
-      <span class="industry-icon" aria-hidden="true">⚖</span>
-      <span class="meta">15 calculators</span>
-      <h3>Legal</h3>
-      <p>Law firms and intake teams that cannot afford to miss high-intent case calls.</p>
-      <strong>Browse Legal</strong>
-    </a>
+        ${renderHubCards(pages)}
       </div>
     </section>
 
     <section class="section" id="popular">
       <div class="section-head"><div><span class="eyebrow">Popular Calculators</span><h2>High-value missed call calculators.</h2></div></div>
       <div class="calculator-grid">
-        <a class="panel calculator-card" href="/missed-call-calculator/multifamily-developers-missed-calls">
-      <span class="meta">Real Estate</span>
-      <h3>Multifamily Developers</h3>
-      <p>1 missed call = $75,000 lost.</p>
-      <div class="card-metric">$19.5M<span> estimated annual loss</span></div>
-    </a>
-<a class="panel calculator-card" href="/missed-call-calculator/wrongful-death-attorneys-missed-calls">
-      <span class="meta">Legal</span>
-      <h3>Wrongful Death Attorneys</h3>
-      <p>1 missed call could cost $75,000+.</p>
-      <div class="card-metric">$19.5M<span> estimated annual loss</span></div>
-    </a>
-<a class="panel calculator-card" href="/missed-call-calculator/medical-malpractice-missed-calls">
-      <span class="meta">Legal</span>
-      <h3>Medical Malpractice Lawyers</h3>
-      <p>1 missed call could mean $60,000 lost.</p>
-      <div class="card-metric">$15.6M<span> estimated annual loss</span></div>
-    </a>
-<a class="panel calculator-card" href="/missed-call-calculator/builders-missed-calls">
-      <span class="meta">Real Estate</span>
-      <h3>Builders</h3>
-      <p>2 missed calls = $60,000 lost.</p>
-      <div class="card-metric">$15.6M<span> estimated annual loss</span></div>
-    </a>
-<a class="panel calculator-card" href="/missed-call-calculator/car-accident-lawyers-missed-calls">
-      <span class="meta">Legal</span>
-      <h3>Car Accident Lawyers</h3>
-      <p>3 missed calls could mean $60,000 in lost opportunity.</p>
-      <div class="card-metric">$15.6M<span> estimated annual loss</span></div>
-    </a>
-<a class="panel calculator-card" href="/missed-call-calculator/custom-home-builders-missed-calls">
-      <span class="meta">Real Estate</span>
-      <h3>Custom Home Builders</h3>
-      <p>1 missed call = $50,000 lost.</p>
-      <div class="card-metric">$13.0M<span> estimated annual loss</span></div>
-    </a>
-<a class="panel calculator-card" href="/missed-call-calculator/real-estate-developers-missed-calls">
-      <span class="meta">Real Estate</span>
-      <h3>Real Estate Developers</h3>
-      <p>1 missed call could cost $50,000.</p>
-      <div class="card-metric">$13.0M<span> estimated annual loss</span></div>
-    </a>
-<a class="panel calculator-card" href="/missed-call-calculator/real-estate-syndicators-missed-calls">
-      <span class="meta">Real Estate</span>
-      <h3>Real Estate Syndicators</h3>
-      <p>1 missed call = $50,000 lost.</p>
-      <div class="card-metric">$13.0M<span> estimated annual loss</span></div>
-    </a>
+        ${renderPopularCalculators(pages)}
       </div>
     </section>
 
     <section class="section">
       <div class="section-head"><div><span class="eyebrow">Revenue Loss Statistics</span><h2>What the calculator library shows.</h2></div></div>
       <div class="stat-grid">
-        <div class="panel stat-card"><span class="meta">Average annual loss</span><div class="stat-value">$4.3M</div><p>Average modeled annual exposure across all calculator pages.</p></div>
-        <div class="panel stat-card"><span class="meta">Most visited industry</span><div class="stat-value">Home Services</div><p>The largest calculator library by available profession pages.</p></div>
-        <div class="panel stat-card"><span class="meta">Highest-value profession</span><div class="stat-value">Multifamily Developers</div><p>$75K average value used in the calculator model.</p></div>
+        <div class="panel stat-card"><span class="meta">Average annual loss</span><div class="stat-value">${compactMoney(stats.averageAnnualLoss)}</div><p>Average modeled annual exposure across all calculator pages.</p></div>
+        <div class="panel stat-card"><span class="meta">Most visited industry</span><div class="stat-value">${escapeHTML(mostVisited.label)}</div><p>The largest calculator library by available profession pages.</p></div>
+        <div class="panel stat-card"><span class="meta">Highest-value profession</span><div class="stat-value">${escapeHTML(highest.service)}</div><p>${compactMoney(highest.avg_job_value)} average value used in the calculator model.</p></div>
       </div>
     </section>
 
@@ -147,9 +183,25 @@
       <div class="eyebrow">Stop Losing Revenue</div>
       <h2>Turn missed calls into a measurable recovery plan.</h2>
       <p>Choose a calculator, estimate the revenue at risk, and send your result to C0D3AI for a practical missed-call recovery plan.</p>
-      <a class="btn" href="/missed-call-calculator/plumbers-missed-calls">Get Started</a>
+      <a class="btn" href="${BASE_URL}${escapeHTML(firstCalculator.slug)}">Get Started</a>
     </section>
   </main>
   <footer><a href="https://cod3ai.com"><img src="../COD3AI LOGO 8.png" alt="C0D3AI" style="height:28px;opacity:.72"></a><p>&copy; 2026 C0D3AI CONSULTING SYSTEMS</p></footer>
 </body>
 </html>
+`;
+}
+
+function generateIndexPage() {
+  fs.writeFileSync(OUT_FILE, renderIndexPage());
+  console.log("Generated missed-call-calculator/index.html.");
+}
+
+if (require.main === module) {
+  generateIndexPage();
+}
+
+module.exports = {
+  generateIndexPage,
+  renderIndexPage
+};

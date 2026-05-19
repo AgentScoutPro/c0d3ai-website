@@ -10,7 +10,7 @@ const STATIC_URLS = [
   "https://cod3ai.com/case-studies",
   "https://cod3ai.com/pricing",
   "https://cod3ai.com/roi-calculator",
-  "https://cod3ai.com/missed-call-calculator/",
+  "https://cod3ai.com/missed-call-calculator",
   "https://cod3ai.com/integrations",
   "https://cod3ai.com/sample-report",
   "https://cod3ai.com/live-dashboard",

@@ -62,6 +62,31 @@
   status = 200
 
 [[redirects]]
+  from = "/missed-call-calculator"
+  to = "/missed-call-calculator/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/admin/page-inspector"
+  to = "/admin/page-inspector.html"
+  status = 200
+
+[[redirects]]
+  from = "/home-services"
+  to = "/missed-call-calculator/home-services.html"
+  status = 200
+
+[[redirects]]
+  from = "/real-estate"
+  to = "/missed-call-calculator/real-estate.html"
+  status = 200
+
+[[redirects]]
+  from = "/legal"
+  to = "/missed-call-calculator/legal.html"
+  status = 200
+
+[[redirects]]
   from = "/missed-call-calculator/home-services"
   to = "/missed-call-calculator/home-services.html"
   status = 200
