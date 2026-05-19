@@ -60,3 +60,28 @@
   from = "/lease-abstraction-ai"
   to = "/lease-abstraction-ai.html"
   status = 200
+
+[[redirects]]
+  from = "/missed-call-calculator/home-services"
+  to = "/missed-call-calculator/home-services.html"
+  status = 200
+
+[[redirects]]
+  from = "/missed-call-calculator/real-estate"
+  to = "/missed-call-calculator/real-estate.html"
+  status = 200
+
+[[redirects]]
+  from = "/missed-call-calculator/legal"
+  to = "/missed-call-calculator/legal.html"
+  status = 200
+
+[[redirects]]
+  from = "/missed-call-calculator/real-estate-photography-missed-calls"
+  to = "/missed-call-calculator/real-estate-photographers-missed-calls"
+  status = 301
+
+[[redirects]]
+  from = "/missed-call-calculator/real-estate-photography-missed-calls.html"
+  to = "/missed-call-calculator/real-estate-photographers-missed-calls"
+  status = 301

@@ -1,0 +1,1752 @@
+[
+  {
+    "service": "Appliance Repair",
+    "slug": "appliance-repair-missed-calls",
+    "vertical": "home_services",
+    "avg_job_value": 250,
+    "missed_calls_per_day": 5,
+    "copy": {
+      "hero": "Free missed call calculator for Appliance Repair. Estimate revenue lost from 5 missed calls per day at an average job value of $250.",
+      "problem": "At the default settings, 5 missed calls per day at $250 per job creates about $325,000 per year in missed-call exposure.",
+      "math": "At the default settings, 5 missed calls per day at $250 per job creates about $325,000 per year in missed-call exposure.",
+      "industry": "Free missed call calculator for Appliance Repair. Estimate revenue lost from 5 missed calls per day at an average job value of $250.",
+      "cta": "Use the Appliance Repair missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Arborists",
+    "slug": "arborists-missed-calls",
+    "vertical": "home_services",
+    "avg_job_value": 700,
+    "missed_calls_per_day": 3,
+    "copy": {
+      "hero": "Free missed call calculator for Arborists. Estimate revenue lost from 3 missed calls per day at an average job value of $700.",
+      "problem": "At the default settings, 3 missed calls per day at $700 per job creates about $546,000 per year in missed-call exposure.",
+      "math": "At the default settings, 3 missed calls per day at $700 per job creates about $546,000 per year in missed-call exposure.",
+      "industry": "Free missed call calculator for Arborists. Estimate revenue lost from 3 missed calls per day at an average job value of $700.",
+      "cta": "Use the Arborists missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Artificial Turf Installers",
+    "slug": "turf-installers-missed-calls",
+    "vertical": "home_services",
+    "avg_job_value": 7000,
+    "missed_calls_per_day": 2,
+    "copy": {
+      "hero": "Free missed call calculator for Artificial Turf Installers. Estimate revenue lost from 2 missed calls per day at an average job value of $7,000.",
+      "problem": "At the default settings, 2 missed calls per day at $7,000 per job creates about $3,640,000 per year in missed-call exposure.",
+      "math": "At the default settings, 2 missed calls per day at $7,000 per job creates about $3,640,000 per year in missed-call exposure.",
+      "industry": "Free missed call calculator for Artificial Turf Installers. Estimate revenue lost from 2 missed calls per day at an average job value of $7,000.",
+      "cta": "Use the Artificial Turf Installers missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Attic Insulation",
+    "slug": "attic-insulation-missed-calls",
+    "vertical": "home_services",
+    "avg_job_value": 2500,
+    "missed_calls_per_day": 3,
+    "copy": {
+      "hero": "Free missed call calculator for Attic Insulation. Estimate revenue lost from 3 missed calls per day at an average job value of $2,500.",
+      "problem": "At the default settings, 3 missed calls per day at $2,500 per job creates about $1,950,000 per year in missed-call exposure.",
+      "math": "At the default settings, 3 missed calls per day at $2,500 per job creates about $1,950,000 per year in missed-call exposure.",
+      "industry": "Free missed call calculator for Attic Insulation. Estimate revenue lost from 3 missed calls per day at an average job value of $2,500.",
+      "cta": "Use the Attic Insulation missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Awning Installers",
+    "slug": "awning-installers-missed-calls",
+    "vertical": "home_services",
+    "avg_job_value": 3000,
+    "missed_calls_per_day": 2,
+    "copy": {
+      "hero": "Free missed call calculator for Awning Installers. Estimate revenue lost from 2 missed calls per day at an average job value of $3,000.",
+      "problem": "At the default settings, 2 missed calls per day at $3,000 per job creates about $1,560,000 per year in missed-call exposure.",
+      "math": "At the default settings, 2 missed calls per day at $3,000 per job creates about $1,560,000 per year in missed-call exposure.",
+      "industry": "Free missed call calculator for Awning Installers. Estimate revenue lost from 2 missed calls per day at an average job value of $3,000.",
+      "cta": "Use the Awning Installers missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Cabinet Makers",
+    "slug": "cabinet-makers-missed-calls",
+    "vertical": "home_services",
+    "avg_job_value": 8000,
+    "missed_calls_per_day": 2,
+    "copy": {
+      "hero": "Free missed call calculator for Cabinet Makers. Estimate revenue lost from 2 missed calls per day at an average job value of $8,000.",
+      "problem": "At the default settings, 2 missed calls per day at $8,000 per job creates about $4,160,000 per year in missed-call exposure.",
+      "math": "At the default settings, 2 missed calls per day at $8,000 per job creates about $4,160,000 per year in missed-call exposure.",
+      "industry": "Free missed call calculator for Cabinet Makers. Estimate revenue lost from 2 missed calls per day at an average job value of $8,000.",
+      "cta": "Use the Cabinet Makers missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Chimney Repair",
+    "slug": "chimney-repair-missed-calls",
+    "vertical": "home_services",
+    "avg_job_value": 1200,
+    "missed_calls_per_day": 3,
+    "copy": {
+      "hero": "Free missed call calculator for Chimney Repair. Estimate revenue lost from 3 missed calls per day at an average job value of $1,200.",
+      "problem": "At the default settings, 3 missed calls per day at $1,200 per job creates about $936,000 per year in missed-call exposure.",
+      "math": "At the default settings, 3 missed calls per day at $1,200 per job creates about $936,000 per year in missed-call exposure.",
+      "industry": "Free missed call calculator for Chimney Repair. Estimate revenue lost from 3 missed calls per day at an average job value of $1,200.",
+      "cta": "Use the Chimney Repair missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Cleaning Services",
+    "slug": "cleaning-services-missed-calls",
+    "vertical": "home_services",
+    "avg_job_value": 200,
+    "missed_calls_per_day": 5,
+    "copy": {
+      "hero": "Free missed call calculator for Cleaning Services. Estimate revenue lost from 5 missed calls per day at an average job value of $200.",
+      "problem": "At the default settings, 5 missed calls per day at $200 per job creates about $260,000 per year in missed-call exposure.",
+      "math": "At the default settings, 5 missed calls per day at $200 per job creates about $260,000 per year in missed-call exposure.",
+      "industry": "Free missed call calculator for Cleaning Services. Estimate revenue lost from 5 missed calls per day at an average job value of $200.",
+      "cta": "Use the Cleaning Services missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Closet Installers",
+    "slug": "closet-installers-missed-calls",
+    "vertical": "home_services",
+    "avg_job_value": 3000,
+    "missed_calls_per_day": 2,
+    "copy": {
+      "hero": "Free missed call calculator for Closet Installers. Estimate revenue lost from 2 missed calls per day at an average job value of $3,000.",
+      "problem": "At the default settings, 2 missed calls per day at $3,000 per job creates about $1,560,000 per year in missed-call exposure.",
+      "math": "At the default settings, 2 missed calls per day at $3,000 per job creates about $1,560,000 per year in missed-call exposure.",
+      "industry": "Free missed call calculator for Closet Installers. Estimate revenue lost from 2 missed calls per day at an average job value of $3,000.",
+      "cta": "Use the Closet Installers missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Concrete Contractors",
+    "slug": "concrete-contractors-missed-calls",
+    "vertical": "home_services",
+    "avg_job_value": 6000,
+    "missed_calls_per_day": 2,
+    "copy": {
+      "hero": "Free missed call calculator for Concrete Contractors. Estimate revenue lost from 2 missed calls per day at an average job value of $6,000.",
+      "problem": "At the default settings, 2 missed calls per day at $6,000 per job creates about $3,120,000 per year in missed-call exposure.",
+      "math": "At the default settings, 2 missed calls per day at $6,000 per job creates about $3,120,000 per year in missed-call exposure.",
+      "industry": "Free missed call calculator for Concrete Contractors. Estimate revenue lost from 2 missed calls per day at an average job value of $6,000.",
+      "cta": "Use the Concrete Contractors missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Crawl Space Repair",
+    "slug": "crawl-space-missed-calls",
+    "vertical": "home_services",
+    "avg_job_value": 4000,
+    "missed_calls_per_day": 2,
+    "copy": {
+      "hero": "Free missed call calculator for Crawl Space Repair. Estimate revenue lost from 2 missed calls per day at an average job value of $4,000.",
+      "problem": "At the default settings, 2 missed calls per day at $4,000 per job creates about $2,080,000 per year in missed-call exposure.",
+      "math": "At the default settings, 2 missed calls per day at $4,000 per job creates about $2,080,000 per year in missed-call exposure.",
+      "industry": "Free missed call calculator for Crawl Space Repair. Estimate revenue lost from 2 missed calls per day at an average job value of $4,000.",
+      "cta": "Use the Crawl Space Repair missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Drywall Contractors",
+    "slug": "drywall-missed-calls",
+    "vertical": "home_services",
+    "avg_job_value": 2000,
+    "missed_calls_per_day": 3,
+    "copy": {
+      "hero": "Free missed call calculator for Drywall Contractors. Estimate revenue lost from 3 missed calls per day at an average job value of $2,000.",
+      "problem": "At the default settings, 3 missed calls per day at $2,000 per job creates about $1,560,000 per year in missed-call exposure.",
+      "math": "At the default settings, 3 missed calls per day at $2,000 per job creates about $1,560,000 per year in missed-call exposure.",
+      "industry": "Free missed call calculator for Drywall Contractors. Estimate revenue lost from 3 missed calls per day at an average job value of $2,000.",
+      "cta": "Use the Drywall Contractors missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Electricians",
+    "slug": "electricians-missed-calls",
+    "vertical": "home_services",
+    "avg_job_value": 400,
+    "missed_calls_per_day": 3,
+    "copy": {
+      "hero": "Free missed call calculator for Electricians. Estimate revenue lost from 3 missed calls per day at an average job value of $400.",
+      "problem": "At the default settings, 3 missed calls per day at $400 per job creates about $312,000 per year in missed-call exposure.",
+      "math": "At the default settings, 3 missed calls per day at $400 per job creates about $312,000 per year in missed-call exposure.",
+      "industry": "Free missed call calculator for Electricians. Estimate revenue lost from 3 missed calls per day at an average job value of $400.",
+      "cta": "Use the Electricians missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Epoxy Flooring",
+    "slug": "epoxy-flooring-missed-calls",
+    "vertical": "home_services",
+    "avg_job_value": 4000,
+    "missed_calls_per_day": 2,
+    "copy": {
+      "hero": "Free missed call calculator for Epoxy Flooring. Estimate revenue lost from 2 missed calls per day at an average job value of $4,000.",
+      "problem": "At the default settings, 2 missed calls per day at $4,000 per job creates about $2,080,000 per year in missed-call exposure.",
+      "math": "At the default settings, 2 missed calls per day at $4,000 per job creates about $2,080,000 per year in missed-call exposure.",
+      "industry": "Free missed call calculator for Epoxy Flooring. Estimate revenue lost from 2 missed calls per day at an average job value of $4,000.",
+      "cta": "Use the Epoxy Flooring missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Excavation Contractors",
+    "slug": "excavation-missed-calls",
+    "vertical": "home_services",
+    "avg_job_value": 10000,
+    "missed_calls_per_day": 2,
+    "copy": {
+      "hero": "Free missed call calculator for Excavation Contractors. Estimate revenue lost from 2 missed calls per day at an average job value of $10,000.",
+      "problem": "At the default settings, 2 missed calls per day at $10,000 per job creates about $5,200,000 per year in missed-call exposure.",
+      "math": "At the default settings, 2 missed calls per day at $10,000 per job creates about $5,200,000 per year in missed-call exposure.",
+      "industry": "Free missed call calculator for Excavation Contractors. Estimate revenue lost from 2 missed calls per day at an average job value of $10,000.",
+      "cta": "Use the Excavation Contractors missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Fence Contractors",
+    "slug": "fence-contractors-missed-calls",
+    "vertical": "home_services",
+    "avg_job_value": 2000,
+    "missed_calls_per_day": 3,
+    "copy": {
+      "hero": "Free missed call calculator for Fence Contractors. Estimate revenue lost from 3 missed calls per day at an average job value of $2,000.",
+      "problem": "At the default settings, 3 missed calls per day at $2,000 per job creates about $1,560,000 per year in missed-call exposure.",
+      "math": "At the default settings, 3 missed calls per day at $2,000 per job creates about $1,560,000 per year in missed-call exposure.",
+      "industry": "Free missed call calculator for Fence Contractors. Estimate revenue lost from 3 missed calls per day at an average job value of $2,000.",
+      "cta": "Use the Fence Contractors missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Fire Damage Restoration",
+    "slug": "fire-damage-missed-calls",
+    "vertical": "home_services",
+    "avg_job_value": 8000,
+    "missed_calls_per_day": 2,
+    "copy": {
+      "hero": "Free missed call calculator for Fire Damage Restoration. Estimate revenue lost from 2 missed calls per day at an average job value of $8,000.",
+      "problem": "At the default settings, 2 missed calls per day at $8,000 per job creates about $4,160,000 per year in missed-call exposure.",
+      "math": "At the default settings, 2 missed calls per day at $8,000 per job creates about $4,160,000 per year in missed-call exposure.",
+      "industry": "Free missed call calculator for Fire Damage Restoration. Estimate revenue lost from 2 missed calls per day at an average job value of $8,000.",
+      "cta": "Use the Fire Damage Restoration missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Flooring Installers",
+    "slug": "flooring-installers-missed-calls",
+    "vertical": "home_services",
+    "avg_job_value": 5000,
+    "missed_calls_per_day": 2,
+    "copy": {
+      "hero": "Free missed call calculator for Flooring Installers. Estimate revenue lost from 2 missed calls per day at an average job value of $5,000.",
+      "problem": "At the default settings, 2 missed calls per day at $5,000 per job creates about $2,600,000 per year in missed-call exposure.",
+      "math": "At the default settings, 2 missed calls per day at $5,000 per job creates about $2,600,000 per year in missed-call exposure.",
+      "industry": "Free missed call calculator for Flooring Installers. Estimate revenue lost from 2 missed calls per day at an average job value of $5,000.",
+      "cta": "Use the Flooring Installers missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Garage Door Repair",
+    "slug": "garage-door-repair-missed-calls",
+    "vertical": "home_services",
+    "avg_job_value": 300,
+    "missed_calls_per_day": 4,
+    "copy": {
+      "hero": "Free missed call calculator for Garage Door Repair. Estimate revenue lost from 4 missed calls per day at an average job value of $300.",
+      "problem": "At the default settings, 4 missed calls per day at $300 per job creates about $312,000 per year in missed-call exposure.",
+      "math": "At the default settings, 4 missed calls per day at $300 per job creates about $312,000 per year in missed-call exposure.",
+      "industry": "Free missed call calculator for Garage Door Repair. Estimate revenue lost from 4 missed calls per day at an average job value of $300.",
+      "cta": "Use the Garage Door Repair missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "General Contractors",
+    "slug": "general-contractors-missed-calls",
+    "vertical": "home_services",
+    "avg_job_value": 10000,
+    "missed_calls_per_day": 2,
+    "copy": {
+      "hero": "Free missed call calculator for General Contractors. Estimate revenue lost from 2 missed calls per day at an average job value of $10,000.",
+      "problem": "At the default settings, 2 missed calls per day at $10,000 per job creates about $5,200,000 per year in missed-call exposure.",
+      "math": "At the default settings, 2 missed calls per day at $10,000 per job creates about $5,200,000 per year in missed-call exposure.",
+      "industry": "Free missed call calculator for General Contractors. Estimate revenue lost from 2 missed calls per day at an average job value of $10,000.",
+      "cta": "Use the General Contractors missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Generator Installation",
+    "slug": "generator-installation-missed-calls",
+    "vertical": "home_services",
+    "avg_job_value": 7000,
+    "missed_calls_per_day": 2,
+    "copy": {
+      "hero": "Free missed call calculator for Generator Installation. Estimate revenue lost from 2 missed calls per day at an average job value of $7,000.",
+      "problem": "At the default settings, 2 missed calls per day at $7,000 per job creates about $3,640,000 per year in missed-call exposure.",
+      "math": "At the default settings, 2 missed calls per day at $7,000 per job creates about $3,640,000 per year in missed-call exposure.",
+      "industry": "Free missed call calculator for Generator Installation. Estimate revenue lost from 2 missed calls per day at an average job value of $7,000.",
+      "cta": "Use the Generator Installation missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Grading Contractors",
+    "slug": "grading-missed-calls",
+    "vertical": "home_services",
+    "avg_job_value": 8000,
+    "missed_calls_per_day": 2,
+    "copy": {
+      "hero": "Free missed call calculator for Grading Contractors. Estimate revenue lost from 2 missed calls per day at an average job value of $8,000.",
+      "problem": "At the default settings, 2 missed calls per day at $8,000 per job creates about $4,160,000 per year in missed-call exposure.",
+      "math": "At the default settings, 2 missed calls per day at $8,000 per job creates about $4,160,000 per year in missed-call exposure.",
+      "industry": "Free missed call calculator for Grading Contractors. Estimate revenue lost from 2 missed calls per day at an average job value of $8,000.",
+      "cta": "Use the Grading Contractors missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Gutter Cleaning",
+    "slug": "gutter-cleaning-missed-calls",
+    "vertical": "home_services",
+    "avg_job_value": 250,
+    "missed_calls_per_day": 5,
+    "copy": {
+      "hero": "Free missed call calculator for Gutter Cleaning. Estimate revenue lost from 5 missed calls per day at an average job value of $250.",
+      "problem": "At the default settings, 5 missed calls per day at $250 per job creates about $325,000 per year in missed-call exposure.",
+      "math": "At the default settings, 5 missed calls per day at $250 per job creates about $325,000 per year in missed-call exposure.",
+      "industry": "Free missed call calculator for Gutter Cleaning. Estimate revenue lost from 5 missed calls per day at an average job value of $250.",
+      "cta": "Use the Gutter Cleaning missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Handyman Services",
+    "slug": "handyman-missed-calls",
+    "vertical": "home_services",
+    "avg_job_value": 300,
+    "missed_calls_per_day": 6,
+    "copy": {
+      "hero": "Free missed call calculator for Handyman Services. Estimate revenue lost from 6 missed calls per day at an average job value of $300.",
+      "problem": "At the default settings, 6 missed calls per day at $300 per job creates about $468,000 per year in missed-call exposure.",
+      "math": "At the default settings, 6 missed calls per day at $300 per job creates about $468,000 per year in missed-call exposure.",
+      "industry": "Free missed call calculator for Handyman Services. Estimate revenue lost from 6 missed calls per day at an average job value of $300.",
+      "cta": "Use the Handyman Services missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "HVAC Contractors",
+    "slug": "hvac-missed-calls",
+    "vertical": "home_services",
+    "avg_job_value": 800,
+    "missed_calls_per_day": 4,
+    "copy": {
+      "hero": "Free missed call calculator for HVAC Contractors. Estimate revenue lost from 4 missed calls per day at an average job value of $800.",
+      "problem": "At the default settings, 4 missed calls per day at $800 per job creates about $832,000 per year in missed-call exposure.",
+      "math": "At the default settings, 4 missed calls per day at $800 per job creates about $832,000 per year in missed-call exposure.",
+      "industry": "Free missed call calculator for HVAC Contractors. Estimate revenue lost from 4 missed calls per day at an average job value of $800.",
+      "cta": "Use the HVAC Contractors missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Industrial Cleaning",
+    "slug": "industrial-cleaning-missed-calls",
+    "vertical": "home_services",
+    "avg_job_value": 5000,
+    "missed_calls_per_day": 2,
+    "copy": {
+      "hero": "Free missed call calculator for Industrial Cleaning. Estimate revenue lost from 2 missed calls per day at an average job value of $5,000.",
+      "problem": "At the default settings, 2 missed calls per day at $5,000 per job creates about $2,600,000 per year in missed-call exposure.",
+      "math": "At the default settings, 2 missed calls per day at $5,000 per job creates about $2,600,000 per year in missed-call exposure.",
+      "industry": "Free missed call calculator for Industrial Cleaning. Estimate revenue lost from 2 missed calls per day at an average job value of $5,000.",
+      "cta": "Use the Industrial Cleaning missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Interior Designers",
+    "slug": "interior-designers-missed-calls",
+    "vertical": "home_services",
+    "avg_job_value": 5000,
+    "missed_calls_per_day": 2,
+    "copy": {
+      "hero": "Free missed call calculator for Interior Designers. Estimate revenue lost from 2 missed calls per day at an average job value of $5,000.",
+      "problem": "At the default settings, 2 missed calls per day at $5,000 per job creates about $2,600,000 per year in missed-call exposure.",
+      "math": "At the default settings, 2 missed calls per day at $5,000 per job creates about $2,600,000 per year in missed-call exposure.",
+      "industry": "Free missed call calculator for Interior Designers. Estimate revenue lost from 2 missed calls per day at an average job value of $5,000.",
+      "cta": "Use the Interior Designers missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Irrigation Specialists",
+    "slug": "irrigation-missed-calls",
+    "vertical": "home_services",
+    "avg_job_value": 600,
+    "missed_calls_per_day": 3,
+    "copy": {
+      "hero": "Free missed call calculator for Irrigation Specialists. Estimate revenue lost from 3 missed calls per day at an average job value of $600.",
+      "problem": "At the default settings, 3 missed calls per day at $600 per job creates about $468,000 per year in missed-call exposure.",
+      "math": "At the default settings, 3 missed calls per day at $600 per job creates about $468,000 per year in missed-call exposure.",
+      "industry": "Free missed call calculator for Irrigation Specialists. Estimate revenue lost from 3 missed calls per day at an average job value of $600.",
+      "cta": "Use the Irrigation Specialists missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Janitorial Services",
+    "slug": "janitorial-services-missed-calls",
+    "vertical": "home_services",
+    "avg_job_value": 800,
+    "missed_calls_per_day": 4,
+    "copy": {
+      "hero": "Free missed call calculator for Janitorial Services. Estimate revenue lost from 4 missed calls per day at an average job value of $800.",
+      "problem": "At the default settings, 4 missed calls per day at $800 per job creates about $832,000 per year in missed-call exposure.",
+      "math": "At the default settings, 4 missed calls per day at $800 per job creates about $832,000 per year in missed-call exposure.",
+      "industry": "Free missed call calculator for Janitorial Services. Estimate revenue lost from 4 missed calls per day at an average job value of $800.",
+      "cta": "Use the Janitorial Services missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Junk Removal",
+    "slug": "junk-removal-missed-calls",
+    "vertical": "home_services",
+    "avg_job_value": 400,
+    "missed_calls_per_day": 4,
+    "copy": {
+      "hero": "Free missed call calculator for Junk Removal. Estimate revenue lost from 4 missed calls per day at an average job value of $400.",
+      "problem": "At the default settings, 4 missed calls per day at $400 per job creates about $416,000 per year in missed-call exposure.",
+      "math": "At the default settings, 4 missed calls per day at $400 per job creates about $416,000 per year in missed-call exposure.",
+      "industry": "Free missed call calculator for Junk Removal. Estimate revenue lost from 4 missed calls per day at an average job value of $400.",
+      "cta": "Use the Junk Removal missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Landscapers",
+    "slug": "landscapers-missed-calls",
+    "vertical": "home_services",
+    "avg_job_value": 500,
+    "missed_calls_per_day": 5,
+    "copy": {
+      "hero": "Free missed call calculator for Landscapers. Estimate revenue lost from 5 missed calls per day at an average job value of $500.",
+      "problem": "At the default settings, 5 missed calls per day at $500 per job creates about $650,000 per year in missed-call exposure.",
+      "math": "At the default settings, 5 missed calls per day at $500 per job creates about $650,000 per year in missed-call exposure.",
+      "industry": "Free missed call calculator for Landscapers. Estimate revenue lost from 5 missed calls per day at an average job value of $500.",
+      "cta": "Use the Landscapers missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Locksmiths",
+    "slug": "locksmiths-missed-calls",
+    "vertical": "home_services",
+    "avg_job_value": 150,
+    "missed_calls_per_day": 6,
+    "copy": {
+      "hero": "Free missed call calculator for Locksmiths. Estimate revenue lost from 6 missed calls per day at an average job value of $150.",
+      "problem": "At the default settings, 6 missed calls per day at $150 per job creates about $234,000 per year in missed-call exposure.",
+      "math": "At the default settings, 6 missed calls per day at $150 per job creates about $234,000 per year in missed-call exposure.",
+      "industry": "Free missed call calculator for Locksmiths. Estimate revenue lost from 6 missed calls per day at an average job value of $150.",
+      "cta": "Use the Locksmiths missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Mold Remediation",
+    "slug": "mold-remediation-missed-calls",
+    "vertical": "home_services",
+    "avg_job_value": 4000,
+    "missed_calls_per_day": 2,
+    "copy": {
+      "hero": "Free missed call calculator for Mold Remediation. Estimate revenue lost from 2 missed calls per day at an average job value of $4,000.",
+      "problem": "At the default settings, 2 missed calls per day at $4,000 per job creates about $2,080,000 per year in missed-call exposure.",
+      "math": "At the default settings, 2 missed calls per day at $4,000 per job creates about $2,080,000 per year in missed-call exposure.",
+      "industry": "Free missed call calculator for Mold Remediation. Estimate revenue lost from 2 missed calls per day at an average job value of $4,000.",
+      "cta": "Use the Mold Remediation missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Movers",
+    "slug": "movers-missed-calls",
+    "vertical": "home_services",
+    "avg_job_value": 1200,
+    "missed_calls_per_day": 3,
+    "copy": {
+      "hero": "Free missed call calculator for Movers. Estimate revenue lost from 3 missed calls per day at an average job value of $1,200.",
+      "problem": "At the default settings, 3 missed calls per day at $1,200 per job creates about $936,000 per year in missed-call exposure.",
+      "math": "At the default settings, 3 missed calls per day at $1,200 per job creates about $936,000 per year in missed-call exposure.",
+      "industry": "Free missed call calculator for Movers. Estimate revenue lost from 3 missed calls per day at an average job value of $1,200.",
+      "cta": "Use the Movers missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Office Cleaning",
+    "slug": "office-cleaning-missed-calls",
+    "vertical": "home_services",
+    "avg_job_value": 600,
+    "missed_calls_per_day": 4,
+    "copy": {
+      "hero": "Free missed call calculator for Office Cleaning. Estimate revenue lost from 4 missed calls per day at an average job value of $600.",
+      "problem": "At the default settings, 4 missed calls per day at $600 per job creates about $624,000 per year in missed-call exposure.",
+      "math": "At the default settings, 4 missed calls per day at $600 per job creates about $624,000 per year in missed-call exposure.",
+      "industry": "Free missed call calculator for Office Cleaning. Estimate revenue lost from 4 missed calls per day at an average job value of $600.",
+      "cta": "Use the Office Cleaning missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Outdoor Kitchen Installers",
+    "slug": "outdoor-kitchen-missed-calls",
+    "vertical": "home_services",
+    "avg_job_value": 15000,
+    "missed_calls_per_day": 1,
+    "copy": {
+      "hero": "Free missed call calculator for Outdoor Kitchen Installers. Estimate revenue lost from 1 missed calls per day at an average job value of $15,000.",
+      "problem": "At the default settings, 1 missed calls per day at $15,000 per job creates about $3,900,000 per year in missed-call exposure.",
+      "math": "At the default settings, 1 missed calls per day at $15,000 per job creates about $3,900,000 per year in missed-call exposure.",
+      "industry": "Free missed call calculator for Outdoor Kitchen Installers. Estimate revenue lost from 1 missed calls per day at an average job value of $15,000.",
+      "cta": "Use the Outdoor Kitchen Installers missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Painters",
+    "slug": "painters-missed-calls",
+    "vertical": "home_services",
+    "avg_job_value": 1500,
+    "missed_calls_per_day": 4,
+    "copy": {
+      "hero": "Free missed call calculator for Painters. Estimate revenue lost from 4 missed calls per day at an average job value of $1,500.",
+      "problem": "At the default settings, 4 missed calls per day at $1,500 per job creates about $1,560,000 per year in missed-call exposure.",
+      "math": "At the default settings, 4 missed calls per day at $1,500 per job creates about $1,560,000 per year in missed-call exposure.",
+      "industry": "Free missed call calculator for Painters. Estimate revenue lost from 4 missed calls per day at an average job value of $1,500.",
+      "cta": "Use the Painters missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Pergola Builders",
+    "slug": "pergola-builders-missed-calls",
+    "vertical": "home_services",
+    "avg_job_value": 8000,
+    "missed_calls_per_day": 2,
+    "copy": {
+      "hero": "Free missed call calculator for Pergola Builders. Estimate revenue lost from 2 missed calls per day at an average job value of $8,000.",
+      "problem": "At the default settings, 2 missed calls per day at $8,000 per job creates about $4,160,000 per year in missed-call exposure.",
+      "math": "At the default settings, 2 missed calls per day at $8,000 per job creates about $4,160,000 per year in missed-call exposure.",
+      "industry": "Free missed call calculator for Pergola Builders. Estimate revenue lost from 2 missed calls per day at an average job value of $8,000.",
+      "cta": "Use the Pergola Builders missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Pest Control",
+    "slug": "pest-control-missed-calls",
+    "vertical": "home_services",
+    "avg_job_value": 250,
+    "missed_calls_per_day": 6,
+    "copy": {
+      "hero": "Free missed call calculator for Pest Control. Estimate revenue lost from 6 missed calls per day at an average job value of $250.",
+      "problem": "At the default settings, 6 missed calls per day at $250 per job creates about $390,000 per year in missed-call exposure.",
+      "math": "At the default settings, 6 missed calls per day at $250 per job creates about $390,000 per year in missed-call exposure.",
+      "industry": "Free missed call calculator for Pest Control. Estimate revenue lost from 6 missed calls per day at an average job value of $250.",
+      "cta": "Use the Pest Control missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Playground Installation",
+    "slug": "playground-installation-missed-calls",
+    "vertical": "home_services",
+    "avg_job_value": 6000,
+    "missed_calls_per_day": 2,
+    "copy": {
+      "hero": "Free missed call calculator for Playground Installation. Estimate revenue lost from 2 missed calls per day at an average job value of $6,000.",
+      "problem": "At the default settings, 2 missed calls per day at $6,000 per job creates about $3,120,000 per year in missed-call exposure.",
+      "math": "At the default settings, 2 missed calls per day at $6,000 per job creates about $3,120,000 per year in missed-call exposure.",
+      "industry": "Free missed call calculator for Playground Installation. Estimate revenue lost from 2 missed calls per day at an average job value of $6,000.",
+      "cta": "Use the Playground Installation missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Plumbers",
+    "slug": "plumbers-missed-calls",
+    "vertical": "home_services",
+    "avg_job_value": 350,
+    "missed_calls_per_day": 5,
+    "copy": {
+      "hero": "Free missed call calculator for Plumbers. Estimate revenue lost from 5 missed calls per day at an average job value of $350.",
+      "problem": "At the default settings, 5 missed calls per day at $350 per job creates about $455,000 per year in missed-call exposure.",
+      "math": "At the default settings, 5 missed calls per day at $350 per job creates about $455,000 per year in missed-call exposure.",
+      "industry": "Free missed call calculator for Plumbers. Estimate revenue lost from 5 missed calls per day at an average job value of $350.",
+      "cta": "Use the Plumbers missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Pool Builders",
+    "slug": "pool-builders-missed-calls",
+    "vertical": "home_services",
+    "avg_job_value": 25000,
+    "missed_calls_per_day": 1,
+    "copy": {
+      "hero": "Free missed call calculator for Pool Builders. Estimate revenue lost from 1 missed calls per day at an average job value of $25,000.",
+      "problem": "At the default settings, 1 missed calls per day at $25,000 per job creates about $6,500,000 per year in missed-call exposure.",
+      "math": "At the default settings, 1 missed calls per day at $25,000 per job creates about $6,500,000 per year in missed-call exposure.",
+      "industry": "Free missed call calculator for Pool Builders. Estimate revenue lost from 1 missed calls per day at an average job value of $25,000.",
+      "cta": "Use the Pool Builders missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Pool Cleaning",
+    "slug": "pool-cleaning-missed-calls",
+    "vertical": "home_services",
+    "avg_job_value": 150,
+    "missed_calls_per_day": 4,
+    "copy": {
+      "hero": "Free missed call calculator for Pool Cleaning. Estimate revenue lost from 4 missed calls per day at an average job value of $150.",
+      "problem": "At the default settings, 4 missed calls per day at $150 per job creates about $156,000 per year in missed-call exposure.",
+      "math": "At the default settings, 4 missed calls per day at $150 per job creates about $156,000 per year in missed-call exposure.",
+      "industry": "Free missed call calculator for Pool Cleaning. Estimate revenue lost from 4 missed calls per day at an average job value of $150.",
+      "cta": "Use the Pool Cleaning missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Pressure Washing",
+    "slug": "pressure-washing-missed-calls",
+    "vertical": "home_services",
+    "avg_job_value": 300,
+    "missed_calls_per_day": 5,
+    "copy": {
+      "hero": "Free missed call calculator for Pressure Washing. Estimate revenue lost from 5 missed calls per day at an average job value of $300.",
+      "problem": "At the default settings, 5 missed calls per day at $300 per job creates about $390,000 per year in missed-call exposure.",
+      "math": "At the default settings, 5 missed calls per day at $300 per job creates about $390,000 per year in missed-call exposure.",
+      "industry": "Free missed call calculator for Pressure Washing. Estimate revenue lost from 5 missed calls per day at an average job value of $300.",
+      "cta": "Use the Pressure Washing missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Retaining Wall Contractors",
+    "slug": "retaining-wall-missed-calls",
+    "vertical": "home_services",
+    "avg_job_value": 7000,
+    "missed_calls_per_day": 2,
+    "copy": {
+      "hero": "Free missed call calculator for Retaining Wall Contractors. Estimate revenue lost from 2 missed calls per day at an average job value of $7,000.",
+      "problem": "At the default settings, 2 missed calls per day at $7,000 per job creates about $3,640,000 per year in missed-call exposure.",
+      "math": "At the default settings, 2 missed calls per day at $7,000 per job creates about $3,640,000 per year in missed-call exposure.",
+      "industry": "Free missed call calculator for Retaining Wall Contractors. Estimate revenue lost from 2 missed calls per day at an average job value of $7,000.",
+      "cta": "Use the Retaining Wall Contractors missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Roofers",
+    "slug": "roofers-missed-calls",
+    "vertical": "home_services",
+    "avg_job_value": 2500,
+    "missed_calls_per_day": 3,
+    "copy": {
+      "hero": "Free missed call calculator for Roofers. Estimate revenue lost from 3 missed calls per day at an average job value of $2,500.",
+      "problem": "At the default settings, 3 missed calls per day at $2,500 per job creates about $1,950,000 per year in missed-call exposure.",
+      "math": "At the default settings, 3 missed calls per day at $2,500 per job creates about $1,950,000 per year in missed-call exposure.",
+      "industry": "Free missed call calculator for Roofers. Estimate revenue lost from 3 missed calls per day at an average job value of $2,500.",
+      "cta": "Use the Roofers missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Septic Services",
+    "slug": "septic-services-missed-calls",
+    "vertical": "home_services",
+    "avg_job_value": 1200,
+    "missed_calls_per_day": 3,
+    "copy": {
+      "hero": "Free missed call calculator for Septic Services. Estimate revenue lost from 3 missed calls per day at an average job value of $1,200.",
+      "problem": "At the default settings, 3 missed calls per day at $1,200 per job creates about $936,000 per year in missed-call exposure.",
+      "math": "At the default settings, 3 missed calls per day at $1,200 per job creates about $936,000 per year in missed-call exposure.",
+      "industry": "Free missed call calculator for Septic Services. Estimate revenue lost from 3 missed calls per day at an average job value of $1,200.",
+      "cta": "Use the Septic Services missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Siding Contractors",
+    "slug": "siding-contractors-missed-calls",
+    "vertical": "home_services",
+    "avg_job_value": 10000,
+    "missed_calls_per_day": 2,
+    "copy": {
+      "hero": "Free missed call calculator for Siding Contractors. Estimate revenue lost from 2 missed calls per day at an average job value of $10,000.",
+      "problem": "At the default settings, 2 missed calls per day at $10,000 per job creates about $5,200,000 per year in missed-call exposure.",
+      "math": "At the default settings, 2 missed calls per day at $10,000 per job creates about $5,200,000 per year in missed-call exposure.",
+      "industry": "Free missed call calculator for Siding Contractors. Estimate revenue lost from 2 missed calls per day at an average job value of $10,000.",
+      "cta": "Use the Siding Contractors missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Signage Installers",
+    "slug": "signage-installers-missed-calls",
+    "vertical": "home_services",
+    "avg_job_value": 2000,
+    "missed_calls_per_day": 3,
+    "copy": {
+      "hero": "Free missed call calculator for Signage Installers. Estimate revenue lost from 3 missed calls per day at an average job value of $2,000.",
+      "problem": "At the default settings, 3 missed calls per day at $2,000 per job creates about $1,560,000 per year in missed-call exposure.",
+      "math": "At the default settings, 3 missed calls per day at $2,000 per job creates about $1,560,000 per year in missed-call exposure.",
+      "industry": "Free missed call calculator for Signage Installers. Estimate revenue lost from 3 missed calls per day at an average job value of $2,000.",
+      "cta": "Use the Signage Installers missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Snow Removal",
+    "slug": "snow-removal-missed-calls",
+    "vertical": "home_services",
+    "avg_job_value": 300,
+    "missed_calls_per_day": 6,
+    "copy": {
+      "hero": "Free missed call calculator for Snow Removal. Estimate revenue lost from 6 missed calls per day at an average job value of $300.",
+      "problem": "At the default settings, 6 missed calls per day at $300 per job creates about $468,000 per year in missed-call exposure.",
+      "math": "At the default settings, 6 missed calls per day at $300 per job creates about $468,000 per year in missed-call exposure.",
+      "industry": "Free missed call calculator for Snow Removal. Estimate revenue lost from 6 missed calls per day at an average job value of $300.",
+      "cta": "Use the Snow Removal missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Solar Installers",
+    "slug": "solar-installers-missed-calls",
+    "vertical": "home_services",
+    "avg_job_value": 20000,
+    "missed_calls_per_day": 2,
+    "copy": {
+      "hero": "Free missed call calculator for Solar Installers. Estimate revenue lost from 2 missed calls per day at an average job value of $20,000.",
+      "problem": "At the default settings, 2 missed calls per day at $20,000 per job creates about $10,400,000 per year in missed-call exposure.",
+      "math": "At the default settings, 2 missed calls per day at $20,000 per job creates about $10,400,000 per year in missed-call exposure.",
+      "industry": "Free missed call calculator for Solar Installers. Estimate revenue lost from 2 missed calls per day at an average job value of $20,000.",
+      "cta": "Use the Solar Installers missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Sport Court Installers",
+    "slug": "sport-court-missed-calls",
+    "vertical": "home_services",
+    "avg_job_value": 12000,
+    "missed_calls_per_day": 1,
+    "copy": {
+      "hero": "Free missed call calculator for Sport Court Installers. Estimate revenue lost from 1 missed calls per day at an average job value of $12,000.",
+      "problem": "At the default settings, 1 missed calls per day at $12,000 per job creates about $3,120,000 per year in missed-call exposure.",
+      "math": "At the default settings, 1 missed calls per day at $12,000 per job creates about $3,120,000 per year in missed-call exposure.",
+      "industry": "Free missed call calculator for Sport Court Installers. Estimate revenue lost from 1 missed calls per day at an average job value of $12,000.",
+      "cta": "Use the Sport Court Installers missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Sprinkler Repair",
+    "slug": "sprinkler-repair-missed-calls",
+    "vertical": "home_services",
+    "avg_job_value": 250,
+    "missed_calls_per_day": 5,
+    "copy": {
+      "hero": "Free missed call calculator for Sprinkler Repair. Estimate revenue lost from 5 missed calls per day at an average job value of $250.",
+      "problem": "At the default settings, 5 missed calls per day at $250 per job creates about $325,000 per year in missed-call exposure.",
+      "math": "At the default settings, 5 missed calls per day at $250 per job creates about $325,000 per year in missed-call exposure.",
+      "industry": "Free missed call calculator for Sprinkler Repair. Estimate revenue lost from 5 missed calls per day at an average job value of $250.",
+      "cta": "Use the Sprinkler Repair missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Structural Engineers",
+    "slug": "structural-engineers-missed-calls",
+    "vertical": "home_services",
+    "avg_job_value": 5000,
+    "missed_calls_per_day": 1,
+    "copy": {
+      "hero": "Free missed call calculator for Structural Engineers. Estimate revenue lost from 1 missed calls per day at an average job value of $5,000.",
+      "problem": "At the default settings, 1 missed calls per day at $5,000 per job creates about $1,300,000 per year in missed-call exposure.",
+      "math": "At the default settings, 1 missed calls per day at $5,000 per job creates about $1,300,000 per year in missed-call exposure.",
+      "industry": "Free missed call calculator for Structural Engineers. Estimate revenue lost from 1 missed calls per day at an average job value of $5,000.",
+      "cta": "Use the Structural Engineers missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Stucco Contractors",
+    "slug": "stucco-missed-calls",
+    "vertical": "home_services",
+    "avg_job_value": 9000,
+    "missed_calls_per_day": 2,
+    "copy": {
+      "hero": "Free missed call calculator for Stucco Contractors. Estimate revenue lost from 2 missed calls per day at an average job value of $9,000.",
+      "problem": "At the default settings, 2 missed calls per day at $9,000 per job creates about $4,680,000 per year in missed-call exposure.",
+      "math": "At the default settings, 2 missed calls per day at $9,000 per job creates about $4,680,000 per year in missed-call exposure.",
+      "industry": "Free missed call calculator for Stucco Contractors. Estimate revenue lost from 2 missed calls per day at an average job value of $9,000.",
+      "cta": "Use the Stucco Contractors missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Tile Installers",
+    "slug": "tile-installers-missed-calls",
+    "vertical": "home_services",
+    "avg_job_value": 3000,
+    "missed_calls_per_day": 2,
+    "copy": {
+      "hero": "Free missed call calculator for Tile Installers. Estimate revenue lost from 2 missed calls per day at an average job value of $3,000.",
+      "problem": "At the default settings, 2 missed calls per day at $3,000 per job creates about $1,560,000 per year in missed-call exposure.",
+      "math": "At the default settings, 2 missed calls per day at $3,000 per job creates about $1,560,000 per year in missed-call exposure.",
+      "industry": "Free missed call calculator for Tile Installers. Estimate revenue lost from 2 missed calls per day at an average job value of $3,000.",
+      "cta": "Use the Tile Installers missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Tree Service",
+    "slug": "tree-service-missed-calls",
+    "vertical": "home_services",
+    "avg_job_value": 800,
+    "missed_calls_per_day": 4,
+    "copy": {
+      "hero": "Free missed call calculator for Tree Service. Estimate revenue lost from 4 missed calls per day at an average job value of $800.",
+      "problem": "At the default settings, 4 missed calls per day at $800 per job creates about $832,000 per year in missed-call exposure.",
+      "math": "At the default settings, 4 missed calls per day at $800 per job creates about $832,000 per year in missed-call exposure.",
+      "industry": "Free missed call calculator for Tree Service. Estimate revenue lost from 4 missed calls per day at an average job value of $800.",
+      "cta": "Use the Tree Service missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Water Damage Restoration",
+    "slug": "water-damage-missed-calls",
+    "vertical": "home_services",
+    "avg_job_value": 5000,
+    "missed_calls_per_day": 2,
+    "copy": {
+      "hero": "Free missed call calculator for Water Damage Restoration. Estimate revenue lost from 2 missed calls per day at an average job value of $5,000.",
+      "problem": "At the default settings, 2 missed calls per day at $5,000 per job creates about $2,600,000 per year in missed-call exposure.",
+      "math": "At the default settings, 2 missed calls per day at $5,000 per job creates about $2,600,000 per year in missed-call exposure.",
+      "industry": "Free missed call calculator for Water Damage Restoration. Estimate revenue lost from 2 missed calls per day at an average job value of $5,000.",
+      "cta": "Use the Water Damage Restoration missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Water Filtration",
+    "slug": "water-filtration-missed-calls",
+    "vertical": "home_services",
+    "avg_job_value": 3000,
+    "missed_calls_per_day": 2,
+    "copy": {
+      "hero": "Free missed call calculator for Water Filtration. Estimate revenue lost from 2 missed calls per day at an average job value of $3,000.",
+      "problem": "At the default settings, 2 missed calls per day at $3,000 per job creates about $1,560,000 per year in missed-call exposure.",
+      "math": "At the default settings, 2 missed calls per day at $3,000 per job creates about $1,560,000 per year in missed-call exposure.",
+      "industry": "Free missed call calculator for Water Filtration. Estimate revenue lost from 2 missed calls per day at an average job value of $3,000.",
+      "cta": "Use the Water Filtration missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Well Drilling",
+    "slug": "well-drilling-missed-calls",
+    "vertical": "home_services",
+    "avg_job_value": 15000,
+    "missed_calls_per_day": 1,
+    "copy": {
+      "hero": "Free missed call calculator for Well Drilling. Estimate revenue lost from 1 missed calls per day at an average job value of $15,000.",
+      "problem": "At the default settings, 1 missed calls per day at $15,000 per job creates about $3,900,000 per year in missed-call exposure.",
+      "math": "At the default settings, 1 missed calls per day at $15,000 per job creates about $3,900,000 per year in missed-call exposure.",
+      "industry": "Free missed call calculator for Well Drilling. Estimate revenue lost from 1 missed calls per day at an average job value of $15,000.",
+      "cta": "Use the Well Drilling missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Window Cleaning",
+    "slug": "window-cleaning-missed-calls",
+    "vertical": "home_services",
+    "avg_job_value": 200,
+    "missed_calls_per_day": 5,
+    "copy": {
+      "hero": "Free missed call calculator for Window Cleaning. Estimate revenue lost from 5 missed calls per day at an average job value of $200.",
+      "problem": "At the default settings, 5 missed calls per day at $200 per job creates about $260,000 per year in missed-call exposure.",
+      "math": "At the default settings, 5 missed calls per day at $200 per job creates about $260,000 per year in missed-call exposure.",
+      "industry": "Free missed call calculator for Window Cleaning. Estimate revenue lost from 5 missed calls per day at an average job value of $200.",
+      "cta": "Use the Window Cleaning missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Bankruptcy Attorneys",
+    "slug": "bankruptcy-attorneys-missed-calls",
+    "vertical": "legal",
+    "avg_job_value": 4000,
+    "missed_calls_per_day": 4,
+    "copy": {
+      "hero": "Free missed call calculator for Bankruptcy Attorneys. Missed calls cost financially distressed clients.",
+      "problem": "4 missed calls = $16,000 lost.",
+      "math": "4 missed calls = $16,000 lost.",
+      "industry": "Free missed call calculator for Bankruptcy Attorneys. Missed calls cost financially distressed clients.",
+      "cta": "Use the Bankruptcy Attorneys missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Business Attorneys",
+    "slug": "business-attorneys-missed-calls",
+    "vertical": "legal",
+    "avg_job_value": 15000,
+    "missed_calls_per_day": 2,
+    "copy": {
+      "hero": "Free missed call calculator for Business Attorneys. Missed calls cost high-value business clients.",
+      "problem": "2 missed calls = $30,000 lost.",
+      "math": "2 missed calls = $30,000 lost.",
+      "industry": "Free missed call calculator for Business Attorneys. Missed calls cost high-value business clients.",
+      "cta": "Use the Business Attorneys missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Car Accident Lawyers",
+    "slug": "car-accident-lawyers-missed-calls",
+    "vertical": "legal",
+    "avg_job_value": 20000,
+    "missed_calls_per_day": 3,
+    "copy": {
+      "hero": "Free missed call calculator for Car Accident Lawyers. Missed calls mean missed accident cases.",
+      "problem": "3 missed calls could mean $60,000 in lost opportunity.",
+      "math": "3 missed calls could mean $60,000 in lost opportunity.",
+      "industry": "Free missed call calculator for Car Accident Lawyers. Missed calls mean missed accident cases.",
+      "cta": "Use the Car Accident Lawyers missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Criminal Defense Attorneys",
+    "slug": "criminal-defense-missed-calls",
+    "vertical": "legal",
+    "avg_job_value": 10000,
+    "missed_calls_per_day": 3,
+    "copy": {
+      "hero": "Free missed call calculator for Criminal Defense Attorneys. Missed calls mean lost clients in urgent situations.",
+      "problem": "3 missed calls could cost $30,000.",
+      "math": "3 missed calls could cost $30,000.",
+      "industry": "Free missed call calculator for Criminal Defense Attorneys. Missed calls mean lost clients in urgent situations.",
+      "cta": "Use the Criminal Defense Attorneys missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Divorce Lawyers",
+    "slug": "divorce-lawyers-missed-calls",
+    "vertical": "legal",
+    "avg_job_value": 9000,
+    "missed_calls_per_day": 3,
+    "copy": {
+      "hero": "Free missed call calculator for Divorce Lawyers. Missed calls mean lost divorce cases.",
+      "problem": "3 missed calls = $27,000 lost.",
+      "math": "3 missed calls = $27,000 lost.",
+      "industry": "Free missed call calculator for Divorce Lawyers. Missed calls mean lost divorce cases.",
+      "cta": "Use the Divorce Lawyers missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "DUI Lawyers",
+    "slug": "dui-lawyers-missed-calls",
+    "vertical": "legal",
+    "avg_job_value": 8000,
+    "missed_calls_per_day": 4,
+    "copy": {
+      "hero": "Free missed call calculator for DUI Lawyers. Missed calls cost DUI clients immediately.",
+      "problem": "4 missed calls = $32,000 lost.",
+      "math": "4 missed calls = $32,000 lost.",
+      "industry": "Free missed call calculator for DUI Lawyers. Missed calls cost DUI clients immediately.",
+      "cta": "Use the DUI Lawyers missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Employment Lawyers",
+    "slug": "employment-lawyers-missed-calls",
+    "vertical": "legal",
+    "avg_job_value": 12000,
+    "missed_calls_per_day": 2,
+    "copy": {
+      "hero": "Free missed call calculator for Employment Lawyers. Missed calls cost workplace dispute cases.",
+      "problem": "2 missed calls = $24,000 lost.",
+      "math": "2 missed calls = $24,000 lost.",
+      "industry": "Free missed call calculator for Employment Lawyers. Missed calls cost workplace dispute cases.",
+      "cta": "Use the Employment Lawyers missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Estate Planning Attorneys",
+    "slug": "estate-planning-missed-calls",
+    "vertical": "legal",
+    "avg_job_value": 4000,
+    "missed_calls_per_day": 3,
+    "copy": {
+      "hero": "Free missed call calculator for Estate Planning Attorneys. Missed calls cost long-term clients.",
+      "problem": "3 missed calls = $12,000 lost.",
+      "math": "3 missed calls = $12,000 lost.",
+      "industry": "Free missed call calculator for Estate Planning Attorneys. Missed calls cost long-term clients.",
+      "cta": "Use the Estate Planning Attorneys missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Family Law Attorneys",
+    "slug": "family-law-attorneys-missed-calls",
+    "vertical": "legal",
+    "avg_job_value": 7000,
+    "missed_calls_per_day": 3,
+    "copy": {
+      "hero": "Free missed call calculator for Family Law Attorneys. Missed calls cost emotionally driven clients.",
+      "problem": "3 missed calls = $21,000 lost.",
+      "math": "3 missed calls = $21,000 lost.",
+      "industry": "Free missed call calculator for Family Law Attorneys. Missed calls cost emotionally driven clients.",
+      "cta": "Use the Family Law Attorneys missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Immigration Lawyers",
+    "slug": "immigration-lawyers-missed-calls",
+    "vertical": "legal",
+    "avg_job_value": 5000,
+    "missed_calls_per_day": 3,
+    "copy": {
+      "hero": "Free missed call calculator for Immigration Lawyers. Missed calls cost life-changing cases.",
+      "problem": "3 missed calls = $15,000 lost.",
+      "math": "3 missed calls = $15,000 lost.",
+      "industry": "Free missed call calculator for Immigration Lawyers. Missed calls cost life-changing cases.",
+      "cta": "Use the Immigration Lawyers missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Medical Malpractice Lawyers",
+    "slug": "medical-malpractice-missed-calls",
+    "vertical": "legal",
+    "avg_job_value": 60000,
+    "missed_calls_per_day": 1,
+    "copy": {
+      "hero": "Free missed call calculator for Medical Malpractice Lawyers. Missed calls cost complex, high-value cases.",
+      "problem": "1 missed call could mean $60,000 lost.",
+      "math": "1 missed call could mean $60,000 lost.",
+      "industry": "Free missed call calculator for Medical Malpractice Lawyers. Missed calls cost complex, high-value cases.",
+      "cta": "Use the Medical Malpractice Lawyers missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Personal Injury Attorneys",
+    "slug": "personal-injury-attorneys-missed-calls",
+    "vertical": "legal",
+    "avg_job_value": 25000,
+    "missed_calls_per_day": 2,
+    "copy": {
+      "hero": "Free missed call calculator for Personal Injury Attorneys. Every missed call could be a high-value injury case.",
+      "problem": "2 missed calls per day could mean $50,000 in lost case value.",
+      "math": "2 missed calls per day could mean $50,000 in lost case value.",
+      "industry": "Free missed call calculator for Personal Injury Attorneys. Every missed call could be a high-value injury case.",
+      "cta": "Use the Personal Injury Attorneys missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Probate Attorneys",
+    "slug": "probate-attorneys-missed-calls",
+    "vertical": "legal",
+    "avg_job_value": 6000,
+    "missed_calls_per_day": 2,
+    "copy": {
+      "hero": "Free missed call calculator for Probate Attorneys. Missed calls cost sensitive probate cases.",
+      "problem": "2 missed calls = $12,000 lost.",
+      "math": "2 missed calls = $12,000 lost.",
+      "industry": "Free missed call calculator for Probate Attorneys. Missed calls cost sensitive probate cases.",
+      "cta": "Use the Probate Attorneys missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Truck Accident Lawyers",
+    "slug": "truck-accident-lawyers-missed-calls",
+    "vertical": "legal",
+    "avg_job_value": 50000,
+    "missed_calls_per_day": 1,
+    "copy": {
+      "hero": "Free missed call calculator for Truck Accident Lawyers. Miss one call. Lose a major case.",
+      "problem": "1 missed call could cost $50,000+.",
+      "math": "1 missed call could cost $50,000+.",
+      "industry": "Free missed call calculator for Truck Accident Lawyers. Miss one call. Lose a major case.",
+      "cta": "Use the Truck Accident Lawyers missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Wrongful Death Attorneys",
+    "slug": "wrongful-death-attorneys-missed-calls",
+    "vertical": "legal",
+    "avg_job_value": 75000,
+    "missed_calls_per_day": 1,
+    "copy": {
+      "hero": "Free missed call calculator for Wrongful Death Attorneys. Missed calls could mean lost life-changing cases.",
+      "problem": "1 missed call could cost $75,000+.",
+      "math": "1 missed call could cost $75,000+.",
+      "industry": "Free missed call calculator for Wrongful Death Attorneys. Missed calls could mean lost life-changing cases.",
+      "cta": "Use the Wrongful Death Attorneys missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Airbnb Property Managers",
+    "slug": "airbnb-property-managers-missed-calls",
+    "vertical": "real_estate",
+    "avg_job_value": 2500,
+    "missed_calls_per_day": 4,
+    "copy": {
+      "hero": "Free missed call calculator for Airbnb Property Managers. Missed calls mean lost bookings.",
+      "problem": "4 missed calls = $10,000 lost.",
+      "math": "4 missed calls = $10,000 lost.",
+      "industry": "Free missed call calculator for Airbnb Property Managers. Missed calls mean lost bookings.",
+      "cta": "Use the Airbnb Property Managers missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Apartment Locators",
+    "slug": "apartment-locators-missed-calls",
+    "vertical": "real_estate",
+    "avg_job_value": 1200,
+    "missed_calls_per_day": 5,
+    "copy": {
+      "hero": "Free missed call calculator for Apartment Locators. Missed calls mean lost renter placements.",
+      "problem": "5 missed calls could cost $6,000 in commissions.",
+      "math": "5 missed calls could cost $6,000 in commissions.",
+      "industry": "Free missed call calculator for Apartment Locators. Missed calls mean lost renter placements.",
+      "cta": "Use the Apartment Locators missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Asset Managers Real Estate",
+    "slug": "asset-managers-missed-calls",
+    "vertical": "real_estate",
+    "avg_job_value": 25000,
+    "missed_calls_per_day": 1,
+    "copy": {
+      "hero": "Free missed call calculator for Asset Managers Real Estate. Missed calls impact portfolio performance.",
+      "problem": "1 missed call = $25,000 lost.",
+      "math": "1 missed call = $25,000 lost.",
+      "industry": "Free missed call calculator for Asset Managers Real Estate. Missed calls impact portfolio performance.",
+      "cta": "Use the Asset Managers Real Estate missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Builders",
+    "slug": "builders-missed-calls",
+    "vertical": "real_estate",
+    "avg_job_value": 30000,
+    "missed_calls_per_day": 2,
+    "copy": {
+      "hero": "Free missed call calculator for Builders. Missed calls cost construction contracts.",
+      "problem": "2 missed calls = $60,000 lost.",
+      "math": "2 missed calls = $60,000 lost.",
+      "industry": "Free missed call calculator for Builders. Missed calls cost construction contracts.",
+      "cta": "Use the Builders missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Buyers Agents",
+    "slug": "buyers-agents-missed-calls",
+    "vertical": "real_estate",
+    "avg_job_value": 8000,
+    "missed_calls_per_day": 3,
+    "copy": {
+      "hero": "Free missed call calculator for Buyers Agents. Missed calls mean missed buyers ready to act.",
+      "problem": "3 missed calls equals $24,000 lost opportunity.",
+      "math": "3 missed calls equals $24,000 lost opportunity.",
+      "industry": "Free missed call calculator for Buyers Agents. Missed calls mean missed buyers ready to act.",
+      "cta": "Use the Buyers Agents missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Closing Agents",
+    "slug": "closing-agents-missed-calls",
+    "vertical": "real_estate",
+    "avg_job_value": 1500,
+    "missed_calls_per_day": 3,
+    "copy": {
+      "hero": "Free missed call calculator for Closing Agents. Missed calls mean delayed closings.",
+      "problem": "3 missed calls equals $4,500 lost.",
+      "math": "3 missed calls equals $4,500 lost.",
+      "industry": "Free missed call calculator for Closing Agents. Missed calls mean delayed closings.",
+      "cta": "Use the Closing Agents missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Commercial Real Estate Agents",
+    "slug": "commercial-real-estate-agents-missed-calls",
+    "vertical": "real_estate",
+    "avg_job_value": 30000,
+    "missed_calls_per_day": 1,
+    "copy": {
+      "hero": "Free missed call calculator for Commercial Real Estate Agents. Missed calls can cost you major commercial deals.",
+      "problem": "One missed opportunity could cost $30,000 or more.",
+      "math": "One missed opportunity could cost $30,000 or more.",
+      "industry": "Free missed call calculator for Commercial Real Estate Agents. Missed calls can cost you major commercial deals.",
+      "cta": "Use the Commercial Real Estate Agents missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Custom Home Builders",
+    "slug": "custom-home-builders-missed-calls",
+    "vertical": "real_estate",
+    "avg_job_value": 50000,
+    "missed_calls_per_day": 1,
+    "copy": {
+      "hero": "Free missed call calculator for Custom Home Builders. Missed calls cost dream home projects.",
+      "problem": "1 missed call = $50,000 lost.",
+      "math": "1 missed call = $50,000 lost.",
+      "industry": "Free missed call calculator for Custom Home Builders. Missed calls cost dream home projects.",
+      "cta": "Use the Custom Home Builders missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Dispositions Managers",
+    "slug": "dispositions-managers-missed-calls",
+    "vertical": "real_estate",
+    "avg_job_value": 15000,
+    "missed_calls_per_day": 2,
+    "copy": {
+      "hero": "Free missed call calculator for Dispositions Managers. Missed calls delay property sales.",
+      "problem": "2 missed calls = $30,000 lost.",
+      "math": "2 missed calls = $30,000 lost.",
+      "industry": "Free missed call calculator for Dispositions Managers. Missed calls delay property sales.",
+      "cta": "Use the Dispositions Managers missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Dual Agents",
+    "slug": "dual-agents-missed-calls",
+    "vertical": "real_estate",
+    "avg_job_value": 15000,
+    "missed_calls_per_day": 2,
+    "copy": {
+      "hero": "Free missed call calculator for Dual Agents. Missed calls can mean losing both sides of a deal.",
+      "problem": "2 missed calls could cost $30,000.",
+      "math": "2 missed calls could cost $30,000.",
+      "industry": "Free missed call calculator for Dual Agents. Missed calls can mean losing both sides of a deal.",
+      "cta": "Use the Dual Agents missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Escrow Officers",
+    "slug": "escrow-officers-missed-calls",
+    "vertical": "real_estate",
+    "avg_job_value": 1800,
+    "missed_calls_per_day": 3,
+    "copy": {
+      "hero": "Free missed call calculator for Escrow Officers. Missed calls disrupt transactions.",
+      "problem": "3 missed calls equals $5,400 lost.",
+      "math": "3 missed calls equals $5,400 lost.",
+      "industry": "Free missed call calculator for Escrow Officers. Missed calls disrupt transactions.",
+      "cta": "Use the Escrow Officers missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Hard Money Lenders",
+    "slug": "hard-money-lenders-missed-calls",
+    "vertical": "real_estate",
+    "avg_job_value": 10000,
+    "missed_calls_per_day": 2,
+    "copy": {
+      "hero": "Free missed call calculator for Hard Money Lenders. Missed calls mean lost high-interest deals.",
+      "problem": "2 missed calls equals $20,000 lost.",
+      "math": "2 missed calls equals $20,000 lost.",
+      "industry": "Free missed call calculator for Hard Money Lenders. Missed calls mean lost high-interest deals.",
+      "cta": "Use the Hard Money Lenders missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "HOA Managers",
+    "slug": "hoa-managers-missed-calls",
+    "vertical": "real_estate",
+    "avg_job_value": 2000,
+    "missed_calls_per_day": 3,
+    "copy": {
+      "hero": "Free missed call calculator for HOA Managers. Missed calls frustrate homeowners.",
+      "problem": "3 missed calls = $6,000 lost.",
+      "math": "3 missed calls = $6,000 lost.",
+      "industry": "Free missed call calculator for HOA Managers. Missed calls frustrate homeowners.",
+      "cta": "Use the HOA Managers missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Home Inspectors",
+    "slug": "home-inspectors-missed-calls",
+    "vertical": "real_estate",
+    "avg_job_value": 600,
+    "missed_calls_per_day": 5,
+    "copy": {
+      "hero": "Free missed call calculator for Home Inspectors. Missed calls mean missed inspections.",
+      "problem": "5 missed calls = $3,000 lost.",
+      "math": "5 missed calls = $3,000 lost.",
+      "industry": "Free missed call calculator for Home Inspectors. Missed calls mean missed inspections.",
+      "cta": "Use the Home Inspectors missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Home Stagers",
+    "slug": "home-stagers-missed-calls",
+    "vertical": "real_estate",
+    "avg_job_value": 2500,
+    "missed_calls_per_day": 3,
+    "copy": {
+      "hero": "Free missed call calculator for Home Stagers. Missed calls cost staging contracts.",
+      "problem": "3 missed calls = $7,500 lost.",
+      "math": "3 missed calls = $7,500 lost.",
+      "industry": "Free missed call calculator for Home Stagers. Missed calls cost staging contracts.",
+      "cta": "Use the Home Stagers missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "House Flippers",
+    "slug": "house-flippers-missed-calls",
+    "vertical": "real_estate",
+    "avg_job_value": 20000,
+    "missed_calls_per_day": 2,
+    "copy": {
+      "hero": "Free missed call calculator for House Flippers. Missed calls mean missed flip opportunities.",
+      "problem": "2 missed calls = $40,000 lost.",
+      "math": "2 missed calls = $40,000 lost.",
+      "industry": "Free missed call calculator for House Flippers. Missed calls mean missed flip opportunities.",
+      "cta": "Use the House Flippers missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Investment Property Agents",
+    "slug": "investment-property-agents-missed-calls",
+    "vertical": "real_estate",
+    "avg_job_value": 18000,
+    "missed_calls_per_day": 2,
+    "copy": {
+      "hero": "Free missed call calculator for Investment Property Agents. Missed calls mean lost investor deals.",
+      "problem": "2 missed calls equals $36,000 lost.",
+      "math": "2 missed calls equals $36,000 lost.",
+      "industry": "Free missed call calculator for Investment Property Agents. Missed calls mean lost investor deals.",
+      "cta": "Use the Investment Property Agents missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Land Developers",
+    "slug": "land-developers-missed-calls",
+    "vertical": "real_estate",
+    "avg_job_value": 40000,
+    "missed_calls_per_day": 1,
+    "copy": {
+      "hero": "Free missed call calculator for Land Developers. Missed calls mean lost land opportunities.",
+      "problem": "1 missed call = $40,000 lost.",
+      "math": "1 missed call = $40,000 lost.",
+      "industry": "Free missed call calculator for Land Developers. Missed calls mean lost land opportunities.",
+      "cta": "Use the Land Developers missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Leasing Agents",
+    "slug": "leasing-agents-missed-calls",
+    "vertical": "real_estate",
+    "avg_job_value": 1500,
+    "missed_calls_per_day": 5,
+    "copy": {
+      "hero": "Free missed call calculator for Leasing Agents. Missed calls keep units empty.",
+      "problem": "5 missed calls equals $7,500 in lost leasing potential.",
+      "math": "5 missed calls equals $7,500 in lost leasing potential.",
+      "industry": "Free missed call calculator for Leasing Agents. Missed calls keep units empty.",
+      "cta": "Use the Leasing Agents missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Listing Agents",
+    "slug": "listing-agents-missed-calls",
+    "vertical": "real_estate",
+    "avg_job_value": 10000,
+    "missed_calls_per_day": 2,
+    "copy": {
+      "hero": "Free missed call calculator for Listing Agents. Missed listing calls go to competing agents.",
+      "problem": "2 missed calls could mean $20,000 lost daily.",
+      "math": "2 missed calls could mean $20,000 lost daily.",
+      "industry": "Free missed call calculator for Listing Agents. Missed listing calls go to competing agents.",
+      "cta": "Use the Listing Agents missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Loan Officers",
+    "slug": "loan-officers-missed-calls",
+    "vertical": "real_estate",
+    "avg_job_value": 4000,
+    "missed_calls_per_day": 3,
+    "copy": {
+      "hero": "Free missed call calculator for Loan Officers. Missed calls cost you approvals.",
+      "problem": "3 missed calls = $12,000 lost.",
+      "math": "3 missed calls = $12,000 lost.",
+      "industry": "Free missed call calculator for Loan Officers. Missed calls cost you approvals.",
+      "cta": "Use the Loan Officers missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Luxury Real Estate Agents",
+    "slug": "luxury-real-estate-agents-missed-calls",
+    "vertical": "real_estate",
+    "avg_job_value": 25000,
+    "missed_calls_per_day": 1,
+    "copy": {
+      "hero": "Free missed call calculator for Luxury Real Estate Agents. One missed call could be a multi-million dollar listing.",
+      "problem": "Miss 1 call and lose $25,000 in commission.",
+      "math": "Miss 1 call and lose $25,000 in commission.",
+      "industry": "Free missed call calculator for Luxury Real Estate Agents. One missed call could be a multi-million dollar listing.",
+      "cta": "Use the Luxury Real Estate Agents missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Mortgage Brokers",
+    "slug": "mortgage-brokers-missed-calls",
+    "vertical": "real_estate",
+    "avg_job_value": 5000,
+    "missed_calls_per_day": 3,
+    "copy": {
+      "hero": "Free missed call calculator for Mortgage Brokers. Missed calls cost you funded loans.",
+      "problem": "3 missed calls = $15,000 lost.",
+      "math": "3 missed calls = $15,000 lost.",
+      "industry": "Free missed call calculator for Mortgage Brokers. Missed calls cost you funded loans.",
+      "cta": "Use the Mortgage Brokers missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Multifamily Developers",
+    "slug": "multifamily-developers-missed-calls",
+    "vertical": "real_estate",
+    "avg_job_value": 75000,
+    "missed_calls_per_day": 1,
+    "copy": {
+      "hero": "Free missed call calculator for Multifamily Developers. Missed calls cost large-scale projects.",
+      "problem": "1 missed call = $75,000 lost.",
+      "math": "1 missed call = $75,000 lost.",
+      "industry": "Free missed call calculator for Multifamily Developers. Missed calls cost large-scale projects.",
+      "cta": "Use the Multifamily Developers missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "New Construction Agents",
+    "slug": "new-construction-agents-missed-calls",
+    "vertical": "real_estate",
+    "avg_job_value": 12000,
+    "missed_calls_per_day": 2,
+    "copy": {
+      "hero": "Free missed call calculator for New Construction Agents. Missed calls mean lost builder partnerships.",
+      "problem": "2 missed calls could cost $24,000.",
+      "math": "2 missed calls could cost $24,000.",
+      "industry": "Free missed call calculator for New Construction Agents. Missed calls mean lost builder partnerships.",
+      "cta": "Use the New Construction Agents missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Notaries",
+    "slug": "notaries-missed-calls",
+    "vertical": "real_estate",
+    "avg_job_value": 200,
+    "missed_calls_per_day": 6,
+    "copy": {
+      "hero": "Free missed call calculator for Notaries. Missed calls cost you quick jobs.",
+      "problem": "6 missed calls equals $1,200 lost.",
+      "math": "6 missed calls equals $1,200 lost.",
+      "industry": "Free missed call calculator for Notaries. Missed calls cost you quick jobs.",
+      "cta": "Use the Notaries missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Private Lenders",
+    "slug": "private-lenders-missed-calls",
+    "vertical": "real_estate",
+    "avg_job_value": 8000,
+    "missed_calls_per_day": 2,
+    "copy": {
+      "hero": "Free missed call calculator for Private Lenders. Missed calls mean missed lending opportunities.",
+      "problem": "2 missed calls could cost $16,000 in deals.",
+      "math": "2 missed calls could cost $16,000 in deals.",
+      "industry": "Free missed call calculator for Private Lenders. Missed calls mean missed lending opportunities.",
+      "cta": "Use the Private Lenders missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Property Acquisition Specialists",
+    "slug": "property-acquisition-missed-calls",
+    "vertical": "real_estate",
+    "avg_job_value": 20000,
+    "missed_calls_per_day": 2,
+    "copy": {
+      "hero": "Free missed call calculator for Property Acquisition Specialists. Missed calls mean missed acquisitions.",
+      "problem": "2 missed calls = $40,000 lost.",
+      "math": "2 missed calls = $40,000 lost.",
+      "industry": "Free missed call calculator for Property Acquisition Specialists. Missed calls mean missed acquisitions.",
+      "cta": "Use the Property Acquisition Specialists missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Property Maintenance",
+    "slug": "property-maintenance-missed-calls",
+    "vertical": "real_estate",
+    "avg_job_value": 500,
+    "missed_calls_per_day": 5,
+    "copy": {
+      "hero": "Free missed call calculator for Property Maintenance. Estimate revenue lost from 5 missed calls per day at an average job value of $500.",
+      "problem": "At the default settings, 5 missed calls per day at $500 per job creates about $650,000 per year in missed-call exposure.",
+      "math": "At the default settings, 5 missed calls per day at $500 per job creates about $650,000 per year in missed-call exposure.",
+      "industry": "Free missed call calculator for Property Maintenance. Estimate revenue lost from 5 missed calls per day at an average job value of $500.",
+      "cta": "Use the Property Maintenance missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Property Managers",
+    "slug": "property-managers-missed-calls",
+    "vertical": "real_estate",
+    "avg_job_value": 2000,
+    "missed_calls_per_day": 4,
+    "copy": {
+      "hero": "Free missed call calculator for Property Managers. Missed calls lead to lost owners and frustrated tenants.",
+      "problem": "4 missed calls per day could mean $8,000 in lost monthly revenue opportunities.",
+      "math": "4 missed calls per day could mean $8,000 in lost monthly revenue opportunities.",
+      "industry": "Free missed call calculator for Property Managers. Missed calls lead to lost owners and frustrated tenants.",
+      "cta": "Use the Property Managers missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Real Estate Agents",
+    "slug": "real-estate-agents-missed-calls",
+    "vertical": "real_estate",
+    "avg_job_value": 9000,
+    "missed_calls_per_day": 3,
+    "copy": {
+      "hero": "Free missed call calculator for Real Estate Agents. Every missed call could be a buyer or seller choosing another agent.",
+      "problem": "Miss 3 calls per day at a $9,000 commission and that&#x27;s $27,000 in daily opportunity lost.",
+      "math": "Miss 3 calls per day at a $9,000 commission and that&#x27;s $27,000 in daily opportunity lost.",
+      "industry": "Free missed call calculator for Real Estate Agents. Every missed call could be a buyer or seller choosing another agent.",
+      "cta": "Use the Real Estate Agents missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Real Estate Appraisers",
+    "slug": "real-estate-appraisers-missed-calls",
+    "vertical": "real_estate",
+    "avg_job_value": 800,
+    "missed_calls_per_day": 4,
+    "copy": {
+      "hero": "Free missed call calculator for Real Estate Appraisers. Missed calls mean missed appraisals.",
+      "problem": "4 missed calls = $3,200 lost.",
+      "math": "4 missed calls = $3,200 lost.",
+      "industry": "Free missed call calculator for Real Estate Appraisers. Missed calls mean missed appraisals.",
+      "cta": "Use the Real Estate Appraisers missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Real Estate Attorneys",
+    "slug": "real-estate-attorneys-missed-calls",
+    "vertical": "real_estate",
+    "avg_job_value": 3000,
+    "missed_calls_per_day": 2,
+    "copy": {
+      "hero": "Free missed call calculator for Real Estate Attorneys. Missed calls cost you legal clients.",
+      "problem": "2 missed calls equals $6,000 lost.",
+      "math": "2 missed calls equals $6,000 lost.",
+      "industry": "Free missed call calculator for Real Estate Attorneys. Missed calls cost you legal clients.",
+      "cta": "Use the Real Estate Attorneys missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Real Estate Brokers",
+    "slug": "real-estate-brokers-missed-calls",
+    "vertical": "real_estate",
+    "avg_job_value": 12000,
+    "missed_calls_per_day": 2,
+    "copy": {
+      "hero": "Free missed call calculator for Real Estate Brokers. Missed calls can cost you high-value clients and listings.",
+      "problem": "2 missed calls per day could mean $24,000 in lost commissions.",
+      "math": "2 missed calls per day could mean $24,000 in lost commissions.",
+      "industry": "Free missed call calculator for Real Estate Brokers. Missed calls can cost you high-value clients and listings.",
+      "cta": "Use the Real Estate Brokers missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Real Estate Consultants",
+    "slug": "real-estate-consultants-missed-calls",
+    "vertical": "real_estate",
+    "avg_job_value": 5000,
+    "missed_calls_per_day": 3,
+    "copy": {
+      "hero": "Free missed call calculator for Real Estate Consultants. Missed calls cost you consulting clients.",
+      "problem": "3 missed calls equals $15,000 in lost opportunity.",
+      "math": "3 missed calls equals $15,000 in lost opportunity.",
+      "industry": "Free missed call calculator for Real Estate Consultants. Missed calls cost you consulting clients.",
+      "cta": "Use the Real Estate Consultants missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Real Estate Developers",
+    "slug": "real-estate-developers-missed-calls",
+    "vertical": "real_estate",
+    "avg_job_value": 50000,
+    "missed_calls_per_day": 1,
+    "copy": {
+      "hero": "Free missed call calculator for Real Estate Developers. Missed calls can cost major development deals.",
+      "problem": "1 missed call could cost $50,000.",
+      "math": "1 missed call could cost $50,000.",
+      "industry": "Free missed call calculator for Real Estate Developers. Missed calls can cost major development deals.",
+      "cta": "Use the Real Estate Developers missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Real Estate Investors",
+    "slug": "real-estate-investors-missed-calls",
+    "vertical": "real_estate",
+    "avg_job_value": 15000,
+    "missed_calls_per_day": 2,
+    "copy": {
+      "hero": "Free missed call calculator for Real Estate Investors. Missed calls mean missed deals.",
+      "problem": "2 missed calls = $30,000 lost.",
+      "math": "2 missed calls = $30,000 lost.",
+      "industry": "Free missed call calculator for Real Estate Investors. Missed calls mean missed deals.",
+      "cta": "Use the Real Estate Investors missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Real Estate Photographers",
+    "slug": "real-estate-photographers-missed-calls",
+    "vertical": "real_estate",
+    "avg_job_value": 500,
+    "missed_calls_per_day": 4,
+    "copy": {
+      "hero": "Free missed call calculator for Real Estate Photographers. Missed calls cost you photo bookings.",
+      "problem": "4 missed calls = $2,000 lost.",
+      "math": "4 missed calls = $2,000 lost.",
+      "industry": "Free missed call calculator for Real Estate Photographers. Missed calls cost you photo bookings.",
+      "cta": "Use the Real Estate Photographers missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Real Estate Syndicators",
+    "slug": "real-estate-syndicators-missed-calls",
+    "vertical": "real_estate",
+    "avg_job_value": 50000,
+    "missed_calls_per_day": 1,
+    "copy": {
+      "hero": "Free missed call calculator for Real Estate Syndicators. Missed calls cost investor capital.",
+      "problem": "1 missed call = $50,000 lost.",
+      "math": "1 missed call = $50,000 lost.",
+      "industry": "Free missed call calculator for Real Estate Syndicators. Missed calls cost investor capital.",
+      "cta": "Use the Real Estate Syndicators missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Real Estate Team Leaders",
+    "slug": "team-leaders-missed-calls",
+    "vertical": "real_estate",
+    "avg_job_value": 15000,
+    "missed_calls_per_day": 3,
+    "copy": {
+      "hero": "Free missed call calculator for Real Estate Team Leaders. Missed calls impact your entire pipeline.",
+      "problem": "3 missed calls = $45,000 lost.",
+      "math": "3 missed calls = $45,000 lost.",
+      "industry": "Free missed call calculator for Real Estate Team Leaders. Missed calls impact your entire pipeline.",
+      "cta": "Use the Real Estate Team Leaders missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Real Estate Teams",
+    "slug": "real-estate-teams-missed-calls",
+    "vertical": "real_estate",
+    "avg_job_value": 12000,
+    "missed_calls_per_day": 4,
+    "copy": {
+      "hero": "Free missed call calculator for Real Estate Teams. Missed calls cost your entire team deals.",
+      "problem": "4 missed calls could mean $48,000 lost.",
+      "math": "4 missed calls could mean $48,000 lost.",
+      "industry": "Free missed call calculator for Real Estate Teams. Missed calls cost your entire team deals.",
+      "cta": "Use the Real Estate Teams missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Real Estate Videographers",
+    "slug": "real-estate-videographers-missed-calls",
+    "vertical": "real_estate",
+    "avg_job_value": 800,
+    "missed_calls_per_day": 3,
+    "copy": {
+      "hero": "Free missed call calculator for Real Estate Videographers. Missed calls cost premium media jobs.",
+      "problem": "3 missed calls = $2,400 lost.",
+      "math": "3 missed calls = $2,400 lost.",
+      "industry": "Free missed call calculator for Real Estate Videographers. Missed calls cost premium media jobs.",
+      "cta": "Use the Real Estate Videographers missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Relocation Specialists",
+    "slug": "relocation-specialists-missed-calls",
+    "vertical": "real_estate",
+    "avg_job_value": 7000,
+    "missed_calls_per_day": 2,
+    "copy": {
+      "hero": "Free missed call calculator for Relocation Specialists. Missed calls lose relocating clients.",
+      "problem": "2 missed calls could cost $14,000.",
+      "math": "2 missed calls could cost $14,000.",
+      "industry": "Free missed call calculator for Relocation Specialists. Missed calls lose relocating clients.",
+      "cta": "Use the Relocation Specialists missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Rental Property Managers",
+    "slug": "rental-property-managers-missed-calls",
+    "vertical": "real_estate",
+    "avg_job_value": 1800,
+    "missed_calls_per_day": 4,
+    "copy": {
+      "hero": "Free missed call calculator for Rental Property Managers. Missed calls mean lost tenants and delayed occupancy.",
+      "problem": "4 missed calls could delay thousands in rental income.",
+      "math": "4 missed calls could delay thousands in rental income.",
+      "industry": "Free missed call calculator for Rental Property Managers. Missed calls mean lost tenants and delayed occupancy.",
+      "cta": "Use the Rental Property Managers missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Residential Real Estate Agents",
+    "slug": "residential-real-estate-agents-missed-calls",
+    "vertical": "real_estate",
+    "avg_job_value": 8500,
+    "missed_calls_per_day": 3,
+    "copy": {
+      "hero": "Free missed call calculator for Residential Real Estate Agents. Missed calls mean lost home buyers and sellers.",
+      "problem": "3 missed calls could mean $25,500 lost.",
+      "math": "3 missed calls could mean $25,500 lost.",
+      "industry": "Free missed call calculator for Residential Real Estate Agents. Missed calls mean lost home buyers and sellers.",
+      "cta": "Use the Residential Real Estate Agents missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Title Companies",
+    "slug": "title-companies-missed-calls",
+    "vertical": "real_estate",
+    "avg_job_value": 2000,
+    "missed_calls_per_day": 3,
+    "copy": {
+      "hero": "Free missed call calculator for Title Companies. Missed calls delay closings.",
+      "problem": "3 missed calls equals $6,000 lost.",
+      "math": "3 missed calls equals $6,000 lost.",
+      "industry": "Free missed call calculator for Title Companies. Missed calls delay closings.",
+      "cta": "Use the Title Companies missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Transaction Coordinators",
+    "slug": "transaction-coordinators-missed-calls",
+    "vertical": "real_estate",
+    "avg_job_value": 800,
+    "missed_calls_per_day": 5,
+    "copy": {
+      "hero": "Free missed call calculator for Transaction Coordinators. Missed calls disrupt transactions.",
+      "problem": "5 missed calls = $4,000 lost coordination revenue.",
+      "math": "5 missed calls = $4,000 lost coordination revenue.",
+      "industry": "Free missed call calculator for Transaction Coordinators. Missed calls disrupt transactions.",
+      "cta": "Use the Transaction Coordinators missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Vacation Rental Managers",
+    "slug": "vacation-rental-managers-missed-calls",
+    "vertical": "real_estate",
+    "avg_job_value": 3000,
+    "missed_calls_per_day": 4,
+    "copy": {
+      "hero": "Free missed call calculator for Vacation Rental Managers. Missed calls cost bookings.",
+      "problem": "4 missed calls = $12,000 lost.",
+      "math": "4 missed calls = $12,000 lost.",
+      "industry": "Free missed call calculator for Vacation Rental Managers. Missed calls cost bookings.",
+      "cta": "Use the Vacation Rental Managers missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  },
+  {
+    "service": "Wholesale Real Estate Investors",
+    "slug": "wholesale-real-estate-investors-missed-calls",
+    "vertical": "real_estate",
+    "avg_job_value": 10000,
+    "missed_calls_per_day": 3,
+    "copy": {
+      "hero": "Free missed call calculator for Wholesale Real Estate Investors. Missed calls cost you assignment deals.",
+      "problem": "3 missed calls = $30,000 lost.",
+      "math": "3 missed calls = $30,000 lost.",
+      "industry": "Free missed call calculator for Wholesale Real Estate Investors. Missed calls cost you assignment deals.",
+      "cta": "Use the Wholesale Real Estate Investors missed call calculator to estimate lost revenue and plan an AI missed-call recovery system."
+    }
+  }
+]
